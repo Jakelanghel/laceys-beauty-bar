@@ -15,7 +15,7 @@ export const StyledAbout = styled.section`
         justify-content: center;
         background-image: url(${images.pinkBg});
         /* background-size: cover; */
-        padding-bottom: 4.75rem;
+        padding-bottom: 4.5rem;
       }
     }
 

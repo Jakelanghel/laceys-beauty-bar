@@ -54,16 +54,14 @@ const About = () => {
 
       <Carousel carousel="shop-carousel" />
 
-      <div className="products">
+      <div className="beauty-bar">
         <div className="container-copy">
-          <h2>Products</h2>
+          <h2>Beauty Bar</h2>
           <p>
-            We carry a variety of skincare and body care products from Farmhouse
-            Fresh. Everything is locally grown and made on a farm in Texas.
-            Farmhouse fresh is a certified organic brand, paraben and sulfate
-            free, and mostly everything is gluten free and vegan. We also carry
-            a variety of Esthemax hydro jelly masks. Esthemax is a well known
-            brand whose products are only available to licensed professionals.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
+            illum blanditiis tenetur ipsum nobis eum suscipit mollitia deserunt
+            facere id accusantium ea, incidunt recusandae inventore pariatur
+            qui. Aperiam, incidunt!
           </p>
         </div>
       </div>
@@ -71,6 +69,20 @@ const About = () => {
       <Carousel carousel="store-carousel" />
 
       <div className="shop">
+        <div className="products">
+          <div className="container-copy">
+            <h2>Products</h2>
+            <p>
+              We carry a variety of skincare and body care products from
+              Farmhouse Fresh. Everything is locally grown and made on a farm in
+              Texas. Farmhouse fresh is a certified organic brand, paraben and
+              sulfate free, and mostly everything is gluten free and vegan. We
+              also carry a variety of Esthemax hydro jelly masks. Esthemax is a
+              well known brand whose products are only available to licensed
+              professionals.
+            </p>
+          </div>
+        </div>
         <div className="container-copy">
           <h2>Shop</h2>
           <h3>"Thread & Sew"</h3>

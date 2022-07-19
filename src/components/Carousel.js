@@ -13,6 +13,7 @@ const Carousel = (props) => {
     images.shopImg_5,
     images.shopImg_6,
     images.shopImg_7,
+    images.shopImg_8,
   ]);
 
   const nextImg = (e) => {

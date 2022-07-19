@@ -20,7 +20,7 @@ export const Nav = () => {
         <div className="container-nav-links">
           <div className="link">
             <NavLink
-              to="/"
+              to="/laceys-beauty-bar"
               onClick={toggleMenu}
               className={({ isActive }) =>
                 isActive ? "active nav-link" : "nav-link"

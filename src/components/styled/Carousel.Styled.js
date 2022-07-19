@@ -29,14 +29,11 @@ export const StyledCarousel = styled.div`
 
   .carousel-img-container {
     width: 100%;
-    background-image: url(${images.pinkBg});
-    /* background-size: cover; */
-    /* background-position: top center; */
 
     img {
       width: 100%;
-      height: 400px;
-      object-fit: contain;
+      height: 450px;
+      object-fit: cover;
     }
   }
 `;

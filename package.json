@@ -1,6 +1,6 @@
 {
   "name": "laceys_beauty_bar",
-  "home-page": "https://jakelanghel.github.io/laceys-beauty-bar/",
+  "homepage": "https://jakelanghel.github.io/laceys-beauty-bar/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
