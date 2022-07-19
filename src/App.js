@@ -17,7 +17,7 @@ function App() {
       <main className="container-app">
         <Nav />
         <Routes>
-          <Route path="/laceys-beauty-bar" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/services" element={<Services />} /> */}
           {/* <Route path="/gallery" element={<Gallery />} /> */}
