@@ -83,12 +83,13 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="container-copy">
-          <h2>Shop</h2>
-          <h3>"Thread & Sew"</h3>
-        </div>
+
+        <Carousel carousel="shop-carousel" />
 
         <div className="container-copy">
+          <h2>Shop</h2>
+          <h3>"Thread & Sew" </h3>
+          <h3></h3>
           <p>
             We have an assortment of shirts, bodysuits, dresses, sweaters and
             shorts to choose from. We're still growing our inventory and adding

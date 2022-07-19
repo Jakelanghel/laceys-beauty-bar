@@ -28,26 +28,30 @@ export const StyledAbout = styled.section`
   }
 
   .container-copy {
-    padding: 0 0.75rem;
+    padding: 0 1.25rem;
     margin: 2rem 0;
 
     p {
       margin-bottom: 0.5rem;
     }
 
+    h3 {
+      color: var(--hot-pink);
+      margin-top: 0.25rem;
+    }
+
     button {
+      display: block;
       font-weight: 700;
       color: var(--hot-pink);
       background-color: var(--white);
       text-decoration: underline;
       border: none;
-      display: block;
+      padding: 0;
+      margin-top: 1rem;
     }
   }
 
   .shop {
-    span {
-      display: block;
-    }
   }
 `;

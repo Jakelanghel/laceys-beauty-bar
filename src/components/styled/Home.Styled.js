@@ -22,7 +22,7 @@ export const StyledHome = styled.div`
     padding: 1rem;
 
     h1 {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       line-height: 2rem;
     }
 
