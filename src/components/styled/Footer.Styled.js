@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  bottom: 0;
   padding: 0.5rem 2rem;
-
-  margin-top: auto;
 
   .container-soc-links {
     width: 100%;

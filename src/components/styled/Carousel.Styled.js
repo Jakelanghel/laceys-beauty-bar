@@ -4,6 +4,7 @@ import { images } from "../../constants/images";
 export const StyledCarousel = styled.div`
   padding: 0;
   position: relative;
+  margin: 0 auto;
 
   .carousel-actions {
     width: 100%;
@@ -29,10 +30,9 @@ export const StyledCarousel = styled.div`
 
   .carousel-img-container {
     width: 100%;
-
     img {
       width: 100%;
-      height: 450px;
+      height: 600px;
       object-fit: cover;
     }
   }

@@ -5,7 +5,7 @@ import { StyledHome } from "../components/styled/Home.Styled";
 const Home = () => {
   return (
     <StyledHome>
-      <section className="hero padding-top">
+      <section className="hero ">
         <div className="container-hero-img">
           <img src={images.logoWhite} alt="store front" className="hero-img" />
         </div>

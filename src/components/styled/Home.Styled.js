@@ -2,17 +2,21 @@ import styled from "styled-components";
 
 export const StyledHome = styled.div`
   width: 100%;
-  max-width: 400px;
+  max-width: 445px;
   margin: 0 auto;
   z-index: 0;
 
   .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .container-hero-img {
       width: 100%;
 
       .hero-img {
         width: 100%;
-        /* height: 100%; */
       }
     }
   }
@@ -23,12 +27,13 @@ export const StyledHome = styled.div`
 
     h1 {
       margin-bottom: 1rem;
-      line-height: 2rem;
     }
 
     p {
-      margin-bottom: 3rem;
       font-size: 1rem;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 3rem;
     }
 
     a {
@@ -43,5 +48,30 @@ export const StyledHome = styled.div`
       border-radius: 5px;
       text-decoration: none;
     }
+  }
+
+  @media screen and (min-width: 700px) {
+    .padding-top {
+      padding-top: 8em;
+    }
+
+    h1,
+    h2 {
+      font-size: 1.75rem;
+      font-size: 2rem;
+    }
+
+    h1 {
+      line-height: 2.5rem;
+    }
+
+    /* p {
+            font-size: 1.15rem;
+            font-size: .95rem;
+        } */
+  }
+
+  @media screen and (min-width: 900px) {
+    /* max-width: 500px; */
   }
 `;

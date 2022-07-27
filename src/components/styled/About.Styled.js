@@ -15,12 +15,13 @@ export const StyledAbout = styled.section`
         justify-content: center;
         background-image: url(${images.pinkBg});
         /* background-size: cover; */
-        padding-bottom: 4.5rem;
+        padding: 5.5rem 0;
       }
     }
 
     .about-img {
       width: 90%;
+      max-width: 400px;
       border-radius: 50%;
       padding: 0.5rem;
       border: solid 2px var(--hot-pink);
@@ -30,6 +31,8 @@ export const StyledAbout = styled.section`
   .container-copy {
     padding: 0 1.25rem;
     margin: 2rem 0;
+    max-width: 600px;
+    margin: 2rem auto;
 
     p {
       margin-bottom: 0.5rem;
@@ -52,6 +55,19 @@ export const StyledAbout = styled.section`
     }
   }
 
-  .shop {
+  .container-thread-sew {
+    margin-bottom: 5rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .container-copy {
+      padding: 1.5rem 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .profile {
+      display: flex;
+    }
   }
 `;

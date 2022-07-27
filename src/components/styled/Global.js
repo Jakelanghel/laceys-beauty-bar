@@ -18,11 +18,14 @@ const GlobalStyles = createGlobalStyle`
         --white-pink: #FFE6F2;
         --hot-pink: #DB5ABA;
         --pastel-pink: rgb(248, 200, 220);
+        --light-pink: rgba(219, 90, 186, .5);
 
     }
     * {
         box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
     }
 
     html, body {
@@ -30,21 +33,11 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Open Sans', sans-serif;
+        
+        font-family: 'Poppins', sans-serif;
         background-color: var(--white);
         /* background-color: rgba(250, 245, 241, 1); */
         color: var(--off-black);
-    }
-
-    h1,
-    h2,
-    h3,
-    p {
-        margin: 0;
-        padding: 0;
-
     }
 
     h1, h2 {
@@ -54,27 +47,28 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h1 {
-      
+        line-height: 2.25rem;
     }
 
-    
-
     p {
-        font-size: .95rem;
-        line-height: 1.75rem;
+        font-size: .85rem;
+        line-height: 2rem;
         letter-spacing: 1px;
         color: var(--grey);
     }
 
-    .padding-top {
-        padding-top: 5.75em;
-    }
-
     .container-app {
         min-height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
 
+    .active {
+        color: var(--hot-pink);
+        /* border-bottom: solid 2px var(--hot-pink); */
     }
 
     .filter-pink {
@@ -84,6 +78,8 @@ const GlobalStyles = createGlobalStyle`
     .filter-white {
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(102%);
     }
+
+    
 
     
 

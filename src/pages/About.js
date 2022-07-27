@@ -12,9 +12,9 @@ const About = () => {
 
   return (
     <StyledAbout>
-      <div className="about-me ">
-        <div className="container">
-          <div className="img-container padding-top">
+      <div className="about-me">
+        <div className="container profile">
+          <div className="img-container">
             <img
               src={images.profileImg}
               alt="lacey dean"
@@ -86,10 +86,9 @@ const About = () => {
 
         <Carousel carousel="shop-carousel" />
 
-        <div className="container-copy">
+        <div className="container-thread-sew container-copy">
           <h2>Shop</h2>
           <h3>"Thread & Sew" </h3>
-          <h3></h3>
           <p>
             We have an assortment of shirts, bodysuits, dresses, sweaters and
             shorts to choose from. We're still growing our inventory and adding
