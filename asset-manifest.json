@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/laceys-beauty-bar/static/js/main.9e943991.js",
+    "main.js": "/laceys-beauty-bar/static/js/main.f0e1bfd1.js",
+    "static/media/eyeBrow.jpg": "/laceys-beauty-bar/static/media/eyeBrow.08476433d16ddf616408.jpg",
     "static/media/shop_7.jpg": "/laceys-beauty-bar/static/media/shop_7.f8442d07e3f29e72213c.jpg",
     "static/media/face.jpg": "/laceys-beauty-bar/static/media/face.9c0c835992b1b2800165.jpg",
     "static/media/shop_5.jpg": "/laceys-beauty-bar/static/media/shop_5.4498974c4656b6a8de1d.jpg",
@@ -29,9 +30,9 @@
     "static/media/arrow-left.svg": "/laceys-beauty-bar/static/media/arrow-left.0ef3b248a596a98267ba701bd11f81f0.svg",
     "static/media/arrow-right.svg": "/laceys-beauty-bar/static/media/arrow-right.ec6273c120cd8b8e1a9ad4ab8a9d118f.svg",
     "static/media/facebook-icon.svg": "/laceys-beauty-bar/static/media/facebook-icon.8adca75361b744d17bbeb17b9c804d9d.svg",
-    "main.9e943991.js.map": "/laceys-beauty-bar/static/js/main.9e943991.js.map"
+    "main.f0e1bfd1.js.map": "/laceys-beauty-bar/static/js/main.f0e1bfd1.js.map"
   },
   "entrypoints": [
-    "static/js/main.9e943991.js"
+    "static/js/main.f0e1bfd1.js"
   ]
 }
