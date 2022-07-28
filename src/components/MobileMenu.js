@@ -20,37 +20,37 @@ const MobileMenu = (props) => {
 
         <div className="link">
           <NavLink
-            to="/about"
+            to="/lashes"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            About
+            Lashes
           </NavLink>
         </div>
 
         <div className="link">
           <NavLink
-            to="/services"
+            to="/Brows"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Services
+            Brows
           </NavLink>
         </div>
 
         <div className="link">
           <NavLink
-            to="/gallery"
+            to="/Skin"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Gallery
+            Skin
           </NavLink>
         </div>
 

@@ -5,9 +5,9 @@ export const StyledHome = styled.div`
   max-width: 445px;
   margin: 0 auto;
   z-index: 0;
+  margin-top: 5rem;
 
   .hero {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

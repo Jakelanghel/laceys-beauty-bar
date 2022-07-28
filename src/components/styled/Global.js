@@ -40,6 +40,10 @@ const GlobalStyles = createGlobalStyle`
         color: var(--off-black);
     }
 
+    img {
+        display: block;
+    }
+
     h1, h2 {
         font-size: 1.75rem;
         color: var(--hot-pink);

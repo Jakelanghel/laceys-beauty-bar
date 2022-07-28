@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledHome } from "../components/styled/Home.Styled";
+import About from "../components/About";
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
             book now
           </a>
         </div>
+
+        <About />
       </section>
     </StyledHome>
   );

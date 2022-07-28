@@ -28,6 +28,7 @@ import shopImg_8 from "../assets/shop_8.jpeg";
 
 import lashesImg from "../assets/lashes.jpg";
 import browsImg from "../assets/brows.jpg";
+import EyeBrowImg from "../assets/eyeBrow.jpg";
 import faceImg from "../assets/face.jpg";
 
 const images = {
@@ -58,6 +59,7 @@ const images = {
   browsImg,
   lashesImg,
   faceImg,
+  EyeBrowImg,
 };
 
 export { images };

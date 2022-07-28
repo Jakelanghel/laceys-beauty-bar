@@ -11,7 +11,7 @@ export const StyledDesktopMenu = styled.div`
   }
 
   .container-nav-links {
-    width: 550px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     border-top: solid 2px var(--light-pink);
@@ -22,7 +22,7 @@ export const StyledDesktopMenu = styled.div`
   .nav-link,
   .store-link {
     font-size: 0.85rem;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 4px;
     text-transform: capitalize;
   }
@@ -38,15 +38,16 @@ export const StyledDesktopMenu = styled.div`
   }
 
   .store-link {
-    text-decoration: none;
+    /* text-decoration: none;
     padding: 0.75rem;
     border-radius: 50px;
     background-color: var(--light-pink);
     color: var(--white);
-    margin-left: 2rem;
+    margin-left: 2rem; */
   }
 
   .active {
     color: var(--hot-pink);
+    font-weight: 700;
   }
 `;

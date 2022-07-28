@@ -54,11 +54,11 @@ const DesktopMenu = (props) => {
           </NavLink>
         </div>
 
-        {/* <div className="link store-link-container">
-          <a href="https://tinyurl.com/2p8vkjtm" className="store-link">
-            thread & sew clothing
+        <div className="link store-link-container">
+          <a href="https://tinyurl.com/2p8vkjtm" className="nav-link">
+            clothing
           </a>
-        </div> */}
+        </div>
       </div>
     </StyledDesktopMenu>
   );

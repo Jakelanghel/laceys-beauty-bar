@@ -4,11 +4,20 @@ import { images } from "../../constants/images";
 export const StyledAbout = styled.section`
   width: 100%;
   text-align: left;
+  margin-top: 5rem;
+
+  h1 {
+    text-align: left;
+    letter-spacing: 1px;
+
+    span {
+      display: block;
+    }
+  }
 
   .about-me {
     .container {
       z-index: 0;
-
       .img-container {
         width: 100%;
         display: flex;

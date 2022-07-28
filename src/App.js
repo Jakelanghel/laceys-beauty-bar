@@ -6,9 +6,12 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
-import About from "./pages/About";
+import Lashes from "./pages/Lashes";
+import Brows from "./pages/Brows";
+import Skin from "./pages/Skin";
 // import Gallery from "./pages/Gallery";
 import Services from "./pages/Services";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   return (
@@ -16,12 +19,15 @@ function App() {
       <GlobalStyles />
       <main className="container-app">
         <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          {/* <Route path="/gallery" element={<Gallery />} /> */}
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/lashes" element={<Lashes />} />
+            <Route path="/brows" element={<Brows />} />
+            <Route path="/skin" element={<Skin />} />
+            {/* <Route path="/gallery" element={<Gallery />} /> */}
+          </Routes>
+        </ScrollToTop>
 
         <Footer />
       </main>
