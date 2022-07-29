@@ -72,6 +72,16 @@ export const StyledHome = styled.div`
   }
 
   @media screen and (min-width: 900px) {
-    /* max-width: 500px; */
+    max-width: none;
+    margin-top: 7rem;
+
+    .hero-img {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .cta {
+      display: none;
+    }
   }
 `;

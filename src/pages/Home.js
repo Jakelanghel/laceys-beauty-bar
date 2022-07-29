@@ -2,6 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledHome } from "../components/styled/Home.Styled";
 import About from "../components/About";
+import DesktopHomeCarousel from "../components/DesktopHomeCarousel";
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
             book now
           </a>
         </div>
+
+        <DesktopHomeCarousel />
 
         <About />
       </section>

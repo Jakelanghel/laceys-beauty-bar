@@ -11,17 +11,25 @@ export const StyledServiceContainer = styled.main`
 
   .services-img {
     width: 100%;
-    opacity: 0.6;
-    height: 300px;
+    opacity: 0.7;
+    height: 350px;
     object-fit: cover;
-    object-position: center bottom;
+  }
+
+  .brows-img {
+    object-position: bottom center;
+  }
+
+  .skin-img {
+    object-position: top center;
   }
 
   .container-services-copy {
-    padding: 0 0.75rem;
+    padding: 0 1rem;
   }
 
-  h1 {
+  h1,
+  .title {
     max-width: 170px;
     font-size: 3rem;
     font-weight: 700;

@@ -6,7 +6,7 @@ const Skin = () => {
   return (
     <StyledServiceContainer>
       <div className="container-img">
-        <img src={images.faceImg} alt="" className="services-img" />
+        <img src={images.faceImg} alt="" className="services-img skin-img" />
       </div>
 
       <div className="container-services-copy">
@@ -19,7 +19,8 @@ const Skin = () => {
           possimus amet tempora natus molestias pariatur nulla. A?
         </p>
         <div className="container-service">
-          <h2>One hour facial with mini massage</h2>
+          <h2>One hour facial</h2>
+          <h2>with mini massage</h2>
           <p className="description">
             Customize your facial with farmhouse fresh & Esthemax products.
           </p>

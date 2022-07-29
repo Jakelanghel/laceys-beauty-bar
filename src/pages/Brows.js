@@ -6,7 +6,11 @@ const Brows = () => {
   return (
     <StyledServiceContainer>
       <div className="container-img">
-        <img src={images.EyeBrowImg} alt="" className="services-img" />
+        <img
+          src={images.EyeBrowImg}
+          alt=""
+          className="services-img brows-img"
+        />
       </div>
 
       <div className="container-services-copy">

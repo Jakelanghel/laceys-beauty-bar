@@ -26,6 +26,17 @@ import shopImg_6 from "../assets/shop_6.jpg";
 import shopImg_7 from "../assets/shop_7.jpg";
 import shopImg_8 from "../assets/shop_8.jpeg";
 
+import homeImg_1 from "../assets/homeImg_1.jpg";
+import homeImg_2 from "../assets/homeImg_2.jpg";
+import homeImg_3 from "../assets/homeImg_3.jpg";
+import homeImg_4 from "../assets/homeImg_4.jpg";
+import homeImg_5 from "../assets/homeImg_5.jpg";
+import homeImg_6 from "../assets/homeImg_6.jpg";
+import homeImg_7 from "../assets/homeImg_7.jpg";
+import homeImg_8 from "../assets/homeImg_8.jpg";
+import homeImg_9 from "../assets/homeImg_9.jpeg";
+import homeImg_10 from "../assets/homeImg_10.jpg";
+
 import lashesImg from "../assets/lashes.jpg";
 import browsImg from "../assets/brows.jpg";
 import EyeBrowImg from "../assets/eyeBrow.jpg";
@@ -60,6 +71,16 @@ const images = {
   lashesImg,
   faceImg,
   EyeBrowImg,
+  homeImg_1,
+  homeImg_2,
+  homeImg_3,
+  homeImg_4,
+  homeImg_5,
+  homeImg_6,
+  homeImg_7,
+  homeImg_8,
+  homeImg_9,
+  homeImg_10,
 };
 
 export { images };

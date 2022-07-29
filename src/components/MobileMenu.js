@@ -56,7 +56,7 @@ const MobileMenu = (props) => {
 
         <div className="link store-link-container">
           <a href="https://tinyurl.com/2p8vkjtm" className="store-link">
-            thread & sew clothing
+            "Thread & Sew" Clothing
           </a>
         </div>
       </div>
