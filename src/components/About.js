@@ -13,7 +13,7 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about-me">
-        <div className="container profile">
+        <div className="container">
           <div className="img-container">
             <img
               src={images.profileImg}
@@ -22,7 +22,7 @@ const About = () => {
             />
           </div>
 
-          <div className="container-copy">
+          <div className="container-copy hero-copy">
             <h1>
               Hi!! <span>I'm Lacey</span>
             </h1>
@@ -31,11 +31,10 @@ const About = () => {
               a licensed esthetician. I've been a licensed esthetician for the
               past 4 years specializing in eyelash extensions, facials, eyebrow
               waxing, tinting & henna, dermaplane and other body waxing.
-              <button onClick={showInfo}>{!showMoreInfo && "Read more"}</button>
             </p>
 
             {showMoreInfo && (
-              <p className="more-info">
+              <p className="mobile-more-info">
                 Ever since I was a little girl, I knew I wanted to be in the
                 industry. I love having a profession that I truly enjoy! I
                 cherish the opportunity that I have getting to know my clients,
@@ -47,13 +46,27 @@ const About = () => {
                 <button onClick={showInfo}>Hide</button>
               </p>
             )}
+
+            <p className="desktop-more-info">
+              Ever since I was a little girl, I knew I wanted to be in the
+              industry. I love having a profession that I truly enjoy! I cherish
+              the opportunity that I have getting to know my clients, which has
+              allowed me to develop many close friendships! Outside of work, I
+              stay busy raising my two children, Scarlett & Miles. Being a
+              mother has taught me many valuable lessons and I wouldn't trade it
+              for the world! I look forward to meeting you and learning more
+              about your beauty desires!
+            </p>
+            <button onClick={showInfo}>{!showMoreInfo && "Read more"}</button>
           </div>
         </div>
       </div>
 
-      <Carousel carousel="shop-carousel" />
+      <div className="beauty-bar container inverted-container">
+        <div className="container-carousel">
+          <Carousel carousel="shop-carousel" />
+        </div>
 
-      <div className="beauty-bar">
         <div className="container-copy">
           <h2>Beauty Bar</h2>
           <p>
@@ -65,28 +78,31 @@ const About = () => {
         </div>
       </div>
 
-      <Carousel carousel="store-carousel" />
-
-      <div className="shop">
-        <div className="products">
-          <div className="container-copy">
-            <h2>Products</h2>
-            <p>
-              We carry a variety of skincare and body care products from
-              Farmhouse Fresh. Everything is locally grown and made on a farm in
-              Texas. Farmhouse fresh is a certified organic brand, paraben and
-              sulfate free, and mostly everything is gluten free and vegan. We
-              also carry a variety of Esthemax hydro jelly masks. Esthemax is a
-              well known brand whose products are only available to licensed
-              professionals.
-            </p>
-          </div>
+      <div className="products container">
+        <div className="container-carousel">
+          <Carousel carousel="products-carousel" />
         </div>
 
-        <Carousel carousel="shop-carousel" />
+        <div className="container-copy">
+          <h2>Products</h2>
+          <p>
+            We carry a variety of skincare and body care products from Farmhouse
+            Fresh. Everything is locally grown and made on a farm in Texas.
+            Farmhouse fresh is a certified organic brand, paraben and sulfate
+            free, and mostly everything is gluten free and vegan. We also carry
+            a variety of Esthemax hydro jelly masks. Esthemax is a well known
+            brand whose products are only available to licensed professionals.
+          </p>
+        </div>
+      </div>
 
-        <div className="container-thread-sew container-copy">
-          <h2>Shop</h2>
+      <div className="container inverted-container">
+        <div className="container-carousel">
+          <Carousel carousel="shop-carousel" />
+        </div>
+
+        <div className="container-copy">
+          <h2 className="thread-sew-title">Shop</h2>
           <h3>"Thread & Sew" </h3>
           <p>
             We have an assortment of shirts, bodysuits, dresses, sweaters and

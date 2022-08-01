@@ -3,9 +3,7 @@ import instagramIcon from "../assets/instagram-icon.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
 import phoneIcon from "../assets/phone-icon.svg";
 import locationIcon from "../assets/location-icon.svg";
-import proIcon from "../assets/pros-icon.svg";
 import heartIcon from "../assets/heart-icon.svg";
-import pricesIcon from "../assets/dollar-icon.svg";
 import eyeIcon from "../assets/mascara.png";
 
 import arrowRight from "../assets/arrow-right.svg";
@@ -32,10 +30,8 @@ import homeImg_3 from "../assets/homeImg_3.jpg";
 import homeImg_4 from "../assets/homeImg_4.jpg";
 import homeImg_5 from "../assets/homeImg_5.jpg";
 import homeImg_6 from "../assets/homeImg_6.jpg";
-import homeImg_7 from "../assets/homeImg_7.jpg";
+import homeImg_7 from "../assets/homeImg_7.jpeg";
 import homeImg_8 from "../assets/homeImg_8.jpg";
-import homeImg_9 from "../assets/homeImg_9.jpeg";
-import homeImg_10 from "../assets/homeImg_10.jpg";
 
 import lashesImg from "../assets/lashes.jpg";
 import browsImg from "../assets/brows.jpg";
@@ -48,9 +44,7 @@ const images = {
   facebookIcon,
   phoneIcon,
   locationIcon,
-  proIcon,
   heartIcon,
-  pricesIcon,
   eyeIcon,
   profileImg,
   logoPink,
@@ -79,8 +73,6 @@ const images = {
   homeImg_6,
   homeImg_7,
   homeImg_8,
-  homeImg_9,
-  homeImg_10,
 };
 
 export { images };

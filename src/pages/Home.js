@@ -22,11 +22,11 @@ const Home = () => {
             book now
           </a>
         </div>
-
-        <DesktopHomeCarousel />
-
-        <About />
       </section>
+
+      <DesktopHomeCarousel />
+
+      <About />
     </StyledHome>
   );
 };

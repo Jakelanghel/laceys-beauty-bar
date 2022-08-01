@@ -1,17 +1,19 @@
 import styled from "styled-components";
+import { images } from "../../constants/images";
 
 export const StyledHome = styled.div`
   width: 100%;
-  max-width: 445px;
   margin: 0 auto;
   z-index: 0;
   margin-top: 5rem;
 
   .hero {
+    max-width: 445px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     .container-hero-img {
       width: 100%;
 
@@ -75,13 +77,19 @@ export const StyledHome = styled.div`
     max-width: none;
     margin-top: 7rem;
 
-    .hero-img {
+    .container-hero-img {
       max-width: 500px;
       margin: 0 auto;
+      margin-bottom: 2rem;
     }
 
     .cta {
-      display: none;
+      h1 {
+        display: none;
+      }
+      p {
+        display: none;
+      }
     }
   }
 `;

@@ -20,44 +20,38 @@ const DesktopMenu = (props) => {
 
         <div className="link">
           <NavLink
-            to="/about"
+            to="/lashes"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            About
+            Lashes
           </NavLink>
         </div>
 
         <div className="link">
           <NavLink
-            to="/services"
+            to="/Brows"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Services
+            Brows
           </NavLink>
         </div>
 
         <div className="link">
           <NavLink
-            to="/gallery"
+            to="/Skin"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Gallery
+            Skin
           </NavLink>
-        </div>
-
-        <div className="link store-link-container">
-          <a href="https://tinyurl.com/2p8vkjtm" className="nav-link">
-            clothing
-          </a>
         </div>
       </div>
     </StyledDesktopMenu>
