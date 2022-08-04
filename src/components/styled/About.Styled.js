@@ -3,8 +3,13 @@ import { images } from "../../constants/images";
 
 export const StyledAbout = styled.section`
   width: 100%;
+  max-width: 1500px;
   text-align: left;
-  margin: 5rem 0;
+  margin: 5rem auto;
+
+  .box-shadow-1 {
+    box-shadow: none;
+  }
 
   .desktop-more-info {
     display: none;
@@ -68,58 +73,55 @@ export const StyledAbout = styled.section`
   }
 
   @media screen and (min-width: 900px) {
+    .box-shadow-1 {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
     .about-me {
       margin: 5rem 2rem;
     }
 
-      .container-row {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-      }
+    .container-row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem;
+    }
 
-      .img-container {
-        width: 47%;
-        padding: 5.5rem 3.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      }
+    .img-container {
+      width: 47%;
+      padding: 5.5rem 3.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+    }
 
-      .about-img {
-        width: 100%;
-        max-width: 500px;
-        object-fit: cover;
-      }
-
-      .hero-copy {
-        border-radius: 15px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      }
+    .about-img {
+      width: 100%;
+      max-width: 500px;
+      object-fit: cover;
     }
 
     .container-copy {
       width: 47%;
       margin: 0;
       max-width: none;
-      padding: 2rem 3rem;
+      padding: 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
 
+    .hero-copy {
+      border-radius: 15px;
+      padding: 3rem 2rem;
+    }
+
     .card {
       padding: 3rem 2rem;
       border-radius: 15px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
 
     .more-info {
@@ -128,11 +130,7 @@ export const StyledAbout = styled.section`
 
     .container-carousel {
       width: 47%;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      padding: 30px;
     }
 
     .inverted-container {

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { images } from "../../constants/images";
 
 export const StyledCarousel = styled.div`
   padding: 0;
@@ -28,13 +27,22 @@ export const StyledCarousel = styled.div`
     }
   }
 
-  .carousel-img-container {
+  .about-carousel {
     width: 100%;
     img {
       width: 100%;
       height: 600px;
       object-fit: cover;
-      border-radius: 15px;
+    }
+  }
+
+  .service-carousel {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      opacity: 0.7;
     }
   }
 `;

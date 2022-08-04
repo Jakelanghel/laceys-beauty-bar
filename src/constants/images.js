@@ -33,6 +33,16 @@ import homeImg_6 from "../assets/homeImg_6.jpg";
 import homeImg_7 from "../assets/homeImg_7.jpeg";
 import homeImg_8 from "../assets/homeImg_8.jpg";
 
+import lashesImg_1 from "../assets/lashes_1.jpg";
+import lashesImg_2 from "../assets/lashes_2.jpg";
+import lashesImg_3 from "../assets/lashes_3.jpg";
+import lashesImg_4 from "../assets/lashes_4.jpg";
+import lashesImg_5 from "../assets/lashes_5.jpg";
+import lashesImg_6 from "../assets/lashes_6.jpg";
+import lashesImg_7 from "../assets/lashes_7.jpg";
+import lashesImg_8 from "../assets/lashes_8.jpg";
+import lashesImg_9 from "../assets/lashes_9.jpg";
+
 import lashesImg from "../assets/lashes.jpg";
 import browsImg from "../assets/brows.jpg";
 import EyeBrowImg from "../assets/eyeBrow.jpg";
@@ -73,6 +83,15 @@ const images = {
   homeImg_6,
   homeImg_7,
   homeImg_8,
+  lashesImg_1,
+  lashesImg_2,
+  lashesImg_3,
+  lashesImg_4,
+  lashesImg_5,
+  lashesImg_6,
+  lashesImg_7,
+  lashesImg_8,
+  lashesImg_9,
 };
 
 export { images };

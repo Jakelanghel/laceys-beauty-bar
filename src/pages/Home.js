@@ -1,8 +1,8 @@
 import React from "react";
 import { images } from "../constants/images";
-import { StyledHome } from "../components/styled/Home.Styled";
+import { StyledHome } from "../components/styled/pages/Home.Styled";
 import About from "../components/About";
-import DesktopHomeCarousel from "../components/DesktopHomeCarousel";
+import HomeGallery from "../components/galleries/HomeGallery";
 
 const Home = () => {
   return (
@@ -29,10 +29,10 @@ const Home = () => {
           </div>
         </section>
 
-        <DesktopHomeCarousel className="desktop-carousel" />
+        <HomeGallery className="desktop-carousel" />
       </div>
 
-      <About className="about" />
+      <About className="about" carouselClass="about-carousel" />
     </StyledHome>
   );
 };

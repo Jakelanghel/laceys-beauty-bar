@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { images } from "../constants/images";
-import { StyledNav } from "./styled/Nav.Styled";
-import MobileMenu from "../components/MobileMenu";
-import DesktopMenu from "../components/DesktopMenu";
+import { images } from "../../constants/images";
+import { StyledNav } from "../styled/nav/Nav.Styled";
+import MobileMenu from "./MobileMenu";
+import DesktopMenu from "./DesktopMenu";
 
 export const Nav = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);

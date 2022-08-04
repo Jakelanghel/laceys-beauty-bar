@@ -1,47 +1,32 @@
 import React, { useState } from "react";
 import { StyledCarousel } from "../components/styled/Carousel.Styled";
 import { images } from "../constants/images";
-import { nanoid } from "nanoid";
 
 const Carousel = (props) => {
-  const [carouselCount, setCarouselCount] = useState(0);
-  const [shopImages, setCarouselImages] = useState([
-    images.shopImg_1,
-    images.shopImg_2,
-    images.shopImg_3,
-    images.shopImg_4,
-    images.shopImg_5,
-    images.shopImg_6,
-    images.shopImg_7,
-    images.shopImg_8,
-  ]);
+  const [index, setIndex] = useState(0);
 
   const nextImg = (e) => {
-    if (props.carousel === "shop-carousel") {
-      if (carouselCount === shopImages.length - 1) {
-        setCarouselCount(0);
-      } else {
-        setCarouselCount((oldState) => oldState + 1);
-      }
+    if (index === props.imgArr.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex((oldState) => oldState + 1);
     }
   };
 
   const prevImg = (e) => {
-    if (carouselCount === 0) {
-      setCarouselCount(shopImages.length - 1);
+    if (index === 0) {
+      setIndex(props.imgArr.length - 1);
     } else {
-      setCarouselCount((oldState) => oldState - 1);
+      setIndex((oldState) => oldState - 1);
     }
   };
 
+  // console.log(props.imgArr);
+
   return (
     <StyledCarousel>
-      <div className="carousel-img-container">
-        <img
-          className="carousel-img"
-          src={shopImages[carouselCount]}
-          alt="shop"
-        />
+      <div className={props.carouselClassName}>
+        <img className="carousel-img" src={props.imgArr[index]} alt="shop" />
       </div>
 
       <div className="carousel-actions">

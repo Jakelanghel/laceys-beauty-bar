@@ -18,9 +18,6 @@ export const StyledNav = styled.nav`
   }
 
   .nav-left {
-    display: flex;
-    flex-direction: column;
-
     .eye-icon {
       width: 27px;
       margin: 0 auto;

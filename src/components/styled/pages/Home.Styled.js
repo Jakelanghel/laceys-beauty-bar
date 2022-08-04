@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { images } from "../../constants/images";
+import { images } from "../../../constants/images";
 
 export const StyledHome = styled.div`
   width: 100%;
   margin: 0 auto;
   z-index: 0;
-  margin-top: 5rem;
+  margin: 5rem 0;
 
   .hero {
     max-width: 445px;

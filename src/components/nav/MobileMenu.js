@@ -1,10 +1,10 @@
 import React from "react";
-import { StyledDesktopMenu } from "./styled/DesktopMenu.Styled";
 import { NavLink } from "react-router-dom";
+import { StyledMobileMenu } from "../styled/nav/MobileMenu.Styled";
 
-const DesktopMenu = (props) => {
+const MobileMenu = (props) => {
   return (
-    <StyledDesktopMenu>
+    <StyledMobileMenu>
       <div className="container-nav-links">
         <div className="link">
           <NavLink
@@ -53,14 +53,15 @@ const DesktopMenu = (props) => {
             Skin
           </NavLink>
         </div>
-        <div className="link">
-          <a href="https://tinyurl.com/2p8vkjtm" className="nav-link">
-            Clothing
+
+        <div className="link store-link-container">
+          <a href="https://tinyurl.com/2p8vkjtm" className="store-link">
+            "Thread & Sew" Clothing
           </a>
         </div>
       </div>
-    </StyledDesktopMenu>
+    </StyledMobileMenu>
   );
 };
 
-export default DesktopMenu;
+export default MobileMenu;

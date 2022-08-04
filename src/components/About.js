@@ -10,11 +10,22 @@ const About = () => {
     setShowMoreInfo((oldState) => !oldState);
   };
 
+  const beautyBarImgs = [
+    images.shopImg_1,
+    images.shopImg_2,
+    images.shopImg_3,
+    images.shopImg_4,
+    images.shopImg_5,
+    images.shopImg_6,
+    images.shopImg_7,
+    images.shopImg_8,
+  ];
+
   return (
     <StyledAbout>
       <div className="about-me">
         <div className="container-row">
-          <div className="img-container">
+          <div className="img-container box-shadow-1">
             <img
               src={images.profileImg}
               alt="lacey dean"
@@ -22,7 +33,7 @@ const About = () => {
             />
           </div>
 
-          <div className="container-copy hero-copy">
+          <div className="container-copy hero-copy box-shadow-1">
             <h2>
               Hi!! <span>I'm Lacey</span>
             </h2>
@@ -65,12 +76,12 @@ const About = () => {
       </div>
 
       <div className="container-row inverted-container">
-        <div className="container-carousel">
-          <Carousel carousel="shop-carousel" />
+        <div className="container-carousel box-shadow-1">
+          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
         <div className="container-copy">
-          <div className="card">
+          <div className="card box-shadow-1">
             <h2>Beauty Bar</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
@@ -83,12 +94,12 @@ const About = () => {
       </div>
 
       <div className="container-row">
-        <div className="container-carousel">
-          <Carousel carousel="products-carousel" />
+        <div className="container-carousel box-shadow-1">
+          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
         <div className="container-copy card-copy">
-          <div className="card">
+          <div className="card box-shadow-1">
             <h2>Products</h2>
             <p>
               We carry a variety of skincare and body care products from
@@ -104,12 +115,12 @@ const About = () => {
       </div>
 
       <div className="container-row inverted-container">
-        <div className="container-carousel">
-          <Carousel carousel="shop-carousel" />
+        <div className="container-carousel box-shadow-1">
+          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
         <div className="container-copy card-copy">
-          <div className="card">
+          <div className="card box-shadow-1">
             <h2 className="thread-sew-title">Shop</h2>
 
             <h3>"Thread & Sew" </h3>
