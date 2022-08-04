@@ -53,6 +53,11 @@ const DesktopMenu = (props) => {
             Skin
           </NavLink>
         </div>
+        <div className="link">
+          <a href="https://tinyurl.com/2p8vkjtm" className="nav-link">
+            Clothing
+          </a>
+        </div>
       </div>
     </StyledDesktopMenu>
   );

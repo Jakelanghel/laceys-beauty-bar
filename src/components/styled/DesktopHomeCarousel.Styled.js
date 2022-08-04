@@ -11,8 +11,8 @@ export const StyledDesktopHomeCarousel = styled.div`
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 200px 250px;
     grid-template-areas:
-      "img1 img1 img8 img8 img2 img2 img7 img7 img4 img4 img4 img4"
-      "img1 img1 img8 img8 img3 img3 img7 img7 img5 img5 img6 img6";
+      "img8 img8 img2 img2 img1 img1 img7 img7 img4 img4 img4 img4"
+      "img8 img8 img3 img3 img1 img1 img7 img7 img5 img5 img6 img6";
 
     margin: 3rem auto;
   }

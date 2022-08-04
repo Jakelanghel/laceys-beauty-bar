@@ -29,11 +29,14 @@ export const StyledHome = styled.div`
 
     h1 {
       margin-bottom: 1rem;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 0.5rem;
     }
 
     p {
       font-size: 1rem;
-      max-width: 400px;
+      max-width: 500px;
       margin: 0 auto;
       margin-bottom: 3rem;
     }
@@ -76,11 +79,29 @@ export const StyledHome = styled.div`
   @media screen and (min-width: 900px) {
     max-width: none;
     margin-top: 7rem;
+    margin-bottom: 3rem;
+
+    .container-col {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero {
+      order: 2;
+    }
+
+    .desktop-carousel {
+      order: 1;
+    }
 
     .container-hero-img {
       max-width: 500px;
       margin: 0 auto;
       margin-bottom: 2rem;
+    }
+
+    .container-hero-img {
+      display: none;
     }
 
     .cta {

@@ -13,7 +13,7 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about-me">
-        <div className="container">
+        <div className="container-row">
           <div className="img-container">
             <img
               src={images.profileImg}
@@ -23,9 +23,9 @@ const About = () => {
           </div>
 
           <div className="container-copy hero-copy">
-            <h1>
+            <h2>
               Hi!! <span>I'm Lacey</span>
-            </h1>
+            </h2>
             <p>
               I attended beauty school at North Hills Beauty Academy and became
               a licensed esthetician. I've been a licensed esthetician for the
@@ -34,7 +34,7 @@ const About = () => {
             </p>
 
             {showMoreInfo && (
-              <p className="mobile-more-info">
+              <p className="more-info mobile-more-info">
                 Ever since I was a little girl, I knew I wanted to be in the
                 industry. I love having a profession that I truly enjoy! I
                 cherish the opportunity that I have getting to know my clients,
@@ -47,7 +47,7 @@ const About = () => {
               </p>
             )}
 
-            <p className="desktop-more-info">
+            <p className="more-info desktop-more-info">
               Ever since I was a little girl, I knew I wanted to be in the
               industry. I love having a profession that I truly enjoy! I cherish
               the opportunity that I have getting to know my clients, which has
@@ -57,58 +57,68 @@ const About = () => {
               for the world! I look forward to meeting you and learning more
               about your beauty desires!
             </p>
-            <button onClick={showInfo}>{!showMoreInfo && "Read more"}</button>
+            <button className="more-info-btn" onClick={showInfo}>
+              {!showMoreInfo && "Read more"}
+            </button>
           </div>
         </div>
       </div>
 
-      <div className="beauty-bar container inverted-container">
+      <div className="container-row inverted-container">
         <div className="container-carousel">
           <Carousel carousel="shop-carousel" />
         </div>
 
         <div className="container-copy">
-          <h2>Beauty Bar</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
-            illum blanditiis tenetur ipsum nobis eum suscipit mollitia deserunt
-            facere id accusantium ea, incidunt recusandae inventore pariatur
-            qui. Aperiam, incidunt!
-          </p>
+          <div className="card">
+            <h2>Beauty Bar</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
+              illum blanditiis tenetur ipsum nobis eum suscipit mollitia
+              deserunt facere id accusantium ea, incidunt recusandae inventore
+              pariatur qui. Aperiam, incidunt!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="products container">
+      <div className="container-row">
         <div className="container-carousel">
           <Carousel carousel="products-carousel" />
         </div>
 
-        <div className="container-copy">
-          <h2>Products</h2>
-          <p>
-            We carry a variety of skincare and body care products from Farmhouse
-            Fresh. Everything is locally grown and made on a farm in Texas.
-            Farmhouse fresh is a certified organic brand, paraben and sulfate
-            free, and mostly everything is gluten free and vegan. We also carry
-            a variety of Esthemax hydro jelly masks. Esthemax is a well known
-            brand whose products are only available to licensed professionals.
-          </p>
+        <div className="container-copy card-copy">
+          <div className="card">
+            <h2>Products</h2>
+            <p>
+              We carry a variety of skincare and body care products from
+              Farmhouse Fresh. Everything is locally grown and made on a farm in
+              Texas. Farmhouse fresh is a certified organic brand, paraben and
+              sulfate free, and mostly everything is gluten free and vegan. We
+              also carry a variety of Esthemax hydro jelly masks. Esthemax is a
+              well known brand whose products are only available to licensed
+              professionals.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="container inverted-container">
+      <div className="container-row inverted-container">
         <div className="container-carousel">
           <Carousel carousel="shop-carousel" />
         </div>
 
-        <div className="container-copy">
-          <h2 className="thread-sew-title">Shop</h2>
-          <h3>"Thread & Sew" </h3>
-          <p>
-            We have an assortment of shirts, bodysuits, dresses, sweaters and
-            shorts to choose from. We're still growing our inventory and adding
-            to our collection. selection!
-          </p>
+        <div className="container-copy card-copy">
+          <div className="card">
+            <h2 className="thread-sew-title">Shop</h2>
+
+            <h3>"Thread & Sew" </h3>
+            <p>
+              We have an assortment of shirts, bodysuits, dresses, sweaters and
+              shorts to choose from. We're still growing our inventory and
+              adding to our collection. selection!
+            </p>
+          </div>
         </div>
       </div>
     </StyledAbout>

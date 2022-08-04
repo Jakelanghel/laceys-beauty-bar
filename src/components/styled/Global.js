@@ -61,6 +61,12 @@ const GlobalStyles = createGlobalStyle`
         color: var(--grey);
     }
 
+    @media screen and (min-width: 1200px){
+        p {
+        font-size: 1rem;
+    }
+    }
+
     .container-app {
         min-height: 100vh;
         height: 100%;
