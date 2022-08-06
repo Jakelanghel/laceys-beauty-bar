@@ -131,6 +131,7 @@ export const StyledAbout = styled.section`
     .container-carousel {
       width: 47%;
       padding: 30px;
+      border-radius: 15px;
     }
 
     .inverted-container {

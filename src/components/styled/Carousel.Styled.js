@@ -33,6 +33,7 @@ export const StyledCarousel = styled.div`
       width: 100%;
       height: 600px;
       object-fit: cover;
+      border-radius: 15px;
     }
   }
 
