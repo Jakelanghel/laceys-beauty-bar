@@ -9,8 +9,8 @@ import eyeIcon from "../assets/mascara.png";
 import arrowRight from "../assets/arrow-right.svg";
 import arrowLeft from "../assets/arrow-left.svg";
 
-import logoPink from "../assets/logo.jpg";
 import logoWhite from "../assets/logo-white.jpg";
+import logo from "../assets/logo-transparent.png";
 import profileImg from "../assets/lacey.jpg";
 import pinkBg from "../assets/bg_pinkDots.webp";
 import flowersBg from "../assets/bg_flowers.png";
@@ -43,11 +43,6 @@ import lashesImg_7 from "../assets/lashes_7.jpg";
 import lashesImg_8 from "../assets/lashes_8.jpg";
 import lashesImg_9 from "../assets/lashes_9.jpg";
 
-import lashesImg from "../assets/lashes.jpg";
-import browsImg from "../assets/brows.jpg";
-import EyeBrowImg from "../assets/eyeBrow.jpg";
-import faceImg from "../assets/face.jpg";
-
 const images = {
   menuIcon,
   instagramIcon,
@@ -57,8 +52,8 @@ const images = {
   heartIcon,
   eyeIcon,
   profileImg,
-  logoPink,
   logoWhite,
+  logo,
   arrowRight,
   arrowLeft,
   pinkBg,
@@ -71,10 +66,6 @@ const images = {
   shopImg_6,
   shopImg_7,
   shopImg_8,
-  browsImg,
-  lashesImg,
-  faceImg,
-  EyeBrowImg,
   homeImg_1,
   homeImg_2,
   homeImg_3,

@@ -5,8 +5,6 @@ const GlobalStyles = createGlobalStyle`
 
 
     :root {
-        /* ORIGINAL COLORS */
-        
         --white: #ffff;
         --off-white: #fdfbf7; 
         --black: #010101;
@@ -14,10 +12,7 @@ const GlobalStyles = createGlobalStyle`
         --translucent-black: hsl(0,0%,0%, .92);
         --grey: #6E675F;
 
-        --pink: #e4a0b2;
-        --white-pink: #FFE6F2;
         --hot-pink: #DB5ABA;
-        --pastel-pink: rgb(248, 200, 220);
         --light-pink: rgba(219, 90, 186, .5);
 
     }
@@ -33,10 +28,8 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        
         font-family: 'Poppins', sans-serif;
         background-color: var(--white);
-        /* background-color: rgba(250, 245, 241, 1); */
         color: var(--off-black);
     }
 
@@ -69,15 +62,10 @@ const GlobalStyles = createGlobalStyle`
 
     .box-shadow-2 {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
-    @media screen and (min-width: 1200px){
-        p {
-        font-size: 1rem;
-    }
-    }
 
     .container-app {
         min-height: 100vh;
@@ -90,7 +78,6 @@ const GlobalStyles = createGlobalStyle`
 
     .active {
         color: var(--hot-pink);
-        /* border-bottom: solid 2px var(--hot-pink); */
     }
 
     .filter-pink {

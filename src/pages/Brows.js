@@ -4,17 +4,18 @@ import { StyledServiceContainer } from "../components/styled/ServiceContainer.St
 import Carousel from "../components/Carousel";
 import LashesGallery from "../components/galleries/LashesGallery";
 
-const Lashes = () => {
+const Brows = () => {
   const lashesImgs = [
-    images.lashes_1,
-    images.lashes_2,
-    images.lashes_3,
-    images.lashes_4,
-    images.lashes_5,
-    images.lashes_6,
-    images.lashes_8,
-    images.lashes_9,
+    images.lashesImg_1,
+    images.lashesImg_2,
+    images.lashesImg_3,
+    images.lashesImg_4,
+    images.lashesImg_5,
+    images.lashesImg_6,
+    images.lashesImg_8,
+    images.lashesImg_9,
   ];
+
   return (
     <StyledServiceContainer>
       <div className="container-carousel">
@@ -22,7 +23,7 @@ const Lashes = () => {
       </div>
 
       <div className="container-services-copy">
-        <div className="container-1 ">
+        <div className="container-1 brows">
           <h1 className="mobile-title">Brows</h1>
           <h2 className="desktop-title">Title about your brows</h2>
 
@@ -34,7 +35,7 @@ const Lashes = () => {
           </p>
         </div>
 
-        <div className="container-2 brows">
+        <div className="container-2">
           <img src={images.logoWhite} alt="" />
 
           <div className="container-service">
@@ -62,9 +63,11 @@ const Lashes = () => {
         </div>
       </div>
 
-      <LashesGallery className="gallery" />
+      <div className="container-gallery brows-gallery">
+        <LashesGallery className="gallery" />
+      </div>
     </StyledServiceContainer>
   );
 };
 
-export default Lashes;
+export default Brows;

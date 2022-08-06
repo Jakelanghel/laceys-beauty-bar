@@ -16,7 +16,6 @@ const Lashes = () => {
     images.lashesImg_9,
   ];
 
-  console.log(images.lashesImg_1);
   return (
     <StyledServiceContainer>
       <div className="container-carousel">
@@ -24,7 +23,7 @@ const Lashes = () => {
       </div>
 
       <div className="container-services-copy">
-        <div className="container-1 ">
+        <div className="container-1">
           <h1 className="mobile-title">Lashes</h1>
           <h2 className="desktop-title">Title about your lashes</h2>
 
@@ -60,7 +59,9 @@ const Lashes = () => {
         </div>
       </div>
 
-      <LashesGallery className="gallery" />
+      <div className="container-gallery">
+        <LashesGallery className="gallery" />
+      </div>
     </StyledServiceContainer>
   );
 };

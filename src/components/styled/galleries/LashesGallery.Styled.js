@@ -38,9 +38,6 @@ export const StyledLashesGallery = styled.div`
   .img-8 {
     grid-area: img8;
   }
-  /* .img-9 {
-    grid-area: img9;
-  } */
 
   .gallery-item {
     width: 100%;
@@ -60,7 +57,11 @@ export const StyledLashesGallery = styled.div`
     opacity: 0.8;
   }
 
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     display: none;
-  }
+
+    .brows-gallery {
+      margin-top: 50rem;
+    }
+  } */
 `;
