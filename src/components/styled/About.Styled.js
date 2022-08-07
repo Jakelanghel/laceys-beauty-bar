@@ -6,6 +6,7 @@ export const StyledAbout = styled.section`
   max-width: 1500px;
   text-align: left;
   margin: 5rem auto;
+  margin-bottom: 0;
 
   .box-shadow-1 {
     box-shadow: none;
@@ -44,11 +45,20 @@ export const StyledAbout = styled.section`
     border: solid 2px var(--hot-pink);
   }
 
+  .container-row {
+    margin-bottom: 5rem;
+  }
+
   .container-copy {
-    padding: 2rem 1rem;
     max-width: 500px;
     margin: 0 auto;
-    margin-bottom: 0.5rem;
+  }
+
+  .card {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   h3 {
@@ -66,27 +76,21 @@ export const StyledAbout = styled.section`
     margin-top: 0.5rem;
   }
 
-  @media screen and (min-width: 600px) {
-    .container-copy {
-      padding: 1.5rem 1.5rem;
-    }
-  }
-
   @media screen and (min-width: 900px) {
+    padding: 0 2rem;
     .box-shadow-1 {
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
     .about-me {
-      margin: 5rem 2rem;
+      margin: 5rem 0;
     }
 
     .container-row {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      padding: 3rem;
     }
 
     .img-container {
@@ -107,7 +111,7 @@ export const StyledAbout = styled.section`
     .container-copy {
       width: 47%;
       margin: 0;
-      max-width: none;
+      max-width: 600px;
       padding: 0;
       display: flex;
       flex-direction: column;
@@ -153,5 +157,9 @@ export const StyledAbout = styled.section`
     .desktop-more-info {
       display: block;
     }
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 0 4rem;
   }
 `;

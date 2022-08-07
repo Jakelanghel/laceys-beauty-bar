@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
   max-width: 700px;
   position: absolute;
   bottom: 0;
-  padding: 0.5rem 0;
+  padding: 0 1rem;
   .container-soc-links {
     width: 100%;
     display: flex;
@@ -13,13 +13,24 @@ export const StyledFooter = styled.footer`
   }
   .soc-link {
     width: 50px;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
   }
 
-  .bigger {
+  .insta {
     width: 60px;
   }
 
+  .fb {
+    width: 49px;
+  }
+
+  .phone {
+    width: 55px;
+  }
+
+  .loc {
+    width: 52px;
+  }
   @media screen and (min-width: 900px) {
     padding: 0 1rem;
     padding-top: 1rem;

@@ -4,6 +4,12 @@ export const StyledServiceContainer = styled.main`
   text-align: center;
   margin: 5.5rem 0;
 
+  .container-2 {
+    img {
+      display: none;
+    }
+  }
+
   .container-services-copy {
     padding: 0 1rem;
   }
@@ -23,7 +29,7 @@ export const StyledServiceContainer = styled.main`
     font-family: "Dancing Script", cursive;
     padding: 0.5rem 0;
     margin: 2rem auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-bottom: solid 2px var(--hot-pink);
     border-top: solid 2px var(--hot-pink);
   }
@@ -36,7 +42,17 @@ export const StyledServiceContainer = styled.main`
     margin: 1.5rem 0;
 
     h2 {
-      font-size: 1.35rem;
+      font-size: 1.25rem;
+    }
+
+    h3 {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--hot-pink);
+    }
+
+    p {
+      font-size: 0.8rem;
     }
 
     .price {
@@ -45,10 +61,19 @@ export const StyledServiceContainer = styled.main`
     }
   }
 
+  .container-1 {
+    padding-bottom: 1rem;
+  }
+
+  .container-1,
   .container-2 {
-    img {
-      display: none;
-    }
+    border-bottom: solid 2px var(--hot-pink);
+  }
+
+  h3 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--hot-pink);
   }
 
   .container-waxing {
@@ -129,6 +154,11 @@ export const StyledServiceContainer = styled.main`
       }
     }
 
+    .container-1,
+    .container-2 {
+      border: none;
+    }
+
     .container-1 {
       width: 50%;
       min-width: 460px;
@@ -195,12 +225,6 @@ export const StyledServiceContainer = styled.main`
 
       p {
         max-width: 325px;
-      }
-
-      h3 {
-        font-size: 0.75rem;
-        font-weight: 500;
-        color: var(--hot-pink);
       }
     }
   }

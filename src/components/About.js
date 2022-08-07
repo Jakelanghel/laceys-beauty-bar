@@ -33,7 +33,7 @@ const About = () => {
             />
           </div>
 
-          <div className="container-copy hero-copy box-shadow-1">
+          <div className="container-copy hero-copy box-shadow-1 card">
             <h2>
               Hi!! <span>I'm Lacey</span>
             </h2>
@@ -87,7 +87,10 @@ const About = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
               illum blanditiis tenetur ipsum nobis eum suscipit mollitia
               deserunt facere id accusantium ea, incidunt recusandae inventore
-              pariatur qui. Aperiam, incidunt!
+              pariatur qui. Aperiam, incidunt! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Vel nisi illum blanditiis tenetur
+              ipsum nobis eum suscipit mollitia deserunt facere id accusantium
+              ea, incidunt recusandae inventore pariatur qui. Aperiam, incidunt!
             </p>
           </div>
         </div>
@@ -98,7 +101,7 @@ const About = () => {
           <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
-        <div className="container-copy card-copy">
+        <div className="container-copy">
           <div className="card box-shadow-1">
             <h2>Products</h2>
             <p>
