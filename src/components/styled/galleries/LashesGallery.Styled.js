@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const StyledLashesGallery = styled.div`
   width: 100%;
-  padding: 0 1rem;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
 
   .gallery {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px 250px;
+    grid-template-rows: 150px 200px;
     grid-template-areas:
       "img1 img1 img1 img6 img6 img3 img3 img8 img8 img8 img5 img5"
       "img2 img2 img2 img6 img6 img3 img3 img7 img7 img7 img7 img7";
