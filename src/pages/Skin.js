@@ -34,14 +34,6 @@ const Skin = () => {
           </p>
         </div>
 
-        <div className="container-2 ">
-          <img src={images.logoWhite} alt="" />
-
-          <div className="container-service"></div>
-
-          <div className="container-service"></div>
-        </div>
-
         <div className="container-2">
           <img src={images.logoWhite} alt="" />
           <div className="container-service">

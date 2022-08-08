@@ -5,7 +5,7 @@ export const StyledHome = styled.div`
   width: 100%;
   margin: 0 auto;
   z-index: 0;
-  margin: 5rem 0;
+  margin: 6rem 0;
 
   .hero {
     max-width: 445px;
@@ -69,11 +69,9 @@ export const StyledHome = styled.div`
     h1 {
       line-height: 2.5rem;
     }
+  }
 
-    /* p {
-            font-size: 1.15rem;
-            font-size: .95rem;
-        } */
+  @media screen and (min-width: 600px) {
   }
 
   @media screen and (min-width: 900px) {

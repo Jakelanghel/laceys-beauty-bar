@@ -40,23 +40,24 @@ export const StyledAbout = styled.section`
   .about-img {
     width: 90%;
     max-width: 400px;
-    border-radius: 50%;
     padding: 0.5rem;
     border: solid 2px var(--hot-pink);
+    border-radius: 50%;
   }
 
   .container-row {
+    width: 100%;
     margin-bottom: 5rem;
   }
 
-  .container-copy {
+  .container {
     max-width: 500px;
     margin: 0 auto;
   }
 
   .card {
-    padding: 2rem;
-    margin: 2rem;
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -108,19 +109,15 @@ export const StyledAbout = styled.section`
       object-fit: cover;
     }
 
-    .container-copy {
+    .container {
       width: 47%;
-      margin: 0;
       max-width: 600px;
-      padding: 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
-    }
 
-    .hero-copy {
-      border-radius: 15px;
-      padding: 3rem 2rem;
+      padding: 0;
+      margin: 0;
     }
 
     .card {
