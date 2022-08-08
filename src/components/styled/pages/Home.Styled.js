@@ -6,6 +6,7 @@ export const StyledHome = styled.div`
   margin: 0 auto;
   z-index: 0;
   margin: 6rem 0;
+  margin-bottom: 3rem;
 
   .hero {
     max-width: 445px;
