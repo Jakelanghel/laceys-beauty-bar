@@ -33,19 +33,35 @@ const About = () => {
             />
           </div>
 
-          <div className="container-copy hero-copy box-shadow-1 card">
-            <h2>
-              Hi!! <span>I'm Lacey</span>
-            </h2>
-            <p>
-              I attended beauty school at North Hills Beauty Academy and became
-              a licensed esthetician. I've been a licensed esthetician for the
-              past 4 years specializing in eyelash extensions, facials, eyebrow
-              waxing, tinting & henna, dermaplane and other body waxing.
-            </p>
+          <div className="container">
+            <div className="card box-shadow-1">
+              <h2>
+                Hi!! <span>I'm Lacey</span>
+              </h2>
+              <p>
+                I attended beauty school at North Hills Beauty Academy and
+                became a licensed esthetician. I've been a licensed esthetician
+                for the past 4 years specializing in eyelash extensions,
+                facials, eyebrow waxing, tinting & henna, dermaplane and other
+                body waxing.
+              </p>
 
-            {showMoreInfo && (
-              <p className="more-info mobile-more-info">
+              {showMoreInfo && (
+                <p className="more-info mobile-more-info">
+                  Ever since I was a little girl, I knew I wanted to be in the
+                  industry. I love having a profession that I truly enjoy! I
+                  cherish the opportunity that I have getting to know my
+                  clients, which has allowed me to develop many close
+                  friendships! Outside of work, I stay busy raising my two
+                  children, Scarlett & Miles. Being a mother has taught me many
+                  valuable lessons and I wouldn't trade it for the world! I look
+                  forward to meeting you and learning more about your beauty
+                  desires!
+                  <button onClick={showInfo}>Hide</button>
+                </p>
+              )}
+
+              <p className="more-info desktop-more-info">
                 Ever since I was a little girl, I knew I wanted to be in the
                 industry. I love having a profession that I truly enjoy! I
                 cherish the opportunity that I have getting to know my clients,
@@ -54,23 +70,11 @@ const About = () => {
                 Being a mother has taught me many valuable lessons and I
                 wouldn't trade it for the world! I look forward to meeting you
                 and learning more about your beauty desires!
-                <button onClick={showInfo}>Hide</button>
               </p>
-            )}
-
-            <p className="more-info desktop-more-info">
-              Ever since I was a little girl, I knew I wanted to be in the
-              industry. I love having a profession that I truly enjoy! I cherish
-              the opportunity that I have getting to know my clients, which has
-              allowed me to develop many close friendships! Outside of work, I
-              stay busy raising my two children, Scarlett & Miles. Being a
-              mother has taught me many valuable lessons and I wouldn't trade it
-              for the world! I look forward to meeting you and learning more
-              about your beauty desires!
-            </p>
-            <button className="more-info-btn" onClick={showInfo}>
-              {!showMoreInfo && "Read more"}
-            </button>
+              <button className="more-info-btn" onClick={showInfo}>
+                {!showMoreInfo && "Read more"}
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +84,7 @@ const About = () => {
           <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
-        <div className="container-copy">
+        <div className="container">
           <div className="card box-shadow-1">
             <h2>Beauty Bar</h2>
             <p>
@@ -101,7 +105,7 @@ const About = () => {
           <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
-        <div className="container-copy">
+        <div className="container">
           <div className="card box-shadow-1">
             <h2>Products</h2>
             <p>
@@ -122,7 +126,7 @@ const About = () => {
           <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
 
-        <div className="container-copy card-copy">
+        <div className="container card-copy">
           <div className="card box-shadow-1">
             <h2 className="thread-sew-title">Shop</h2>
 
