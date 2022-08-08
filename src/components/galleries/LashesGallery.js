@@ -18,10 +18,6 @@ const LashesGallery = () => {
           <img src={images.lashesImg_3} alt="" className="img-3 box-shadow-2" />
         </div>
 
-        {/* <div className="gallery-item img-4">
-          <img src={images.lashesImg_4} alt="" className="img-4 box-shadow-2" />
-        </div> */}
-
         <div className="gallery-item img-5">
           <img src={images.lashesImg_5} alt="" className="img-5 box-shadow-2" />
         </div>
@@ -37,9 +33,6 @@ const LashesGallery = () => {
         <div className="gallery-item img-8">
           <img src={images.lashesImg_8} alt="" className="img-8 box-shadow-2" />
         </div>
-        {/* <div className="gallery-item img-9">
-          <img src={images.lashesImg_9} alt="" className="img-8 box-shadow-2" />
-        </div> */}
       </div>
     </StyledLashesGallery>
   );

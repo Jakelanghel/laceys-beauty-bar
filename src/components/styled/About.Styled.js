@@ -92,6 +92,7 @@ export const StyledAbout = styled.section`
       width: 100%;
       display: flex;
       justify-content: space-between;
+      margin: 8rem 0;
     }
 
     .img-container {
