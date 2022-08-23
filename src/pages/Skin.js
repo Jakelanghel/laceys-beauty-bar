@@ -27,23 +27,26 @@ const Skin = () => {
           <h2 className="desktop-title">Title about your skin</h2>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloremque, minima. Non, sapiente! Ipsa hic aut, quis libero
-            voluptatem repellendus sed fuga nostrum, dignissimos, non placeat
-            vel cumque possimus amet tempora natus molestias pariatur nulla. A?
+            At Lacey's Beauty Bar, we offer top tier services using some of the
+            Industry's leading brands and products. We offer a variety of
+            facials using Farmhouse Fresh Products and Esthemax hydro jelly
+            masks. We have facials formulated for all skin types. Our facial
+            services include a mini massage focusing on your neck, décolleté,
+            arms and hands. We look forward to enhancing your natural beauty and
+            helping to perfect your skin!
           </p>
         </div>
 
         <div className="container-2">
           <img src={images.logoWhite} alt="" />
           <div className="container-service">
-            <h2>"Pick me up" facial</h2>
+            <h2>Mini facial</h2>
             <p className="description">30 min facial</p>
             <p className="price">$40</p>
           </div>
 
           <div className="container-service">
-            <h2>Dermaplane</h2>
+            <h2>Dermaplaning</h2>
             <p className="description">
               Achieve an even skin tone & texture by removing dead skin cells.
             </p>
@@ -56,6 +59,15 @@ const Skin = () => {
             <p className="description">
               Customize your facial with farmhouse fresh & Esthemax products.
             </p>
+            <ul>
+              <li>Charcoal Blemish Control</li>
+              <li>Rosacea Reducing</li>
+              <li>Intensive Healing</li>
+              <li>Collagen & Elasticity</li>
+              <li>Lighten, Tighten & Brighten</li>
+              <li>Anti-Aging</li>
+            </ul>
+
             <p className="price">$70</p>
           </div>
         </div>

@@ -30,7 +30,6 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: 'Poppins', sans-serif;
         background-color: var(--white);
-        color: var(--off-black);
     }
 
     img {
@@ -47,10 +46,11 @@ const GlobalStyles = createGlobalStyle`
         line-height: 2.25rem;
     }
 
+
     p {
         font-size: .85rem;
-        line-height: 2rem;
         letter-spacing: 1px;
+        line-height: 1.5rem;
         color: var(--grey);
     }
 
@@ -76,9 +76,7 @@ const GlobalStyles = createGlobalStyle`
         position: relative;
     }
 
-    .active {
-        color: var(--hot-pink);
-    }
+    
 
     .filter-pink {
         filter: invert(61%) sepia(25%) saturate(5931%) hue-rotate(285deg) brightness(91%) contrast(87%)
