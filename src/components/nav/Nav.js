@@ -27,7 +27,6 @@ export const Nav = () => {
         className="menu-icon filter-pink"
         onClick={toggleMenu}
       />
-      <img src={images.logo} alt="" className="brand-logo" />
     </StyledNav>
   );
 };

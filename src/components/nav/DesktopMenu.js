@@ -38,7 +38,7 @@ const DesktopMenu = (props) => {
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Brows
+            Eyebrows
           </NavLink>
         </div>
 
@@ -53,6 +53,31 @@ const DesktopMenu = (props) => {
             Skin
           </NavLink>
         </div>
+
+        <div className="link">
+          <NavLink
+            to="/tanning"
+            onClick={props.toggle}
+            className={({ isActive }) =>
+              isActive ? "active nav-link" : "nav-link"
+            }
+          >
+            Tanning
+          </NavLink>
+        </div>
+
+        <div className="link">
+          <NavLink
+            to="/waxing"
+            onClick={props.toggle}
+            className={({ isActive }) =>
+              isActive ? "active nav-link" : "nav-link"
+            }
+          >
+            Waxing
+          </NavLink>
+        </div>
+
         <div className="link">
           <a href="https://tinyurl.com/2p8vkjtm" className="nav-link">
             Clothing

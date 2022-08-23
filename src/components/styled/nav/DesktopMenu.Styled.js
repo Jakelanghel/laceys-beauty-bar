@@ -11,7 +11,6 @@ export const StyledDesktopMenu = styled.div`
   }
 
   .container-nav-links {
-    width: 600px;
     display: flex;
     justify-content: space-between;
     border-top: solid 2px var(--light-pink);
@@ -35,19 +34,5 @@ export const StyledDesktopMenu = styled.div`
 
   .nav-link:hover {
     color: var(--hot-pink);
-  }
-
-  .store-link {
-    /* text-decoration: none;
-    padding: 0.75rem;
-    border-radius: 50px;
-    background-color: var(--light-pink);
-    color: var(--white);
-    margin-left: 2rem; */
-  }
-
-  .active {
-    color: var(--hot-pink);
-    font-weight: 700;
   }
 `;

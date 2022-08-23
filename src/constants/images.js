@@ -11,9 +11,12 @@ import arrowLeft from "../assets/arrow-left.svg";
 
 import logoWhite from "../assets/logo-white.jpg";
 import logo from "../assets/logo-transparent.png";
-import profileImg from "../assets/lacey.jpg";
 import pinkBg from "../assets/bg_pinkDots.webp";
 import flowersBg from "../assets/bg_flowers.png";
+
+import imgLacey from "../assets/lacey.jpg";
+import imgSyndi from "../assets/sydni.jpeg";
+import imgCailyn from "../assets/cailyn.jpeg";
 
 import shopImg_1 from "../assets/shop_1.jpg";
 import shopImg_2 from "../assets/shop_2.jpg";
@@ -51,7 +54,9 @@ const images = {
   locationIcon,
   heartIcon,
   eyeIcon,
-  profileImg,
+  imgLacey,
+  imgSyndi,
+  imgCailyn,
   logoWhite,
   logo,
   arrowRight,

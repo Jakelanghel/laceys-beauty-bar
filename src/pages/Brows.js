@@ -28,10 +28,10 @@ const Brows = () => {
           <h2 className="desktop-title">Title about your brows</h2>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloremque, minima. Non, sapiente! Ipsa hic aut, quis libero
-            voluptatem repellendus sed fuga nostrum, dignissimos, non placeat
-            vel cumque possimus amet tempora natus molestias pariatur nulla. A?
+            Eyebrows" for the text "At Lacey's Beauty Bar, we specialize in
+            eyebrow shaping. We're very precise and detail oriented when
+            deciding on a shape that best suits your face. We offer a number of
+            services for your brows.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const Brows = () => {
             <p className="description">
               Achieve the "brow gel" look for 3-6 weeks
             </p>
-            <p className="price">$55</p>
+            <p className="price">$60</p>
           </div>
           <div className="container-service">
             <h2>Eyebrow shaping</h2>
@@ -52,12 +52,12 @@ const Brows = () => {
           </div>
 
           <div className="container-service">
-            <h2>Eyebrow tint</h2>
-            <p className="price">$15</p>
+            <h2>Eyebrow wax & tint</h2>
+            <p className="price">$30</p>
           </div>
 
           <div className="container-service">
-            <h2>Eyebrow henna</h2>
+            <h2>Eyebrow wax & henna</h2>
             <p className="price">$25</p>
           </div>
         </div>

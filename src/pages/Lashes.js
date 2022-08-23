@@ -25,13 +25,18 @@ const Lashes = () => {
       <div className="container-services-copy">
         <div className="container-1">
           <h1 className="mobile-title">Lashes</h1>
-          <h2 className="desktop-title">Title about your lashes</h2>
+          <h2 className="desktop-title">Title about lashes</h2>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloremque, minima. Non, sapiente! Ipsa hic aut, quis libero
-            voluptatem repellendus sed fuga nostrum, dignissimos, non placeat
-            vel cumque possimus amet tempora natus molestias pariatur nulla. A?
+            At Lacey's Beauty Bar, we know our stuff! Your lash health is the
+            most important aspect to us! We take pride in our ability to
+            customize each set to your lashes! We offer different styles of
+            lashes depending on what you're looking to get! We offer classic,
+            hybrid, volume and mega volume lash extensions. We offer a variety
+            of lengths and curls. We use nothing but the best products that the
+            Industry has to offer! We are patient, thorough and trained to
+            properly apply extensions. Quality care, quality products and
+            quality service are our main goals at LBB!
           </p>
         </div>
 
@@ -40,7 +45,16 @@ const Lashes = () => {
           <div className="container-service">
             <h2>Full set of eyelash extensions</h2>
             <p className="description">Classic, Hybrid, Volume, Mega Volume</p>
-            <p className="price">$120 - $150</p>
+            <p className="price">$130 - $150</p>
+          </div>
+
+          <div className="container-service">
+            <h2>
+              Full Set of Teen Lashes<span></span>
+            </h2>
+            <p className="description">18 & Under</p>
+
+            <p className="price">$120</p>
           </div>
 
           <div className="container-service">
@@ -55,6 +69,14 @@ const Lashes = () => {
               Give your natural lashes the perfect curl
             </p>
             <p className="price">$70</p>
+          </div>
+
+          <div className="container-service">
+            <h2>seven day mini fill</h2>
+            <p className="description">
+              Give your natural lashes the perfect curl
+            </p>
+            <p className="price">$40</p>
           </div>
         </div>
       </div>

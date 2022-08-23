@@ -38,7 +38,7 @@ const MobileMenu = (props) => {
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Brows
+            Eyebrows
           </NavLink>
         </div>
 
@@ -51,6 +51,30 @@ const MobileMenu = (props) => {
             }
           >
             Skin
+          </NavLink>
+        </div>
+
+        <div className="link">
+          <NavLink
+            to="/tanning"
+            onClick={props.toggle}
+            className={({ isActive }) =>
+              isActive ? "active nav-link" : "nav-link"
+            }
+          >
+            Tanning
+          </NavLink>
+        </div>
+
+        <div className="link">
+          <NavLink
+            to="/waxing"
+            onClick={props.toggle}
+            className={({ isActive }) =>
+              isActive ? "active nav-link" : "nav-link"
+            }
+          >
+            Waxing
           </NavLink>
         </div>
 

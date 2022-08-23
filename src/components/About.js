@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { images } from "../constants/images";
 import { StyledAbout } from "./styled/About.Styled";
-import Carousel from "./Carousel";
-
+import Profile from "./Profile";
 const About = () => {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
 
@@ -21,86 +20,53 @@ const About = () => {
     images.shopImg_8,
   ];
 
+  const laceysBio = `Hello everyone, my name is Lacey and I'm the owner of the beauty
+                    bar. I recently opened the shop in December of 2021 and I've been
+                    practicing the trade for 4 years. I studied the Esthetics course
+                    at North Hills Beauty Academy and obtained my Esthetician License.
+                    I've always had a passion for the Beauty Industry and making
+                    others look and feel their absolute best! I love having a
+                    profession that I truly enjoy! I cherish the opportunity that I
+                    have getting to know my clients, which has allowed me to develop
+                    many friendships! I look forward to meeting you and learning more
+                    about your beauty desires!`;
+
+  const sydniBio = `Sydni is a talented esthetician with a loving passion for making
+                    others feel empowered! She has always wanted to be in the beauty
+                    industry and recently she obtained her Esthetics License. Sydni
+                    specializes in eyelash extensions and eyebrow services. She is an
+                    amazing lash technician and we're so happy to have her!`;
+
+  const cailynBio = `Cailyn has recently became an  Esthetician after changing her 
+                      major from a musician to a beautician. She has always had a loving passion for 
+                      the industry and making others feel beautiful in their skin! Cailyn mostly focuses 
+                      on skincare and facial services. She is a knowledgeable esthetician and we're happy 
+                      to have her!`;
+
   return (
     <StyledAbout>
-      <div className="about-me">
-        <div className="container-row">
-          <div className="img-container box-shadow-1">
-            <img
-              src={images.profileImg}
-              alt="lacey dean"
-              className="about-img"
-            />
-          </div>
+      <Profile
+        img={images.imgLacey}
+        name={"Lacey"}
+        bio={laceysBio}
+        inverted={false}
+      />
 
-          <div className="container">
-            <div className="card box-shadow-1">
-              <h2>
-                Hi!! <span>I'm Lacey</span>
-              </h2>
-              <p>
-                I attended beauty school at North Hills Beauty Academy and
-                became a licensed esthetician. I've been a licensed esthetician
-                for the past 4 years specializing in eyelash extensions,
-                facials, eyebrow waxing, tinting & henna, dermaplane and other
-                body waxing.
-              </p>
+      <Profile
+        img={images.imgCailyn}
+        name="Cailyn"
+        bio={cailynBio}
+        inverted={true}
+      />
 
-              {showMoreInfo && (
-                <p className="more-info mobile-more-info">
-                  Ever since I was a little girl, I knew I wanted to be in the
-                  industry. I love having a profession that I truly enjoy! I
-                  cherish the opportunity that I have getting to know my
-                  clients, which has allowed me to develop many close
-                  friendships! Outside of work, I stay busy raising my two
-                  children, Scarlett & Miles. Being a mother has taught me many
-                  valuable lessons and I wouldn't trade it for the world! I look
-                  forward to meeting you and learning more about your beauty
-                  desires!
-                  <button onClick={showInfo}>Hide</button>
-                </p>
-              )}
+      <Profile
+        img={images.imgSyndi}
+        name="Sydni"
+        bio={sydniBio}
+        inverted={false}
+      />
 
-              <p className="more-info desktop-more-info">
-                Ever since I was a little girl, I knew I wanted to be in the
-                industry. I love having a profession that I truly enjoy! I
-                cherish the opportunity that I have getting to know my clients,
-                which has allowed me to develop many close friendships! Outside
-                of work, I stay busy raising my two children, Scarlett & Miles.
-                Being a mother has taught me many valuable lessons and I
-                wouldn't trade it for the world! I look forward to meeting you
-                and learning more about your beauty desires!
-              </p>
-              <button className="more-info-btn" onClick={showInfo}>
-                {!showMoreInfo && "Read more"}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-row inverted-container">
-        <div className="container-carousel box-shadow-1">
-          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
-        </div>
-
-        <div className="container">
-          <div className="card box-shadow-1">
-            <h2>Beauty Bar</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
-              illum blanditiis tenetur ipsum nobis eum suscipit mollitia
-              deserunt facere id accusantium ea, incidunt recusandae inventore
-              pariatur qui. Aperiam, incidunt! Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit. Vel nisi illum blanditiis tenetur
-              ipsum nobis eum suscipit mollitia deserunt facere id accusantium
-              ea, incidunt recusandae inventore pariatur qui. Aperiam, incidunt!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-row">
+      {/* <div className="container-row">
         <div className="container-carousel box-shadow-1">
           <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
         </div>
@@ -119,26 +85,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="container-row inverted-container">
-        <div className="container-carousel box-shadow-1">
-          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
-        </div>
-
-        <div className="container card-copy">
-          <div className="card box-shadow-1">
-            <h2 className="thread-sew-title">Shop</h2>
-
-            <h3>"Thread & Sew" </h3>
-            <p>
-              We have an assortment of shirts, bodysuits, dresses, sweaters and
-              shorts to choose from. We're still growing our inventory and
-              adding to our collection. selection!
-            </p>
-          </div>
-        </div>
-      </div>
+      </div> */}
     </StyledAbout>
   );
 };

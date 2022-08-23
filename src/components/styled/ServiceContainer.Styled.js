@@ -22,11 +22,17 @@ export const StyledServiceContainer = styled.main`
     display: none;
   }
 
+  .tanning-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
   .mobile-title,
   .desktop-title {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-weight: 700;
-    font-family: "Dancing Script", cursive;
+    /* font-family: "Dancing Script", cursive; */
     padding: 0.5rem 0;
     margin: 2rem auto;
     margin-bottom: 1rem;
@@ -34,15 +40,13 @@ export const StyledServiceContainer = styled.main`
     border-top: solid 2px var(--hot-pink);
   }
 
-  .skin-title {
-    width: 85px;
-  }
-
   .container-service {
     margin: 1.5rem 0;
 
     h2 {
       font-size: 1.25rem;
+      text-transform: capitalize;
+      letter-spacing: 1px;
     }
 
     h3 {
@@ -53,11 +57,42 @@ export const StyledServiceContainer = styled.main`
 
     p {
       font-size: 0.8rem;
+      margin: 0 auto;
     }
 
     .price {
+      font-size: 1rem;
       color: var(--hot-pink);
       font-weight: 700;
+      margin-top: 0.25rem;
+    }
+
+    span {
+      display: block;
+    }
+
+    ul {
+      color: var(--hot-pink);
+      margin: 0 auto;
+      margin-top: 0.5rem;
+
+      li {
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    .container {
+      width: 50%;
+
+      p {
+        margin-bottom: 1rem;
+      }
     }
   }
 
@@ -166,7 +201,6 @@ export const StyledServiceContainer = styled.main`
       margin: 0 2rem;
       margin-bottom: 5rem;
       position: relative;
-      z-index: 0;
       padding: 2rem 1rem;
       border-radius: 15px;
 
@@ -211,7 +245,7 @@ export const StyledServiceContainer = styled.main`
 
       z-index: 1;
 
-      padding: 0 1rem;
+      padding: 0 2rem;
       border-radius: 15px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -232,10 +266,6 @@ export const StyledServiceContainer = styled.main`
   @media screen and (min-width: 1000px) {
     .container-1 {
       padding: 2rem 3rem;
-    }
-
-    .container-2 {
-      padding: 0 2rem;
     }
   }
 `;

@@ -7,11 +7,7 @@ export const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  z-index: 1;
-
-  .brand-logo {
-    display: none;
-  }
+  z-index: 2;
 
   .desktop {
     display: none;
@@ -25,7 +21,6 @@ export const StyledNav = styled.nav`
 
     p {
       font-size: 1rem;
-      font-weight: 700;
       letter-spacing: 2px;
     }
   }
@@ -34,14 +29,14 @@ export const StyledNav = styled.nav`
     width: 25px;
   }
 
+  .active {
+    color: var(--hot-pink);
+    font-weight: 700;
+  }
+
   @media screen and (min-width: 900px) {
     .menu-icon {
       display: none;
-    }
-
-    .brand-logo {
-      display: block;
-      width: 100px;
     }
 
     padding: 1.5rem 2rem;

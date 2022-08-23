@@ -9,17 +9,16 @@ export const HomeGalleryStyled = styled.div`
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px 250px;
+    grid-template-rows: 250px 250px;
     grid-template-areas:
-      "img8 img8 img2 img2 img1 img1 img7 img7 img4 img4 img4 img4"
-      "img8 img8 img3 img3 img1 img1 img7 img7 img5 img5 img6 img6";
+      "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4"
+      "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4";
 
     margin: 3rem auto;
   }
 
   .img-1 {
     grid-area: img1;
-    object-position: -225px center;
   }
   .img-2 {
     grid-area: img2;
@@ -31,7 +30,7 @@ export const HomeGalleryStyled = styled.div`
   .img-4 {
     grid-area: img4;
   }
-  .img-5 {
+  /* .img-5 {
     grid-area: img5;
   }
   .img-6 {
@@ -42,7 +41,7 @@ export const HomeGalleryStyled = styled.div`
   }
   .img-8 {
     grid-area: img8;
-  }
+  } */
 
   .gallery-item {
     width: 100%;
