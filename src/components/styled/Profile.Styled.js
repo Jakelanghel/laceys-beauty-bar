@@ -4,6 +4,13 @@ import { images } from "../../constants/images";
 export const StyledProfile = styled.div`
   margin: 5rem 0;
 
+  .box-shadow-1 {
+    box-shadow: none;
+  }
+  .box-shadow-2 {
+    box-shadow: none;
+  }
+
   .img-container {
     display: flex;
     justify-content: center;
@@ -14,21 +21,30 @@ export const StyledProfile = styled.div`
 
   .profile-img {
     width: 90%;
-    max-width: 350px;
-    max-height: 350px;
-    padding: 0.5rem;
-    border: solid 2px var(--hot-pink);
+    max-width: 355px;
+    max-height: 400px;
     border-radius: 50%;
     object-fit: cover;
   }
 
   .card {
     max-width: 500px;
-    margin: 0 auto;
     padding: 2rem 1rem;
-    margin: 2.5rem 1rem;
+    margin: 2.5rem auto;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    h2 {
+      letter-spacing: 1px;
+
+      span {
+        display: block;
+      }
+    }
+
+    .margin-btm {
+      margin-bottom: 1rem;
+    }
   }
 
   @media screen and (min-width: 900px) {
@@ -55,6 +71,8 @@ export const StyledProfile = styled.div`
 
     .row {
       width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -80,7 +98,7 @@ export const StyledProfile = styled.div`
 
     .card {
       width: 47%;
-      max-width: 600px;
+      max-width: 450px;
       display: flex;
       flex-direction: column;
       justify-content: center;

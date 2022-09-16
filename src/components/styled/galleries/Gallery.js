@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-export const StyledLashesGallery = styled.div`
+export const StyledGallery = styled.div`
   width: 100%;
   max-width: 1500px;
-  padding: 0 2rem;
   margin: 0 auto;
 
   .gallery {

@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/styled/ServiceContainer.Styled";
 import Carousel from "../components/Carousel";
-import LashesGallery from "../components/galleries/LashesGallery";
+import Gallery from "../components/galleries/Gallery";
 
 const Tanning = () => {
   const lashesImgs = [
@@ -20,7 +20,7 @@ const Tanning = () => {
       <div className="container-carousel">
         <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
       </div>
-      <div className="container-services-copy">
+      <div className="container">
         <div className="container-1">
           <h1 className="mobile-title">Tanning</h1>
           <h2 className="tanning-subtitle">( Heat-Infused Spray Tanning )</h2>
@@ -36,22 +36,30 @@ const Tanning = () => {
           </p>
         </div>
 
-        <div className="container-2">
+        <div className="container-2 ">
           <img src={images.logoWhite} alt="" />
           <div className="container-service">
-            <div className="tanning">
+            <div>
               <div className="container">
-                <h2>Level 1</h2>
-                <p className="description">Light Spray Tan</p>
-                <h2>Level 2</h2>
-                <p className="description">Medium Spray Tan</p>
+                <div className="container-service">
+                  <h2>Level 1</h2>
+                  <p className="description">Light Spray Tan</p>
+                </div>
+                <div className="container-service">
+                  <h2>Level 2</h2>
+                  <p className="description">Medium Spray Tan</p>
+                </div>
               </div>
 
               <div className="container">
-                <h2>Level 3</h2>
-                <p className="description">Dark Spray Tan</p>
-                <h2>Level 4</h2>
-                <p className="description">Ultra Spray Tan</p>
+                <div className="container-service">
+                  <h2>Level 3</h2>
+                  <p className="description">Dark Spray Tan</p>
+                </div>
+                <div className="container-service">
+                  <h2>Level 4</h2>
+                  <p className="description">Ultra Spray Tan</p>
+                </div>
               </div>
             </div>
 
@@ -59,9 +67,7 @@ const Tanning = () => {
           </div>
         </div>
       </div>
-      <div className="container-gallery">
-        <LashesGallery className="gallery" />
-      </div>
+      <Gallery className="gallery" />
     </StyledServiceContainer>
   );
 };

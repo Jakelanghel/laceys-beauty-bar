@@ -1,20 +1,22 @@
 import styled from "styled-components";
 
-export const HomeGalleryStyled = styled.div`
+export const HomeCarousel = styled.div`
   width: 100%;
   padding: 0 1rem;
-
+  margin: 0 auto;
   .gallery {
-    max-width: 1000px;
+    position: relative;
+    max-width: 1200px;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px 300px;
     grid-template-areas:
       "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4"
       "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4";
 
-    margin: 3rem auto;
+    margin: 8rem auto;
+    margin-bottom: 11rem;
   }
 
   .img-1 {
@@ -30,18 +32,26 @@ export const HomeGalleryStyled = styled.div`
   .img-4 {
     grid-area: img4;
   }
-  /* .img-5 {
-    grid-area: img5;
+
+  .carousel-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    button {
+      border: none;
+      padding: 55px 15px;
+      border-radius: 5px;
+      background-color: rgba(219, 90, 186, 0.2);
+    }
+
+    .actions-btn {
+      width: 20px;
+    }
   }
-  .img-6 {
-    grid-area: img6;
-  }
-  .img-7 {
-    grid-area: img7;
-  }
-  .img-8 {
-    grid-area: img8;
-  } */
 
   .gallery-item {
     width: 100%;
@@ -53,12 +63,16 @@ export const HomeGalleryStyled = styled.div`
     width: 100%;
     object-fit: cover;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 5px;
   }
 
   img:hover {
-    opacity: 0.8;
+    opacity: 1;
+  }
+
+  button:hover {
+    background-color: rgba(219, 90, 186, 0.4);
   }
 
   @media screen and (max-width: 900px) {

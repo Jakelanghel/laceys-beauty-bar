@@ -56,31 +56,19 @@ const MobileMenu = (props) => {
 
         <div className="link">
           <NavLink
-            to="/tanning"
-            onClick={props.toggle}
-            className={({ isActive }) =>
-              isActive ? "active nav-link" : "nav-link"
-            }
-          >
-            Tanning
-          </NavLink>
-        </div>
-
-        <div className="link">
-          <NavLink
             to="/waxing"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Waxing
+            Waxing / Tanning
           </NavLink>
         </div>
 
         <div className="link store-link-container">
           <a href="https://tinyurl.com/2p8vkjtm" className="store-link">
-            "Thread & Sew" Clothing
+            " Thread & Sew "
           </a>
         </div>
       </div>

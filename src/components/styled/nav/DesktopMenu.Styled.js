@@ -11,6 +11,8 @@ export const StyledDesktopMenu = styled.div`
   }
 
   .container-nav-links {
+    width: 60%;
+    min-width: 700px;
     display: flex;
     justify-content: space-between;
     border-top: solid 2px var(--light-pink);

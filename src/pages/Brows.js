@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/styled/ServiceContainer.Styled";
 import Carousel from "../components/Carousel";
-import LashesGallery from "../components/galleries/LashesGallery";
+import Gallery from "../components/galleries/Gallery";
 
 const Brows = () => {
   const lashesImgs = [
@@ -22,8 +22,8 @@ const Brows = () => {
         <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
       </div>
 
-      <div className="container-services-copy">
-        <div className="container-1 brows">
+      <div className="container">
+        <div className="container-1">
           <h1 className="mobile-title">Brows</h1>
           <h2 className="desktop-title">Title about your brows</h2>
 
@@ -45,11 +45,6 @@ const Brows = () => {
             </p>
             <p className="price">$60</p>
           </div>
-          <div className="container-service">
-            <h2>Eyebrow shaping</h2>
-            <p className="description">Wax / Trim / Pluck</p>
-            <p className="price">$20</p>
-          </div>
 
           <div className="container-service">
             <h2>Eyebrow wax & tint</h2>
@@ -60,12 +55,16 @@ const Brows = () => {
             <h2>Eyebrow wax & henna</h2>
             <p className="price">$25</p>
           </div>
+
+          <div className="container-service">
+            <h2>Eyebrow shaping</h2>
+            <p className="description">Wax / Trim / Pluck</p>
+            <p className="price">$20</p>
+          </div>
         </div>
       </div>
 
-      <div className="container-gallery brows-gallery">
-        <LashesGallery className="gallery" />
-      </div>
+      <Gallery class="brows-gallery" />
     </StyledServiceContainer>
   );
 };

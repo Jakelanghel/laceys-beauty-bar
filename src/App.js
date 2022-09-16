@@ -9,8 +9,7 @@ import Footer from "./components/Footer";
 import Lashes from "./pages/Lashes";
 import Brows from "./pages/Brows";
 import Skin from "./pages/Skin";
-import Tanning from "./pages/Tanning";
-import Waxing from "./pages/Waxing";
+import WaxingTanning from "./pages/Waxing_tanning";
 import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
@@ -25,8 +24,7 @@ function App() {
             <Route path="/lashes" element={<Lashes />} />
             <Route path="/brows" element={<Brows />} />
             <Route path="/skin" element={<Skin />} />
-            <Route path="/tanning" element={<Tanning />} />
-            <Route path="/waxing" element={<Waxing />} />
+            <Route path="/waxing-tanning" element={<WaxingTanning />} />
           </Routes>
         </ScrollToTop>
 

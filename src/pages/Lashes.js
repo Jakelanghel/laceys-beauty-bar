@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/styled/ServiceContainer.Styled";
 import Carousel from "../components/Carousel";
-import LashesGallery from "../components/galleries/LashesGallery";
+import Gallery from "../components/galleries/Gallery";
 
 const Lashes = () => {
   const lashesImgs = [
@@ -22,22 +22,30 @@ const Lashes = () => {
         <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
       </div>
 
-      <div className="container-services-copy">
+      <div className="container">
         <div className="container-1">
           <h1 className="mobile-title">Lashes</h1>
           <h2 className="desktop-title">Title about lashes</h2>
+          <div>
+            <p>
+              At Lacey's Beauty Bar, we know our stuff! Your lash health is the
+              most important aspect to us! We take pride in our ability to
+              customize each set to your lashes!
+            </p>
 
-          <p>
-            At Lacey's Beauty Bar, we know our stuff! Your lash health is the
-            most important aspect to us! We take pride in our ability to
-            customize each set to your lashes! We offer different styles of
-            lashes depending on what you're looking to get! We offer classic,
-            hybrid, volume and mega volume lash extensions. We offer a variety
-            of lengths and curls. We use nothing but the best products that the
-            Industry has to offer! We are patient, thorough and trained to
-            properly apply extensions. Quality care, quality products and
-            quality service are our main goals at LBB!
-          </p>
+            <p>
+              We offer different styles of lashes depending on what you're
+              looking to get! We offer classic, hybrid, volume and mega volume
+              lash extensions. We offer a variety of lengths and curls. We use
+              nothing but the best products that the Industry has to offer!
+            </p>
+
+            <p>
+              We are patient, thorough and trained to properly apply extensions.
+              Quality care, quality products and quality service are our main
+              goals at LBB!
+            </p>
+          </div>
         </div>
 
         <div className="container-2">
@@ -81,9 +89,7 @@ const Lashes = () => {
         </div>
       </div>
 
-      <div className="container-gallery">
-        <LashesGallery className="gallery" />
-      </div>
+      <Gallery class="lashes-gallery" />
     </StyledServiceContainer>
   );
 };

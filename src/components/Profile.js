@@ -2,6 +2,14 @@ import React from "react";
 import { StyledProfile } from "./styled/Profile.Styled";
 
 const Profile = (props) => {
+  const bioElements = props.bio.map((p, i) => {
+    const className = i + 1 !== props.bio.length ? "margin-btm" : "";
+    return (
+      <p className={className} key={i}>
+        {p}
+      </p>
+    );
+  });
   return (
     <StyledProfile className={props.class}>
       <div className={props.inverted ? "inverted-container row" : "row"}>
@@ -11,7 +19,7 @@ const Profile = (props) => {
 
         <div className="card box-shadow-1">
           <h2>{props.name}</h2>
-          <p>{props.bio}</p>
+          {bioElements}
         </div>
       </div>
     </StyledProfile>

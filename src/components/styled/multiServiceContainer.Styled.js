@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
-export const StyledServiceContainer = styled.main`
+export const StyledMultiServiceContainer = styled.div`
   text-align: center;
   margin: 5.5rem 0;
-
-  .container-carousel {
-    width: 100%;
-    background-color: var(--black);
-  }
 
   .container-1,
   .container-2 {
@@ -108,41 +103,14 @@ export const StyledServiceContainer = styled.main`
   /* =========================================================== */
   /* =========================================================== */
 
-  @media screen and (max-width: 950px) {
-    .container-gallery {
-      display: none;
-    }
-  }
-
   @media screen and (min-width: 950px) {
-    margin-bottom: 10rem;
-    margin-top: 16rem;
-    padding: 0 2rem;
-
-    .gallery {
-      z-index: 2;
-    }
-
-    .lashes-gallery {
-      margin-top: 5.5rem;
-    }
-
-    .brows-gallery {
-      margin-top: 9.5rem;
-    }
-
-    .skin-gallery {
-      margin-top: 6.5rem;
-    }
-
-    .container-carousel {
-      display: none;
-    }
-
+    padding: 5rem 0;
     .container {
-      margin: 0 auto;
-      position: relative;
-      max-width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 7rem;
+      max-width: 1100px;
     }
 
     .container-1,
@@ -152,12 +120,10 @@ export const StyledServiceContainer = styled.main`
 
     .container-1 {
       width: 50%;
-      min-width: 300px;
-      padding: 2rem;
-      margin: 0 2rem;
+      min-width: 460px;
+      padding: 2rem 1rem;
       position: relative;
       border-radius: 15px;
-
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -171,14 +137,12 @@ export const StyledServiceContainer = styled.main`
         display: block;
         max-width: 600px;
         border: none;
-        margin-bottom: 0.5rem;
       }
 
       p {
-        max-width: 400px;
+        max-width: 600px;
         margin: 0 auto;
         margin-bottom: 1rem;
-        line-height: 1.75rem;
       }
 
       div {
@@ -190,20 +154,22 @@ export const StyledServiceContainer = styled.main`
       margin-bottom: 1.5rem;
       h2 {
         font-size: 1rem;
-        line-height: 1.25rem;
-        margin-bottom: 0.25rem;
+        line-height: 1rem;
       }
 
       p {
         line-height: 1.75rem;
         max-width: 350px;
-        line-height: 1.15rem;
+        line-height: 1.5rem;
       }
 
       .price {
         color: var(--hot-pink);
         font-weight: 700;
         margin: 0;
+      }
+
+      .mgn-tp {
         margin-top: 0.5rem;
       }
     }
@@ -212,10 +178,6 @@ export const StyledServiceContainer = styled.main`
       max-width: 300px;
       margin-bottom: 0;
       background-color: var(--white);
-      position: absolute;
-      top: -120px;
-      right: 3rem;
-      z-index: 1;
       padding: 0 2rem;
       border-radius: 15px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -226,6 +188,24 @@ export const StyledServiceContainer = styled.main`
         display: block;
         width: 200px;
         margin: 2rem auto;
+      }
+    }
+
+    .inverse-2 {
+      order: 1;
+    }
+
+    .inverse-1 {
+      order: 2;
+    }
+
+    .spacer {
+      margin-right: 2rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+      .container-1 {
+        padding: 2rem 3rem;
       }
     }
   }

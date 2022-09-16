@@ -1,10 +1,10 @@
 import React from "react";
-import { StyledLashesGallery } from "../styled/galleries/LashesGallery.Styled";
+import { StyledGallery } from "../styled/galleries/Gallery";
 import { images } from "../../constants/images";
 
-const LashesGallery = () => {
+const Gallery = (props) => {
   return (
-    <StyledLashesGallery>
+    <StyledGallery className={props.class}>
       <div className="gallery">
         <div className="gallery-item img-1">
           <img src={images.lashesImg_1} alt="" className="img-1 box-shadow-2" />
@@ -34,8 +34,8 @@ const LashesGallery = () => {
           <img src={images.lashesImg_8} alt="" className="img-8 box-shadow-2" />
         </div>
       </div>
-    </StyledLashesGallery>
+    </StyledGallery>
   );
 };
 
-export default LashesGallery;
+export default Gallery;

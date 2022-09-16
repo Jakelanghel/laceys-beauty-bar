@@ -56,25 +56,13 @@ const DesktopMenu = (props) => {
 
         <div className="link">
           <NavLink
-            to="/tanning"
+            to="/waxing-tanning"
             onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
           >
-            Tanning
-          </NavLink>
-        </div>
-
-        <div className="link">
-          <NavLink
-            to="/waxing"
-            onClick={props.toggle}
-            className={({ isActive }) =>
-              isActive ? "active nav-link" : "nav-link"
-            }
-          >
-            Waxing
+            Waxing/Tanning
           </NavLink>
         </div>
 

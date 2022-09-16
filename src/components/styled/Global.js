@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
         --off-black: #424242;
         --translucent-black: hsl(0,0%,0%, .92);
         --grey: #6E675F;
-
+        --txt-grey: #808080;
         --hot-pink: #DB5ABA;
         --light-pink: rgba(219, 90, 186, .5);
 
@@ -36,23 +36,17 @@ const GlobalStyles = createGlobalStyle`
         display: block;
     }
 
-    h1, h2 {
-        font-size: 1.75rem;
+    h1, h2, h3 {
         color: var(--hot-pink);
-
     }
-
-    h1 {
-        line-height: 2.25rem;
-    }
-
 
     p {
-        font-size: .85rem;
-        letter-spacing: 1px;
-        line-height: 1.5rem;
-        color: var(--grey);
+        font-size: .95rem;
+        color: var(--txt-grey);
+        font-weight: 500;
     }
+
+    
 
     .box-shadow-1 {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -68,7 +62,7 @@ const GlobalStyles = createGlobalStyle`
 
 
     .container-app {
-        min-height: 100vh;
+        /* min-height: 100vh; */
         height: 100%;
         display: flex;
         flex-direction: column;
