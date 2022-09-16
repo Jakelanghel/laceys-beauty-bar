@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.js": "/laceys-beauty-bar/static/js/main.c4cb09b4.js",
+    "main.js": "/laceys-beauty-bar/static/js/main.42528f87.js",
     "static/media/logo-transparent.png": "/laceys-beauty-bar/static/media/logo-transparent.7fe811342a3bc3938b71.png",
+    "static/media/sydni.jpeg": "/laceys-beauty-bar/static/media/sydni.d68f1804da9528bd021f.jpeg",
     "static/media/shop_7.jpg": "/laceys-beauty-bar/static/media/shop_7.f8442d07e3f29e72213c.jpg",
     "static/media/shop_5.jpg": "/laceys-beauty-bar/static/media/shop_5.4498974c4656b6a8de1d.jpg",
     "static/media/shop_2.jpg": "/laceys-beauty-bar/static/media/shop_2.5e7c93184158df5c8c2e.jpg",
@@ -11,6 +12,7 @@
     "static/media/lashes_9.jpg": "/laceys-beauty-bar/static/media/lashes_9.fcad9b013545a6e7072b.jpg",
     "static/media/shop_3.jpg": "/laceys-beauty-bar/static/media/shop_3.e89cad44f6327f4228a8.jpg",
     "static/media/shop_4.jpg": "/laceys-beauty-bar/static/media/shop_4.c16b2a3e337c9d4a2567.jpg",
+    "static/media/cailyn.jpeg": "/laceys-beauty-bar/static/media/cailyn.5c16ed1763853b3bfdb6.jpeg",
     "static/media/homeImg_3.jpg": "/laceys-beauty-bar/static/media/homeImg_3.70bc78aaeef66a5c5b5d.jpg",
     "static/media/lashes_6.jpg": "/laceys-beauty-bar/static/media/lashes_6.2f5d3683c35a74b19eff.jpg",
     "static/media/lashes_1.jpg": "/laceys-beauty-bar/static/media/lashes_1.5f2a7a7f4f47e42dde47.jpg",
@@ -41,9 +43,9 @@
     "static/media/arrow-left.svg": "/laceys-beauty-bar/static/media/arrow-left.0ef3b248a596a98267ba701bd11f81f0.svg",
     "static/media/arrow-right.svg": "/laceys-beauty-bar/static/media/arrow-right.ec6273c120cd8b8e1a9ad4ab8a9d118f.svg",
     "static/media/facebook-icon.svg": "/laceys-beauty-bar/static/media/facebook-icon.8adca75361b744d17bbeb17b9c804d9d.svg",
-    "main.c4cb09b4.js.map": "/laceys-beauty-bar/static/js/main.c4cb09b4.js.map"
+    "main.42528f87.js.map": "/laceys-beauty-bar/static/js/main.42528f87.js.map"
   },
   "entrypoints": [
-    "static/js/main.c4cb09b4.js"
+    "static/js/main.42528f87.js"
   ]
 }
