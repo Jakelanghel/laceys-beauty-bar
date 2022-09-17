@@ -22,7 +22,7 @@ const Home = () => {
         <div className="container-hero-img">
           <img src={images.logoWhite} alt="logo" />
         </div>
-        <div className="container">
+        <div className="container-hero-copy">
           <div className="container-contact">
             <a
               href="https://www.google.com/maps/dir/40.8925342,-80.3422202/lacey's+beauty+bar/@40.8239872,-80.3962792,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x883471311d06923b:0xcfa671488a4d69dd!2m2!1d-80.3191563!2d40.7554826"
@@ -35,7 +35,7 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="container-copy">
+          <div className="container-hero-slogan">
             <p>
               Premium <span>services</span>
             </p>

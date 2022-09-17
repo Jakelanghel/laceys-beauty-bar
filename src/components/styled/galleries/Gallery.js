@@ -58,11 +58,11 @@ export const StyledGallery = styled.div`
     opacity: 0.8;
   }
 
-  /* @media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     display: none;
 
     .brows-gallery {
       margin-top: 50rem;
     }
-  } */
+  }
 `;

@@ -4,13 +4,14 @@ export const StyledMultiServiceContainer = styled.div`
   text-align: center;
   margin: 5.5rem 0;
 
-  .container-1,
-  .container-2 {
-    border-bottom: solid 2px var(--hot-pink);
-  }
-
   .container-1 {
-    padding: 1.5rem 2rem;
+    .container-copy {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 2rem 1rem;
+      padding: 3rem 1rem;
+      border-radius: 15px;
+      max-width: 450px;
+    }
 
     div {
       margin-top: 1rem;
@@ -28,10 +29,6 @@ export const StyledMultiServiceContainer = styled.div`
     }
   }
 
-  .mobile-title {
-    max-width: 170px;
-  }
-
   .desktop-title {
     display: none;
   }
@@ -42,6 +39,11 @@ export const StyledMultiServiceContainer = styled.div`
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
     border-top: solid 2px var(--hot-pink);
+  }
+
+  .mobile-title {
+    max-width: 170px;
+    margin-bottom: 1rem;
   }
 
   .container-service {
@@ -61,13 +63,6 @@ export const StyledMultiServiceContainer = styled.div`
 
     p {
       font-size: 0.8rem;
-    }
-
-    .price {
-      font-size: 1rem;
-      color: var(--hot-pink);
-      font-weight: 700;
-      margin-top: 0.25rem;
     }
 
     span {
@@ -92,6 +87,13 @@ export const StyledMultiServiceContainer = styled.div`
     }
   }
 
+  .price {
+    font-size: 1rem;
+    color: var(--hot-pink);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
   h3 {
     font-size: 0.75rem;
     font-weight: 500;
@@ -105,12 +107,15 @@ export const StyledMultiServiceContainer = styled.div`
 
   @media screen and (min-width: 950px) {
     padding: 5rem 0;
+    width: 100%;
+    padding: 5rem;
     .container {
+      width: 100%;
+      max-width: 900px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 7rem;
-      max-width: 1100px;
+      margin: 0 auto;
     }
 
     .container-1,
@@ -119,15 +124,9 @@ export const StyledMultiServiceContainer = styled.div`
     }
 
     .container-1 {
-      width: 50%;
-      min-width: 460px;
-      padding: 2rem 1rem;
-      position: relative;
-      border-radius: 15px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
+      .container-copy {
+        padding: 3rem;
+      }
       .mobile-title {
         display: none;
       }
@@ -191,6 +190,10 @@ export const StyledMultiServiceContainer = styled.div`
       }
     }
 
+    .tanning {
+      padding-bottom: 1rem;
+    }
+
     .inverse-2 {
       order: 1;
     }
@@ -201,12 +204,6 @@ export const StyledMultiServiceContainer = styled.div`
 
     .spacer {
       margin-right: 2rem;
-    }
-
-    @media screen and (min-width: 1000px) {
-      .container-1 {
-        padding: 2rem 3rem;
-      }
     }
   }
 `;

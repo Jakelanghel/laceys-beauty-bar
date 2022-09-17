@@ -9,13 +9,14 @@ export const StyledServiceContainer = styled.main`
     background-color: var(--black);
   }
 
-  .container-1,
-  .container-2 {
-    border-bottom: solid 2px var(--hot-pink);
-  }
-
   .container-1 {
-    padding: 1.5rem 2rem;
+    .container-copy {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 2rem 1rem;
+      padding: 3rem 1rem;
+      border-radius: 15px;
+      max-width: 450px;
+    }
 
     div {
       margin-top: 1rem;
@@ -46,7 +47,6 @@ export const StyledServiceContainer = styled.main`
     font-weight: 700;
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
-    border-top: solid 2px var(--hot-pink);
   }
 
   .container-service {
@@ -66,6 +66,8 @@ export const StyledServiceContainer = styled.main`
 
     p {
       font-size: 0.8rem;
+      max-width: 300px;
+      margin: 0 auto;
     }
 
     .price {
@@ -80,6 +82,7 @@ export const StyledServiceContainer = styled.main`
     }
 
     ul {
+      max-width: 300px;
       color: var(--txt-grey);
       margin: 0 auto;
       margin-top: 0.5rem;
@@ -117,22 +120,22 @@ export const StyledServiceContainer = styled.main`
   @media screen and (min-width: 950px) {
     margin-bottom: 10rem;
     margin-top: 16rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
 
     .gallery {
       z-index: 2;
     }
 
     .lashes-gallery {
-      margin-top: 5.5rem;
+      margin-top: 3rem;
     }
 
     .brows-gallery {
-      margin-top: 9.5rem;
+      margin-top: 7rem;
     }
 
     .skin-gallery {
-      margin-top: 6.5rem;
+      margin-top: 4rem;
     }
 
     .container-carousel {
@@ -150,7 +153,7 @@ export const StyledServiceContainer = styled.main`
       border: none;
     }
 
-    .container-1 {
+    .container-copy {
       width: 50%;
       min-width: 300px;
       padding: 2rem;

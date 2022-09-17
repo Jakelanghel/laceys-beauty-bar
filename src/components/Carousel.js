@@ -21,8 +21,6 @@ const Carousel = (props) => {
     }
   };
 
-  // console.log(props.imgArr);
-
   return (
     <StyledCarousel>
       <div className={props.carouselClassName}>

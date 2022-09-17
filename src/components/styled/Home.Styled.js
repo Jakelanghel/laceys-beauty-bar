@@ -7,6 +7,10 @@ export const StyledHome = styled.div`
   margin: 6rem 0;
   margin-bottom: 3rem;
 
+  /* ================================================================= */
+  /* HERO========================================================= */
+  /* ================================================================= */
+
   .hero {
     max-width: 500px;
     display: flex;
@@ -39,7 +43,7 @@ export const StyledHome = styled.div`
     }
   }
 
-  .container-copy {
+  .container-hero-slogan {
     text-align: center;
     margin: 1rem 0;
     letter-spacing: 2px;
@@ -113,7 +117,7 @@ export const StyledHome = styled.div`
         }
       }
 
-      .container {
+      .container-hero-copy {
         width: 42%;
         max-width: 400px;
         margin-left: 3rem;
@@ -134,7 +138,7 @@ export const StyledHome = styled.div`
       }
     }
 
-    .container-copy {
+    .container-hero-slogan {
       text-align: left;
 
       p {
@@ -145,7 +149,8 @@ export const StyledHome = styled.div`
     .cta {
       margin-top: 1.5rem;
       a {
-        /* margin: 0; */
+        margin: 0;
+        border-radius: 10px;
       }
     }
   }

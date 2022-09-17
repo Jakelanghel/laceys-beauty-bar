@@ -21,7 +21,7 @@ const About = () => {
   ];
 
   const laceysBio = [
-    `               Hello everyone, my name is Lacey and I'm the owner of the beauty
+    `Hello everyone, my name is Lacey and I'm the owner of the beauty
                     bar. I recently opened the shop in December of 2021 and I've been
                     practicing the trade for 4 years. I studied the Esthetics course
                     at North Hills Beauty Academy and obtained my Esthetician License.

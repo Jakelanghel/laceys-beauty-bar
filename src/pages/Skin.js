@@ -23,18 +23,22 @@ const Skin = () => {
       </div>
       <div className="container">
         <div className="container-1">
-          <h1 className="mobile-title">Skin</h1>
-          <h2 className="desktop-title">Title about your skin</h2>
+          <div className="container-copy">
+            <h1 className="mobile-title">Skin</h1>
+            <h2 className="desktop-title">Title about your skin</h2>
 
-          <p>
-            At Lacey's Beauty Bar, we offer top tier services using some of the
-            Industry's leading brands and products. We offer a variety of
-            facials using Farmhouse Fresh Products and Esthemax hydro jelly
-            masks. We have facials formulated for all skin types. Our facial
-            services include a mini massage focusing on your neck, décolleté,
-            arms and hands. We look forward to enhancing your natural beauty and
-            helping to perfect your skin!
-          </p>
+            <div>
+              <p>
+                At Lacey's Beauty Bar, we offer top tier services using some of
+                the Industry's leading brands and products. We offer a variety
+                of facials using Farmhouse Fresh Products and Esthemax hydro
+                jelly masks. We have facials formulated for all skin types. Our
+                facial services include a mini massage focusing on your neck,
+                décolleté, arms and hands. We look forward to enhancing your
+                natural beauty and helping to perfect your skin!
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="container-2">
@@ -43,9 +47,6 @@ const Skin = () => {
           <div className="container-service">
             <h2>One hour facial </h2>
             <h3>(with mini massage)</h3>
-            {/* <p className="description">
-              Customize your facial with farmhouse fresh & Esthemax products.
-            </p> */}
             <ul>
               <div className="left">
                 <li>Charcoal Blemish Control</li>

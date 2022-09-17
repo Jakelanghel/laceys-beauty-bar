@@ -2,14 +2,8 @@ import styled from "styled-components";
 import { images } from "../../constants/images";
 
 export const StyledProfile = styled.div`
-  margin: 5rem 0;
-
-  .box-shadow-1 {
-    box-shadow: none;
-  }
-  .box-shadow-2 {
-    box-shadow: none;
-  }
+  max-width: 1200px;
+  margin: 5rem auto;
 
   .img-container {
     display: flex;
@@ -19,20 +13,30 @@ export const StyledProfile = styled.div`
     padding: 3rem 0.5rem;
   }
 
-  .profile-img {
-    width: 90%;
-    max-width: 355px;
-    max-height: 400px;
+  .img-bkg {
+    background-color: var(--off-black);
     border-radius: 50%;
-    object-fit: cover;
   }
 
-  .card {
+  .profile-img {
+    width: 100%;
+    height: 400px;
+    min-width: 340px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.8;
+    margin: 0 auto;
+  }
+
+  .container-card {
     max-width: 500px;
-    padding: 2rem 1rem;
-    margin: 2.5rem auto;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3.5rem 1rem;
+
+    .card {
+      padding: 2rem 1rem;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
 
     h2 {
       letter-spacing: 1px;
@@ -96,7 +100,7 @@ export const StyledProfile = styled.div`
       object-fit: cover;
     }
 
-    .card {
+    .container-card {
       width: 47%;
       max-width: 450px;
       display: flex;
