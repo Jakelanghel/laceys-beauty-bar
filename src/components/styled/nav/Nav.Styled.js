@@ -8,6 +8,7 @@ export const StyledNav = styled.nav`
   align-items: center;
   padding: 1rem 1.5rem;
   z-index: 2;
+  background-color: transparent;
 
   .desktop {
     display: none;

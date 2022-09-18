@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { images } from "../../constants/images";
 
 export const StyledMultiServiceContainer = styled.div`
   text-align: center;
@@ -106,9 +107,11 @@ export const StyledMultiServiceContainer = styled.div`
   /* =========================================================== */
 
   @media screen and (min-width: 950px) {
-    padding: 5rem 0;
+    padding: 7rem 4rem;
+    margin: 0;
     width: 100%;
-    padding: 5rem;
+    background-image: url(${images.flowerBg});
+
     .container {
       width: 100%;
       max-width: 900px;
@@ -126,6 +129,7 @@ export const StyledMultiServiceContainer = styled.div`
     .container-1 {
       .container-copy {
         padding: 3rem;
+        background-color: var(--white);
       }
       .mobile-title {
         display: none;

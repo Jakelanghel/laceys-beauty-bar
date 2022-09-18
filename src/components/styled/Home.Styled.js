@@ -6,6 +6,7 @@ export const StyledHome = styled.div`
   z-index: 0;
   margin: 6rem 0;
   margin-bottom: 3rem;
+  background-color: var(--white);
 
   /* ================================================================= */
   /* HERO========================================================= */
@@ -94,26 +95,24 @@ export const StyledHome = styled.div`
   }
 
   @media screen and (min-width: 950px) {
-    max-width: 1500px;
     margin: 8rem 0;
     padding: 0 1rem;
 
     .hero {
       width: 100%;
+      max-width: 1200px;
       flex-direction: row;
-      max-width: none;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      margin: 0;
-      padding: 3rem 0;
+      margin: 0 auto;
+      padding: 4rem 2rem;
 
       .container-hero-img {
         width: 45%;
 
         img {
           margin: 0 auto;
-          min-width: 450px;
-          /* max-width: 550px; */
+          width: 450px;
         }
       }
 
@@ -142,7 +141,7 @@ export const StyledHome = styled.div`
       text-align: left;
 
       p {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
       }
     }
 
@@ -151,6 +150,22 @@ export const StyledHome = styled.div`
       a {
         margin: 0;
         border-radius: 10px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .hero {
+      padding: 4rem 4rem;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .hero {
+      .container-hero-img {
+        img {
+          width: 550px;
+        }
       }
     }
   }

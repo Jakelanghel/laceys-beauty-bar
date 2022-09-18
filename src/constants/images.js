@@ -12,7 +12,10 @@ import arrowLeft from "../assets/arrow-left.svg";
 import logoWhite from "../assets/logo-white.jpg";
 import logo from "../assets/logo-transparent.png";
 import pinkBg from "../assets/bg_pinkDots.webp";
+import whiteBg from "../assets/pipes.webp";
 import flowersBg from "../assets/bg_flowers.png";
+import dotsBg from "../assets/light-grey-terrazzo.webp";
+import flowerBg from "../assets/asanoha-400px.png";
 
 import imgLacey from "../assets/lacey.jpg";
 import imgSyndi from "../assets/sydni.jpeg";
@@ -62,6 +65,9 @@ const images = {
   arrowRight,
   arrowLeft,
   pinkBg,
+  whiteBg,
+  dotsBg,
+  flowerBg,
   flowersBg,
   shopImg_1,
   shopImg_2,

@@ -34,6 +34,7 @@ export const StyledFooter = styled.footer`
   @media screen and (min-width: 900px) {
     padding: 0 1rem;
     padding-top: 1rem;
+    background-color: var(--white);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,

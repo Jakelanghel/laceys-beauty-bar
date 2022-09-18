@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { images } from "../../constants/images";
 
 export const StyledServiceContainer = styled.main`
   text-align: center;
@@ -118,9 +119,11 @@ export const StyledServiceContainer = styled.main`
   }
 
   @media screen and (min-width: 950px) {
+    width: 100%;
     margin-bottom: 10rem;
-    margin-top: 16rem;
-    padding: 0 4rem;
+    margin: 0;
+    padding: 12rem 4rem;
+    background-image: url(${images.flowerBg});
 
     .gallery {
       z-index: 2;
@@ -160,6 +163,7 @@ export const StyledServiceContainer = styled.main`
       margin: 0 2rem;
       position: relative;
       border-radius: 15px;
+      background-color: var(--white);
 
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
