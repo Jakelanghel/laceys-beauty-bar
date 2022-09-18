@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/laceys-beauty-bar/static/js/main.169362ed.js",
+    "main.js": "/laceys-beauty-bar/static/js/main.cbd28505.js",
     "static/media/logo-transparent.png": "/laceys-beauty-bar/static/media/logo-transparent.7fe811342a3bc3938b71.png",
     "static/media/sydni.jpeg": "/laceys-beauty-bar/static/media/sydni.d68f1804da9528bd021f.jpeg",
     "static/media/shop_7.jpg": "/laceys-beauty-bar/static/media/shop_7.f8442d07e3f29e72213c.jpg",
@@ -34,6 +34,9 @@
     "static/media/bg_flowers.png": "/laceys-beauty-bar/static/media/bg_flowers.481cdea2bf2e2765556f.png",
     "static/media/mascara.png": "/laceys-beauty-bar/static/media/mascara.8da780929598c9e5566e.png",
     "static/media/bg_pinkDots.webp": "/laceys-beauty-bar/static/media/bg_pinkDots.f544d66bb560361e8456.webp",
+    "static/media/asanoha-400px.png": "/laceys-beauty-bar/static/media/asanoha-400px.1780caf752a9b9870fa1.png",
+    "static/media/light-grey-terrazzo.webp": "/laceys-beauty-bar/static/media/light-grey-terrazzo.652aceb4ef586fc00464.webp",
+    "static/media/pipes.webp": "/laceys-beauty-bar/static/media/pipes.e1bc9a06e85e72cf8108.webp",
     "static/media/instagram-icon.svg": "/laceys-beauty-bar/static/media/instagram-icon.813fd06b51b26e101fbbdde32e64af13.svg",
     "static/media/heart-icon.svg": "/laceys-beauty-bar/static/media/heart-icon.6d06655ea6c752bd88512e51340ec81c.svg",
     "index.html": "/laceys-beauty-bar/index.html",
@@ -43,9 +46,9 @@
     "static/media/arrow-left.svg": "/laceys-beauty-bar/static/media/arrow-left.0ef3b248a596a98267ba701bd11f81f0.svg",
     "static/media/arrow-right.svg": "/laceys-beauty-bar/static/media/arrow-right.ec6273c120cd8b8e1a9ad4ab8a9d118f.svg",
     "static/media/facebook-icon.svg": "/laceys-beauty-bar/static/media/facebook-icon.8adca75361b744d17bbeb17b9c804d9d.svg",
-    "main.169362ed.js.map": "/laceys-beauty-bar/static/js/main.169362ed.js.map"
+    "main.cbd28505.js.map": "/laceys-beauty-bar/static/js/main.cbd28505.js.map"
   },
   "entrypoints": [
-    "static/js/main.169362ed.js"
+    "static/js/main.cbd28505.js"
   ]
 }
