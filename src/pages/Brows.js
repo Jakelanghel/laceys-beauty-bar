@@ -29,10 +29,10 @@ const Brows = () => {
             <h2 className="desktop-title">Title about your brows</h2>
             <div>
               <p>
-                Eyebrows" for the text "At Lacey's Beauty Bar, we specialize in
-                eyebrow shaping. We're very precise and detail oriented when
-                deciding on a shape that best suits your face. We offer a number
-                of services for your brows.
+                At Lacey's Beauty Bar, we specialize in eyebrow shaping. We're
+                very precise and detail oriented when deciding on a shape that
+                best suits your face. We offer a number of services for your
+                brows.
               </p>
             </div>
           </div>
