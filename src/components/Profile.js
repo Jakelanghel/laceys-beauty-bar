@@ -14,9 +14,7 @@ const Profile = (props) => {
     <StyledProfile className={props.class}>
       <div className={props.inverted ? "inverted-container row" : "row"}>
         <div className="img-container box-shadow-1">
-          <div className="img-bkg">
-            <img src={props.img} alt="lacey dean" className="profile-img" />
-          </div>
+          <img src={props.img} alt="lacey dean" className="profile-img" />
         </div>
 
         <div className="container-card">

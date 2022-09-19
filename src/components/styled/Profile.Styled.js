@@ -13,18 +13,12 @@ export const StyledProfile = styled.div`
     padding: 3rem 0.5rem;
   }
 
-  .img-bkg {
-    background-color: var(--off-black);
-    border-radius: 50%;
-  }
-
   .profile-img {
-    width: 100%;
+    width: 90%;
     height: 400px;
     min-width: 340px;
     border-radius: 50%;
     object-fit: cover;
-    opacity: 0.8;
     margin: 0 auto;
   }
 
