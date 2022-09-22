@@ -34,20 +34,25 @@ import homeImg_1 from "../assets/homeImg_1.jpg";
 import homeImg_2 from "../assets/homeImg_2.jpg";
 import homeImg_3 from "../assets/homeImg_3.jpg";
 import homeImg_4 from "../assets/homeImg_4.jpg";
-import homeImg_5 from "../assets/homeImg_5.jpg";
 import homeImg_6 from "../assets/homeImg_6.jpg";
 import homeImg_7 from "../assets/homeImg_7.jpeg";
 import homeImg_8 from "../assets/homeImg_8.jpg";
 
-import lashesImg_1 from "../assets/lashes_1.jpg";
-import lashesImg_2 from "../assets/lashes_2.jpg";
-import lashesImg_3 from "../assets/lashes_3.jpg";
-import lashesImg_4 from "../assets/lashes_4.jpg";
-import lashesImg_5 from "../assets/lashes_5.jpg";
-import lashesImg_6 from "../assets/lashes_6.jpg";
-import lashesImg_7 from "../assets/lashes_7.jpg";
-import lashesImg_8 from "../assets/lashes_8.jpg";
-import lashesImg_9 from "../assets/lashes_9.jpg";
+import lashesImg_1 from "../assets/lashes/lashes_1.jpg";
+import lashesImg_2 from "../assets/lashes/lashes_2.jpg";
+import lashesImg_3 from "../assets/lashes/lashes_3.jpg";
+import lashesImg_4 from "../assets/lashes/lashes_4.jpg";
+import lashesImg_5 from "../assets/lashes/lashes_5.jpg";
+import lashesImg_6 from "../assets/lashes/lashes_6.jpg";
+import lashesImg_7 from "../assets/lashes/lashes_7.jpg";
+
+import browsImg_1 from "../assets/brows/brows_1.jpg";
+import browsImg_2 from "../assets/brows/brows_2.jpg";
+import browsImg_3 from "../assets/brows/brows_3.jpg";
+import browsImg_4 from "../assets/brows/brows_4.jpg";
+import browsImg_5 from "../assets/brows/brows_5.jpg";
+import browsImg_6 from "../assets/brows/brows_6.jpg";
+import browsImg_7 from "../assets/brows/brows_7.jpg";
 
 const images = {
   menuIcon,
@@ -81,7 +86,6 @@ const images = {
   homeImg_2,
   homeImg_3,
   homeImg_4,
-  homeImg_5,
   homeImg_6,
   homeImg_7,
   homeImg_8,
@@ -92,8 +96,13 @@ const images = {
   lashesImg_5,
   lashesImg_6,
   lashesImg_7,
-  lashesImg_8,
-  lashesImg_9,
+  browsImg_1,
+  browsImg_2,
+  browsImg_3,
+  browsImg_4,
+  browsImg_5,
+  browsImg_6,
+  browsImg_7,
 };
 
 export { images };

@@ -6,14 +6,13 @@ import Gallery from "../components/galleries/Gallery";
 
 const Brows = () => {
   const lashesImgs = [
-    images.lashesImg_1,
-    images.lashesImg_2,
-    images.lashesImg_3,
-    images.lashesImg_4,
-    images.lashesImg_5,
-    images.lashesImg_6,
-    images.lashesImg_8,
-    images.lashesImg_9,
+    images.browsImg_1,
+    images.browsImg_2,
+    images.browsImg_3,
+    images.browsImg_4,
+    images.browsImg_5,
+    images.browsImg_6,
+    images.browsImg_7,
   ];
 
   return (
@@ -67,7 +66,7 @@ const Brows = () => {
         </div>
       </div>
 
-      <Gallery class="brows-gallery" />
+      <Gallery class="brows-gallery" imgs={lashesImgs} />
     </StyledServiceContainer>
   );
 };

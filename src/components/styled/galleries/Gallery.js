@@ -11,8 +11,8 @@ export const StyledGallery = styled.div`
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 200px 250px;
     grid-template-areas:
-      "img6 img6 img1 img1 img1 img3 img3 img8 img8 img8 img5 img5"
-      "img6 img6 img2 img2 img2 img3 img3 img7 img7 img7 img7 img7";
+      "img1 img1 img2 img2 img2 img4 img4 img5 img5 img5 img7 img7"
+      "img1 img1 img3 img3 img3 img4 img4 img6 img6 img6 img6 img6";
   }
 
   .img-1 {
@@ -35,9 +35,6 @@ export const StyledGallery = styled.div`
   }
   .img-7 {
     grid-area: img7;
-  }
-  .img-8 {
-    grid-area: img8;
   }
 
   .gallery-item {

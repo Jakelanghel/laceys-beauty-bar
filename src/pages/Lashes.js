@@ -12,8 +12,7 @@ const Lashes = () => {
     images.lashesImg_4,
     images.lashesImg_5,
     images.lashesImg_6,
-    images.lashesImg_8,
-    images.lashesImg_9,
+    images.lashesImg_7,
   ];
 
   return (
@@ -91,7 +90,7 @@ const Lashes = () => {
         </div>
       </div>
 
-      <Gallery class="lashes-gallery" />
+      <Gallery class="lashes-gallery" imgs={lashesImgs} />
     </StyledServiceContainer>
   );
 };
