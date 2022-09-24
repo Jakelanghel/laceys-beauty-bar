@@ -15,6 +15,9 @@ export const StyledGallery = styled.div`
       "img1 img1 img3 img3 img3 img4 img4 img6 img6 img6 img6 img6";
   }
 
+  @media screen and (min-width: 1000px) {
+  }
+
   .img-1 {
     grid-area: img1;
   }
@@ -47,12 +50,16 @@ export const StyledGallery = styled.div`
     width: 100%;
     object-fit: cover;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 5px;
   }
 
   img:hover {
-    opacity: 0.8;
+    opacity: 1;
+  }
+
+  .skin-img-1 {
+    object-fit: none;
   }
 
   @media screen and (max-width: 900px) {

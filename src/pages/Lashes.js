@@ -24,8 +24,7 @@ const Lashes = () => {
       <div className="container">
         <div className="container-1">
           <div className="container-copy">
-            <h1 className="mobile-title">Lashes</h1>
-            <h2 className="desktop-title">Title about lashes</h2>
+            <h1 className="title">Lashes</h1>
             <div>
               <p>
                 At Lacey's Beauty Bar, we know our stuff! Your lash health is
@@ -54,7 +53,7 @@ const Lashes = () => {
           <div className="container-service">
             <h2>Full set of eyelash extensions</h2>
             <p className="description">Classic, Hybrid, Volume, Mega Volume</p>
-            <p className="price">$130 - $150</p>
+            <p className="price">$140 - $170</p>
           </div>
 
           <div className="container-service">
@@ -63,7 +62,7 @@ const Lashes = () => {
             </h2>
             <p className="description">18 & Under</p>
 
-            <p className="price">$120</p>
+            <p className="price">$130</p>
           </div>
 
           <div className="container-service">
@@ -85,7 +84,7 @@ const Lashes = () => {
             <p className="description">
               Give your natural lashes the perfect curl
             </p>
-            <p className="price">$40</p>
+            <p className="price">$50</p>
           </div>
         </div>
       </div>

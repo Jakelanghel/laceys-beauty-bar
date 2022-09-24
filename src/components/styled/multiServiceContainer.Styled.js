@@ -30,21 +30,11 @@ export const StyledMultiServiceContainer = styled.div`
     }
   }
 
-  .desktop-title {
-    display: none;
-  }
-
-  .mobile-title,
-  .desktop-title {
+  .title {
+    max-width: 170px;
     font-weight: 700;
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
-    border-top: solid 2px var(--hot-pink);
-  }
-
-  .mobile-title {
-    max-width: 170px;
-    margin-bottom: 1rem;
   }
 
   .container-service {
@@ -131,15 +121,13 @@ export const StyledMultiServiceContainer = styled.div`
         padding: 3rem;
         background-color: var(--white);
       }
-      .mobile-title {
-        display: none;
-      }
 
-      .desktop-title {
-        font-size: 1.75rem;
+      .title {
+        font-size: 2.5rem;
         display: block;
         max-width: 600px;
         border: none;
+        margin-bottom: 0.5rem;
       }
 
       p {

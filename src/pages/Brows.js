@@ -24,8 +24,7 @@ const Brows = () => {
       <div className="container">
         <div className="container-1">
           <div className="container-copy">
-            <h1 className="mobile-title">Brows</h1>
-            <h2 className="desktop-title">Title about your brows</h2>
+            <h1 className="title">Eyebrows</h1>
             <div>
               <p>
                 At Lacey's Beauty Bar, we specialize in eyebrow shaping. We're
@@ -49,13 +48,13 @@ const Brows = () => {
           </div>
 
           <div className="container-service">
-            <h2>Eyebrow wax & tint</h2>
-            <p className="price">$30</p>
+            <h2>Eyebrow shaping & tint</h2>
+            <p className="price">$40</p>
           </div>
 
           <div className="container-service">
-            <h2>Eyebrow wax & henna</h2>
-            <p className="price">$25</p>
+            <h2>Eyebrow shaping & henna</h2>
+            <p className="price">$60</p>
           </div>
 
           <div className="container-service">

@@ -5,27 +5,25 @@ import Carousel from "../components/Carousel";
 import Gallery from "../components/galleries/Gallery";
 
 const Skin = () => {
-  const lashesImgs = [
-    images.lashesImg_1,
-    images.lashesImg_2,
-    images.lashesImg_3,
-    images.lashesImg_4,
-    images.lashesImg_5,
-    images.lashesImg_6,
-    images.lashesImg_8,
-    images.lashesImg_9,
+  const skinImgs = [
+    images.skinImg_1,
+    images.skinImg_2,
+    images.skinImg_3,
+    images.skinImg_4,
+    images.skinImg_5,
+    images.skinImg_6,
+    images.skinImg_7,
   ];
 
   return (
     <StyledServiceContainer>
       <div className="container-carousel">
-        <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
+        <Carousel imgArr={skinImgs} carouselClassName="service-carousel" />
       </div>
       <div className="container">
         <div className="container-1">
           <div className="container-copy">
-            <h1 className="mobile-title">Skin</h1>
-            <h2 className="desktop-title">Title about your skin</h2>
+            <h1 className="title">Skin</h1>
 
             <div>
               <p>
@@ -73,15 +71,23 @@ const Skin = () => {
           </div>
 
           <div className="container-service">
+            <h2>Vajacial Treatments</h2>
+            <p className="description">30 min facial</p>
+            <p className="price">$60-$100</p>
+          </div>
+
+          <div className="container-service">
             <h2>Mini facial</h2>
             <p className="description">30 min facial</p>
             <p className="price">$40</p>
           </div>
         </div>
       </div>
-      <Gallery class="skin-gallery" />
+      <Gallery class="skin-gallery" imgs={skinImgs} />
     </StyledServiceContainer>
   );
 };
 
 export default Skin;
+
+// eZEa5Wg5MFysSKy

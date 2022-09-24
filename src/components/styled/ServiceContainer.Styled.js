@@ -13,8 +13,8 @@ export const StyledServiceContainer = styled.main`
   .container-1 {
     .container-copy {
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      margin: 2rem 1rem;
-      padding: 3rem 1rem;
+      margin: 3rem 1rem;
+      padding: 2rem 1rem;
       border-radius: 15px;
       max-width: 450px;
     }
@@ -35,16 +35,8 @@ export const StyledServiceContainer = styled.main`
     }
   }
 
-  .mobile-title {
+  .title {
     max-width: 170px;
-  }
-
-  .desktop-title {
-    display: none;
-  }
-
-  .mobile-title,
-  .desktop-title {
     font-weight: 700;
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
@@ -122,7 +114,7 @@ export const StyledServiceContainer = styled.main`
     width: 100%;
     margin-bottom: 10rem;
     margin: 0;
-    padding: 12rem 4rem;
+    padding: 12rem 2rem;
     background-image: url(${images.flowerBg});
 
     .gallery {
@@ -138,7 +130,7 @@ export const StyledServiceContainer = styled.main`
     }
 
     .skin-gallery {
-      margin-top: 4rem;
+      margin-top: 9rem;
     }
 
     .container-carousel {
@@ -149,6 +141,7 @@ export const StyledServiceContainer = styled.main`
       margin: 0 auto;
       position: relative;
       max-width: 1000px;
+      padding: 0 2rem;
     }
 
     .container-1,
@@ -169,12 +162,8 @@ export const StyledServiceContainer = styled.main`
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
-      .mobile-title {
-        display: none;
-      }
-
-      .desktop-title {
-        font-size: 1.75rem;
+      .title {
+        font-size: 2.5rem;
         display: block;
         max-width: 600px;
         border: none;

@@ -54,6 +54,14 @@ import browsImg_5 from "../assets/brows/brows_5.jpg";
 import browsImg_6 from "../assets/brows/brows_6.jpg";
 import browsImg_7 from "../assets/brows/brows_7.jpg";
 
+import skinImg_1 from "../assets/skin/skin_1.jpg";
+import skinImg_2 from "../assets/skin/skin_2.jpg";
+import skinImg_3 from "../assets/skin/skin_3.jpg";
+import skinImg_4 from "../assets/skin/skin_4.jpg";
+import skinImg_5 from "../assets/skin/skin_5.jpg";
+import skinImg_6 from "../assets/skin/skin_6.jpg";
+import skinImg_7 from "../assets/skin/skin_7.jpg";
+
 const images = {
   menuIcon,
   instagramIcon,
@@ -103,6 +111,13 @@ const images = {
   browsImg_5,
   browsImg_6,
   browsImg_7,
+  skinImg_1,
+  skinImg_2,
+  skinImg_3,
+  skinImg_4,
+  skinImg_5,
+  skinImg_6,
+  skinImg_7,
 };
 
 export { images };

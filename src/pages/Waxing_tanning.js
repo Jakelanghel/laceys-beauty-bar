@@ -8,8 +8,7 @@ const WaxingAndTanning = () => {
       <div className="container ">
         <div className="container-1 spacer">
           <div className="container-copy">
-            <h1 className="mobile-title">Waxing</h1>
-            <h2 className="desktop-title">Title about waxing</h2>
+            <h1 className="title">Waxing</h1>
 
             <div>
               <p>
@@ -27,17 +26,17 @@ const WaxingAndTanning = () => {
           <div className="container-services">
             <div className="container-service">
               <h2>Brazilian Wax</h2>
-              <p className="price mgn-tp">$70</p>
+              <p className="price mgn-tp">$80</p>
+            </div>
+
+            <div className="container-service">
+              <h2>Bikini Wax</h2>
+              <p className="price mgn-tp">$50</p>
             </div>
 
             <div className="container-service">
               <h2>Leg Wax</h2>
               <p className="price mgn-tp">$50</p>
-            </div>
-
-            <div className="container-service">
-              <h2>Bikini Wax</h2>
-              <p className="price mgn-tp">$40</p>
             </div>
 
             <div className="container-service">
@@ -57,8 +56,7 @@ const WaxingAndTanning = () => {
       <div className="container">
         <div className="container-1 inverse-1 waxing">
           <div className="container-copy">
-            <h1 className="mobile-title">Tanning</h1>
-            <h2 className="desktop-title">Heat-Infused Spray Tanning </h2>
+            <h1 className="title">Tanning</h1>
 
             <div>
               <p>
