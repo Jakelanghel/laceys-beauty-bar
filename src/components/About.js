@@ -4,6 +4,7 @@ import { StyledAbout } from "./styled/About.Styled";
 import Profile from "./Profile";
 const About = () => {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
+  const [windowWidth, setWindowWidth] = useState();
 
   const showInfo = () => {
     setShowMoreInfo((oldState) => !oldState);
@@ -53,21 +54,21 @@ const About = () => {
     <StyledAbout>
       <Profile
         img={images.imgLacey}
-        name={"Lacey"}
+        name="lacey"
         bio={laceysBio}
         inverted={false}
       />
 
       <Profile
         img={images.imgCailyn}
-        name="Cailyn"
+        name="cailyn"
         bio={cailynBio}
         inverted={true}
       />
 
       <Profile
         img={images.imgSyndi}
-        name="Sydni"
+        name="sydni"
         bio={sydniBio}
         inverted={false}
       />

@@ -5,7 +5,7 @@ import Carousel from "../components/Carousel";
 import Gallery from "../components/galleries/Gallery";
 
 const Brows = () => {
-  const lashesImgs = [
+  const desktopBrowsArr = [
     images.browsImg_1,
     images.browsImg_2,
     images.browsImg_3,
@@ -14,11 +14,23 @@ const Brows = () => {
     images.browsImg_6,
     images.browsImg_7,
   ];
+  const mobileBrowsArr = [
+    images.mobileBrowsImg_1,
+    images.browsImg_2,
+    images.browsImg_3,
+    images.browsImg_4,
+    images.browsImg_5,
+    images.mobileBrowsImg_6,
+    images.browsImg_7,
+  ];
 
   return (
     <StyledServiceContainer>
       <div className="container-carousel">
-        <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
+        <Carousel
+          imgArr={mobileBrowsArr}
+          carouselClassName="service-carousel"
+        />
       </div>
 
       <div className="container">
@@ -65,7 +77,7 @@ const Brows = () => {
         </div>
       </div>
 
-      <Gallery class="brows-gallery" imgs={lashesImgs} />
+      <Gallery class="brows-gallery" imgs={desktopBrowsArr} />
     </StyledServiceContainer>
   );
 };

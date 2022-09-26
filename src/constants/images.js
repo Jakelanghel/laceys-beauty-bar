@@ -17,7 +17,7 @@ import flowersBg from "../assets/bg_flowers.png";
 import dotsBg from "../assets/light-grey-terrazzo.webp";
 import flowerBg from "../assets/asanoha-400px.png";
 
-import imgLacey from "../assets/lacey.jpg";
+import imgLacey from "../assets/profile/lacey.jpg";
 import imgSyndi from "../assets/sydni.jpeg";
 import imgCailyn from "../assets/cailyn.jpeg";
 
@@ -46,6 +46,14 @@ import lashesImg_5 from "../assets/lashes/lashes_5.jpg";
 import lashesImg_6 from "../assets/lashes/lashes_6.jpg";
 import lashesImg_7 from "../assets/lashes/lashes_7.jpg";
 
+import mobileLashesImg_1 from "../assets/lashes/mobile_lashes_1.jpg";
+import mobileLashesImg_2 from "../assets/lashes/mobile_lashes_2.jpg";
+import mobileLashesImg_3 from "../assets/lashes/mobile_lashes_3.jpg";
+import mobileLashesImg_4 from "../assets/lashes/mobile_lashes_4.jpg";
+import mobileLashesImg_5 from "../assets/lashes/mobile_lashes_5.jpg";
+import mobileLashesImg_6 from "../assets/lashes/mobile_lashes_6.jpg";
+import mobileLashesImg_7 from "../assets/lashes/mobile_lashes_7.jpg";
+
 import browsImg_1 from "../assets/brows/brows_1.jpg";
 import browsImg_2 from "../assets/brows/brows_2.jpg";
 import browsImg_3 from "../assets/brows/brows_3.jpg";
@@ -53,6 +61,9 @@ import browsImg_4 from "../assets/brows/brows_4.jpg";
 import browsImg_5 from "../assets/brows/brows_5.jpg";
 import browsImg_6 from "../assets/brows/brows_6.jpg";
 import browsImg_7 from "../assets/brows/brows_7.jpg";
+
+import mobileBrowsImg_1 from "../assets/brows/mobile_brows_1.jpg";
+import mobileBrowsImg_6 from "../assets/brows/mobile_brows_6.jpg";
 
 import skinImg_1 from "../assets/skin/skin_1.jpg";
 import skinImg_2 from "../assets/skin/skin_2.jpg";
@@ -63,6 +74,7 @@ import skinImg_6 from "../assets/skin/skin_6.jpg";
 import skinImg_7 from "../assets/skin/skin_7.jpg";
 
 const images = {
+  // ICONS
   menuIcon,
   instagramIcon,
   facebookIcon,
@@ -70,18 +82,26 @@ const images = {
   locationIcon,
   heartIcon,
   eyeIcon,
-  imgLacey,
-  imgSyndi,
-  imgCailyn,
-  logoWhite,
-  logo,
   arrowRight,
   arrowLeft,
+
+  // BACKGROUND
   pinkBg,
   whiteBg,
   dotsBg,
   flowerBg,
   flowersBg,
+
+  // LOGO
+  logoWhite,
+  logo,
+
+  // PROFILE IMAGES
+  imgLacey,
+  imgSyndi,
+  imgCailyn,
+
+  // HOME IMAGES
   shopImg_1,
   shopImg_2,
   shopImg_3,
@@ -97,6 +117,8 @@ const images = {
   homeImg_6,
   homeImg_7,
   homeImg_8,
+
+  // SERVICES IMAGES
   lashesImg_1,
   lashesImg_2,
   lashesImg_3,
@@ -104,6 +126,13 @@ const images = {
   lashesImg_5,
   lashesImg_6,
   lashesImg_7,
+  mobileLashesImg_1,
+  mobileLashesImg_2,
+  mobileLashesImg_3,
+  mobileLashesImg_4,
+  mobileLashesImg_5,
+  mobileLashesImg_6,
+  mobileLashesImg_7,
   browsImg_1,
   browsImg_2,
   browsImg_3,
@@ -111,6 +140,8 @@ const images = {
   browsImg_5,
   browsImg_6,
   browsImg_7,
+  mobileBrowsImg_1,
+  mobileBrowsImg_6,
   skinImg_1,
   skinImg_2,
   skinImg_3,

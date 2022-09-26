@@ -42,7 +42,8 @@ export const StyledCarousel = styled.div`
     width: 100%;
     img {
       width: 100%;
-      height: 350px;
+      max-width: 500px;
+      height: 450px;
       object-fit: cover;
       opacity: 0.7;
     }

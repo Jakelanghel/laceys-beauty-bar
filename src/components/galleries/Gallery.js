@@ -6,11 +6,7 @@ const Gallery = (props) => {
     <StyledGallery className={props.class}>
       <div className="gallery">
         <div className="gallery-item img-1">
-          <img
-            src={props.imgs[0]}
-            alt=""
-            className="img-1 box-shadow-2 skin-img-1"
-          />
+          <img src={props.imgs[0]} alt="" className="img-1 box-shadow-2 " />
         </div>
 
         <div className="gallery-item img-2">

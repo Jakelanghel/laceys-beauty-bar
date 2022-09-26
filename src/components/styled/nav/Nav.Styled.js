@@ -36,10 +36,22 @@ export const StyledNav = styled.nav`
   }
 
   @media screen and (min-width: 900px) {
+    padding: 2rem 3rem;
+
     .menu-icon {
       display: none;
     }
 
-    padding: 1.5rem 2rem;
+    .nav-left {
+      .eye-icon {
+        width: 35px;
+        margin: 0 auto;
+      }
+
+      p {
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 `;

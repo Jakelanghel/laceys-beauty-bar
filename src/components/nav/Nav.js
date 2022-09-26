@@ -15,7 +15,7 @@ export const Nav = () => {
     <StyledNav>
       <div className="nav-left filter-pink">
         <img src={images.eyeIcon} alt="" className="eye-icon " />
-        <p className="logo">LBB</p>
+        <p>LBB</p>
       </div>
 
       <DesktopMenu />

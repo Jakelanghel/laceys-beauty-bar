@@ -63,17 +63,16 @@ const Skin = () => {
           </div>
 
           <div className="container-service">
+            <h2>Vajacial Treatments</h2>
+            <p className="price">$60 - $100</p>
+          </div>
+
+          <div className="container-service">
             <h2>Dermaplaning</h2>
             <p className="description">
               Achieve an even skin tone & texture by removing dead skin cells.
             </p>
             <p className="price">$65</p>
-          </div>
-
-          <div className="container-service">
-            <h2>Vajacial Treatments</h2>
-            <p className="description">30 min facial</p>
-            <p className="price">$60-$100</p>
           </div>
 
           <div className="container-service">

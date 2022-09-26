@@ -100,7 +100,7 @@ export const StyledHome = styled.div`
 
     .hero {
       width: 100%;
-      max-width: 1200px;
+      max-width: none;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
@@ -160,11 +160,31 @@ export const StyledHome = styled.div`
     }
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1200px) {
     .hero {
       .container-hero-img {
         img {
           width: 550px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1300px) {
+    .hero {
+      .container-hero-img {
+        img {
+          width: 600px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .hero {
+      max-width: 1400px;
+      padding: 4rem 6rem;
+      .container-hero-img {
+        img {
+          width: 650px;
         }
       }
     }

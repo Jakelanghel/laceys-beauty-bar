@@ -5,7 +5,17 @@ import Carousel from "../components/Carousel";
 import Gallery from "../components/galleries/Gallery";
 
 const Lashes = () => {
-  const lashesImgs = [
+  const mobileLashImgsArr = [
+    images.mobileLashesImg_1,
+    images.mobileLashesImg_2,
+    images.mobileLashesImg_3,
+    images.mobileLashesImg_4,
+    images.mobileLashesImg_5,
+    images.mobileLashesImg_6,
+    images.mobileLashesImg_7,
+  ];
+
+  const desktopLashImgArr = [
     images.lashesImg_1,
     images.lashesImg_2,
     images.lashesImg_3,
@@ -18,7 +28,10 @@ const Lashes = () => {
   return (
     <StyledServiceContainer>
       <div className="container-carousel">
-        <Carousel imgArr={lashesImgs} carouselClassName="service-carousel" />
+        <Carousel
+          imgArr={mobileLashImgsArr}
+          carouselClassName="service-carousel"
+        />
       </div>
 
       <div className="container">
@@ -89,7 +102,7 @@ const Lashes = () => {
         </div>
       </div>
 
-      <Gallery class="lashes-gallery" imgs={lashesImgs} />
+      <Gallery class="lashes-gallery" imgs={desktopLashImgArr} />
     </StyledServiceContainer>
   );
 };
