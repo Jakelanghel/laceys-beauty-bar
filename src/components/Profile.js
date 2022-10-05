@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledProfile } from "./styled/Profile.Styled";
+import { motion } from "framer-motion";
 
 const Profile = (props) => {
   const bioElements = props.bio.map((p, i) => {

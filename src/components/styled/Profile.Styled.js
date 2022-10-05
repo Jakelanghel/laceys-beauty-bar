@@ -5,6 +5,7 @@ export const StyledProfile = styled.div`
   margin: 5rem auto;
 
   .img-container {
+    width: 95%;
     max-width: 550px;
     margin: 0 auto;
     display: flex;
@@ -17,16 +18,39 @@ export const StyledProfile = styled.div`
 
   .profile-img {
     width: 100%;
-    max-width: 450px;
+    width: 315px;
+    height: 315px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0 auto;
-    /* height: auto; */
+  }
+
+  @media screen and (min-width: 400px) {
+    .profile-img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+  @media screen and (min-width: 450px) {
+    .profile-img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  @media screen and (min-width: 525px) {
+    .profile-img {
+      width: 450px;
+      height: 450px;
+    }
+  }
+
+  .cailyn,
+  .sydni {
+    object-position: center top;
   }
 
   .container-card {
     max-width: 500px;
-    padding: 3.5rem 1rem;
+    padding: 2rem 1rem;
     margin: 0 auto;
     .card {
       padding: 2rem 1rem;

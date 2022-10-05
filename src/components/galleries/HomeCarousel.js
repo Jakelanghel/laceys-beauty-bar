@@ -4,38 +4,22 @@ import { HomeCarousel } from "../styled/galleries/HomeCarousel.Styled";
 
 const DesktopHomeCarousel = (props) => {
   const [indexArr, setIndexArr] = useState([0, 1, 2]);
-  const length = props.imgArr.length;
+  const length = props.imgArr.length - 1;
 
-  const nextImg = (e) => {
-    let index_1 = indexArr[0] + 1;
-    let index_2 = indexArr[1] + 1;
-    let index_3 = indexArr[2] + 1;
-
-    if (index_3 > length - 1) {
-      index_3 = 0;
-    } else if (index_3 === 1) {
-      index_2 = 0;
-    } else if (index_3 === 2) {
-      index_1 = 0;
-    }
+  const nextImg = () => {
+    let index_1 = indexArr[0] + 1 <= length ? indexArr[0] + 1 : 0;
+    let index_2 = indexArr[1] + 1 <= length ? indexArr[1] + 1 : 0;
+    let index_3 = indexArr[2] + 1 <= length ? indexArr[2] + 1 : 0;
 
     setIndexArr((oldState) => [index_1, index_2, index_3]);
   };
 
   const prevImg = (e) => {
-    let index_1 = indexArr[0] - 1;
-    let index_2 = indexArr[1] - 1;
-    let index_3 = indexArr[2] - 1;
+    let index_1 = indexArr[0] === 0 ? length : indexArr[0] - 1;
+    let index_2 = indexArr[1] === 0 ? length : indexArr[1] - 1;
+    let index_3 = indexArr[2] === 0 ? length : indexArr[2] - 1;
 
-    if (indexArr[0] === 0) {
-      setIndexArr([length - 1, 0, 1]);
-    } else if (indexArr[1] === 0) {
-      setIndexArr([length - 2, length - 1, 0]);
-    } else if (indexArr[2] === 0) {
-      setIndexArr([length - 3, length - 2, length - 1]);
-    } else {
-      setIndexArr((oldState) => [index_1, index_2, index_3]);
-    }
+    setIndexArr((oldState) => [index_1, index_2, index_3]);
   };
 
   return (

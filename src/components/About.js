@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { images } from "../constants/images";
 import { StyledAbout } from "./styled/About.Styled";
 import Profile from "./Profile";
+import { motion } from "framer-motion";
 const About = () => {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
   const [windowWidth, setWindowWidth] = useState();
@@ -52,47 +53,44 @@ const About = () => {
 
   return (
     <StyledAbout>
-      <Profile
-        img={images.imgLacey}
-        name="lacey"
-        bio={laceysBio}
-        inverted={false}
-      />
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <Profile
+          img={images.imgLacey}
+          name="lacey"
+          bio={laceysBio}
+          inverted={false}
+        />
+      </motion.div>
 
-      <Profile
-        img={images.imgCailyn}
-        name="cailyn"
-        bio={cailynBio}
-        inverted={true}
-      />
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <Profile
+          img={images.imgCailyn}
+          name="cailyn"
+          bio={cailynBio}
+          inverted={true}
+        />
+      </motion.div>
 
-      <Profile
-        img={images.imgSyndi}
-        name="sydni"
-        bio={sydniBio}
-        inverted={false}
-      />
-
-      {/* <div className="container-row">
-        <div className="container-carousel box-shadow-1">
-          <Carousel carouselClassName="about-carousel" imgArr={beautyBarImgs} />
-        </div>
-
-        <div className="container">
-          <div className="card box-shadow-1">
-            <h2>Products</h2>
-            <p>
-              We carry a variety of skincare and body care products from
-              Farmhouse Fresh. Everything is locally grown and made on a farm in
-              Texas. Farmhouse fresh is a certified organic brand, paraben and
-              sulfate free, and mostly everything is gluten free and vegan. We
-              also carry a variety of Esthemax hydro jelly masks. Esthemax is a
-              well known brand whose products are only available to licensed
-              professionals.
-            </p>
-          </div>
-        </div>
-      </div> */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <Profile
+          img={images.imgSyndi}
+          name="sydni"
+          bio={sydniBio}
+          inverted={false}
+        />
+      </motion.div>
     </StyledAbout>
   );
 };

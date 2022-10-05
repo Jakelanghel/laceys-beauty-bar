@@ -3,6 +3,7 @@ import { images } from "../constants/images";
 import { StyledHome } from "../components/styled/Home.Styled";
 import About from "../components/About";
 import DesktopCarousel from "../components/galleries/HomeCarousel";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const beautyBarImgs = [
@@ -18,42 +19,48 @@ const Home = () => {
 
   return (
     <StyledHome>
-      <section className="hero">
-        <div className="container-hero-img">
-          <img src={images.logoWhite} alt="logo" />
-        </div>
-        <div className="container-hero-copy">
-          <div className="container-contact">
-            <a
-              href="https://www.google.com/maps/dir/40.8925342,-80.3422202/lacey's+beauty+bar/@40.8239872,-80.3962792,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x883471311d06923b:0xcfa671488a4d69dd!2m2!1d-80.3191563!2d40.7554826"
-              className="address"
-            >
-              1414 7th Ave, Beaver Falls PA,
-            </a>
-            <a href="724 513 1415" className="phone-number">
-              724-513-1415
-            </a>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        <section className="hero">
+          <div className="container-hero-img">
+            <img src={images.logoWhite} alt="logo" />
           </div>
+          <div className="container-hero-copy">
+            <div className="container-contact">
+              <a
+                href="https://www.google.com/maps/dir/40.8925342,-80.3422202/lacey's+beauty+bar/@40.8239872,-80.3962792,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x883471311d06923b:0xcfa671488a4d69dd!2m2!1d-80.3191563!2d40.7554826"
+                className="address"
+              >
+                1414 7th Ave, Beaver Falls PA,
+              </a>
+              <a href="724 513 1415" className="phone-number">
+                724-513-1415
+              </a>
+            </div>
 
-          <div className="container-hero-slogan">
-            <p>
-              Premium <span>services</span>
-            </p>
-            <p>
-              High quality <span>products</span>
-            </p>
-            <p>
-              Experienced <span>professionals</span>
-            </p>
-          </div>
+            <div className="container-hero-slogan">
+              <p>
+                Premium <span>services</span>
+              </p>
+              <p>
+                High quality <span>products</span>
+              </p>
+              <p>
+                Experienced <span>professionals</span>
+              </p>
+            </div>
 
-          <div className="cta">
-            <a href="https://booksy.com/en-us/593905_laceys-beauty-bar-llc_eyebrows-lashes_33092_beaver-falls">
-              book now
-            </a>
+            <div className="cta">
+              <a href="https://booksy.com/en-us/593905_laceys-beauty-bar-llc_eyebrows-lashes_33092_beaver-falls">
+                book now
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </motion.div>
 
       <DesktopCarousel imgArr={beautyBarImgs} />
 

@@ -1,4 +1,0 @@
-1) change images for brows and skin gallery
-2) edit images for mobile carousel
-3) create a new img list for mobile carousel
-4) decide what to do about tanning and waxing pages
