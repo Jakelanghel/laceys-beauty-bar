@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/laceys-beauty-bar/static/js/main.1c3160b3.js",
+    "main.js": "/laceys-beauty-bar/static/js/main.3c6af0e2.js",
     "static/media/logo-transparent.png": "/laceys-beauty-bar/static/media/logo-transparent.7fe811342a3bc3938b71.png",
     "static/media/sydni.jpeg": "/laceys-beauty-bar/static/media/sydni.d68f1804da9528bd021f.jpeg",
     "static/media/shop_7.jpg": "/laceys-beauty-bar/static/media/shop_7.f8442d07e3f29e72213c.jpg",
@@ -11,24 +11,17 @@
     "static/media/shop_3.jpg": "/laceys-beauty-bar/static/media/shop_3.e89cad44f6327f4228a8.jpg",
     "static/media/shop_4.jpg": "/laceys-beauty-bar/static/media/shop_4.c16b2a3e337c9d4a2567.jpg",
     "static/media/cailyn.jpeg": "/laceys-beauty-bar/static/media/cailyn.5c16ed1763853b3bfdb6.jpeg",
-    "static/media/homeImg_3.jpg": "/laceys-beauty-bar/static/media/homeImg_3.70bc78aaeef66a5c5b5d.jpg",
     "static/media/brows_6.jpg": "/laceys-beauty-bar/static/media/brows_6.b356774ece8ec649de63.jpg",
-    "static/media/homeImg_2.jpg": "/laceys-beauty-bar/static/media/homeImg_2.b1ed874ff3fafb1d6ee0.jpg",
     "static/media/lacey.jpg": "/laceys-beauty-bar/static/media/lacey.27c2e58e189eeb4a6808.jpg",
     "static/media/mobile_lashes_5.jpg": "/laceys-beauty-bar/static/media/mobile_lashes_5.e78e3447ccac9f78fdb9.jpg",
     "static/media/brows_3.jpg": "/laceys-beauty-bar/static/media/brows_3.947c04e06c861d9d6a38.jpg",
     "static/media/mobile_lashes_2.jpg": "/laceys-beauty-bar/static/media/mobile_lashes_2.f2c3f8f8cd5d1a68b48c.jpg",
-    "static/media/homeImg_1.jpg": "/laceys-beauty-bar/static/media/homeImg_1.008729c04f34398a7672.jpg",
-    "static/media/homeImg_6.jpg": "/laceys-beauty-bar/static/media/homeImg_6.09f79c0981bdd483002c.jpg",
     "static/media/lashes_5.jpg": "/laceys-beauty-bar/static/media/lashes_5.09f79c0981bdd483002c.jpg",
     "static/media/lashes_2.jpg": "/laceys-beauty-bar/static/media/lashes_2.b4f642dd74e096c3d2e3.jpg",
-    "static/media/homeImg_7.jpeg": "/laceys-beauty-bar/static/media/homeImg_7.de66dc3338dd835b5438.jpeg",
     "static/media/logo-white.jpg": "/laceys-beauty-bar/static/media/logo-white.bde6fb414821b545d0f2.jpg",
-    "static/media/homeImg_8.jpg": "/laceys-beauty-bar/static/media/homeImg_8.382392e976a1d046c158.jpg",
     "static/media/brows_4.jpg": "/laceys-beauty-bar/static/media/brows_4.43e9784adea9a4beb6eb.jpg",
     "static/media/lashes_3.jpg": "/laceys-beauty-bar/static/media/lashes_3.77b38d8aee042f5c9c67.jpg",
     "static/media/mobile_lashes_3.jpg": "/laceys-beauty-bar/static/media/mobile_lashes_3.4109e79913c5b8ac9e4b.jpg",
-    "static/media/homeImg_4.jpg": "/laceys-beauty-bar/static/media/homeImg_4.c1eba1c3cb28b23bad85.jpg",
     "static/media/lashes_6.jpg": "/laceys-beauty-bar/static/media/lashes_6.c1eba1c3cb28b23bad85.jpg",
     "static/media/skin_6.jpg": "/laceys-beauty-bar/static/media/skin_6.a74f591632d70c289c6e.jpg",
     "static/media/mobile_brows_1.jpg": "/laceys-beauty-bar/static/media/mobile_brows_1.b633dc10fc5c3428ac10.jpg",
@@ -45,7 +38,6 @@
     "static/media/skin_1.jpg": "/laceys-beauty-bar/static/media/skin_1.5beab9dc6ee3b502cf25.jpg",
     "static/media/skin_4.jpg": "/laceys-beauty-bar/static/media/skin_4.5d6b4f57ed837801a72f.jpg",
     "static/media/skin_3.jpg": "/laceys-beauty-bar/static/media/skin_3.6906e93b212ed1c2bf04.jpg",
-    "static/media/bg_flowers.png": "/laceys-beauty-bar/static/media/bg_flowers.481cdea2bf2e2765556f.png",
     "static/media/brows_5.jpg": "/laceys-beauty-bar/static/media/brows_5.590d40feddbc33ac1f13.jpg",
     "static/media/skin_5.jpg": "/laceys-beauty-bar/static/media/skin_5.7790437e87ab17ac3ab5.jpg",
     "static/media/mobile_lashes_6.jpg": "/laceys-beauty-bar/static/media/mobile_lashes_6.e3348e1fb11819404649.jpg",
@@ -55,10 +47,7 @@
     "static/media/skin_7.jpg": "/laceys-beauty-bar/static/media/skin_7.7d9369a88df26056d702.jpg",
     "static/media/bg_pinkDots.webp": "/laceys-beauty-bar/static/media/bg_pinkDots.f544d66bb560361e8456.webp",
     "static/media/asanoha-400px.png": "/laceys-beauty-bar/static/media/asanoha-400px.1780caf752a9b9870fa1.png",
-    "static/media/light-grey-terrazzo.webp": "/laceys-beauty-bar/static/media/light-grey-terrazzo.652aceb4ef586fc00464.webp",
-    "static/media/pipes.webp": "/laceys-beauty-bar/static/media/pipes.e1bc9a06e85e72cf8108.webp",
     "static/media/instagram-icon.svg": "/laceys-beauty-bar/static/media/instagram-icon.813fd06b51b26e101fbbdde32e64af13.svg",
-    "static/media/heart-icon.svg": "/laceys-beauty-bar/static/media/heart-icon.6d06655ea6c752bd88512e51340ec81c.svg",
     "index.html": "/laceys-beauty-bar/index.html",
     "static/media/menu-icon.svg": "/laceys-beauty-bar/static/media/menu-icon.4de0b64b468d9cdbdd41f4d490765099.svg",
     "static/media/phone-icon.svg": "/laceys-beauty-bar/static/media/phone-icon.d11a5673b368c47201f7dc8d86dc0719.svg",
@@ -66,9 +55,9 @@
     "static/media/arrow-left.svg": "/laceys-beauty-bar/static/media/arrow-left.0ef3b248a596a98267ba701bd11f81f0.svg",
     "static/media/arrow-right.svg": "/laceys-beauty-bar/static/media/arrow-right.ec6273c120cd8b8e1a9ad4ab8a9d118f.svg",
     "static/media/facebook-icon.svg": "/laceys-beauty-bar/static/media/facebook-icon.8adca75361b744d17bbeb17b9c804d9d.svg",
-    "main.1c3160b3.js.map": "/laceys-beauty-bar/static/js/main.1c3160b3.js.map"
+    "main.3c6af0e2.js.map": "/laceys-beauty-bar/static/js/main.3c6af0e2.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c3160b3.js"
+    "static/js/main.3c6af0e2.js"
   ]
 }
