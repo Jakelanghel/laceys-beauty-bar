@@ -1,27 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { images } from "../constants/images";
 import { StyledAbout } from "./styled/About.Styled";
 import Profile from "./Profile";
 import { motion } from "framer-motion";
 const About = () => {
-  const [showMoreInfo, setShowMoreInfo] = useState(false);
-  const [windowWidth, setWindowWidth] = useState();
-
-  const showInfo = () => {
-    setShowMoreInfo((oldState) => !oldState);
-  };
-
-  const beautyBarImgs = [
-    images.shopImg_1,
-    images.shopImg_2,
-    images.shopImg_3,
-    images.shopImg_4,
-    images.shopImg_5,
-    images.shopImg_6,
-    images.shopImg_7,
-    images.shopImg_8,
-  ];
-
   const laceysBio = [
     `Hello everyone, my name is Lacey and I'm the owner of the beauty
                     bar. I recently opened the shop in December of 2021 and I've been

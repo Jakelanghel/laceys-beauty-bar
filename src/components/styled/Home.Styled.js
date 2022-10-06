@@ -29,7 +29,7 @@ export const StyledHome = styled.div`
   }
 
   .container-contact {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     letter-spacing: 2px;
     text-align: center;
 
@@ -50,11 +50,11 @@ export const StyledHome = styled.div`
     letter-spacing: 2px;
 
     p {
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       font-weight: 00;
       text-transform: capitalize;
       color: var(--txt-grey);
-      line-height: 2.25rem;
+      line-height: 2.5rem;
 
       span {
         color: var(--hot-pink);
@@ -79,7 +79,7 @@ export const StyledHome = styled.div`
       width: 225px;
       display: block;
 
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       font-weight: 700;
       text-transform: uppercase;
       text-decoration: none;

@@ -57,4 +57,8 @@ export const StyledMobileMenu = styled.div`
   .nav-link .active:hover {
     font-weight: 700;
   }
+
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
 `;
