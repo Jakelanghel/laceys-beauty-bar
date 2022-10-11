@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
         --translucent-black: hsl(0,0%,0%, .92);
         --grey: #6E675F;
         --txt-grey: #808080;
-        --hot-pink: #DB5ABA;
+        --hot-pink: #ff69b4;
         --light-pink: rgba(219, 90, 186, .5);
 
     }
@@ -71,9 +71,8 @@ const GlobalStyles = createGlobalStyle`
     
 
     .filter-pink {
-        filter: invert(61%) sepia(25%) saturate(5931%) hue-rotate(285deg) brightness(91%) contrast(87%)
+        filter: invert(59%) sepia(11%) saturate(6756%) hue-rotate(299deg) brightness(106%) contrast(101%);
     }
-
     .filter-white {
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(102%);
     }

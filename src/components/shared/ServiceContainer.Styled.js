@@ -12,7 +12,9 @@ export const StyledServiceContainer = styled.main`
 
   .container-1 {
     .container-copy {
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+        rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
       margin: 3rem 1rem;
       padding: 2rem 1rem;
       border-radius: 15px;
@@ -30,6 +32,13 @@ export const StyledServiceContainer = styled.main`
   }
 
   .container-2 {
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 3rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+      rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
     img {
       display: none;
     }

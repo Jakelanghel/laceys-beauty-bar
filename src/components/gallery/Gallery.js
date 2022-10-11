@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledGallery } from "../styled/galleries/Gallery.Styled";
+import { StyledGallery } from "./Gallery.Styled";
 
 const Gallery = (props) => {
   return (

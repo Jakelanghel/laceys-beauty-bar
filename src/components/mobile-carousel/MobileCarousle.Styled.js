@@ -45,7 +45,6 @@ export const StyledCarousel = styled.div`
       max-width: 500px;
       height: 450px;
       object-fit: cover;
-      opacity: 0.7;
     }
   }
 `;

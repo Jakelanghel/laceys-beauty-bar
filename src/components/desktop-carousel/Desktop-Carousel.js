@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { images } from "../../constants/images";
-import { HomeCarousel } from "../styled/galleries/HomeCarousel.Styled";
+import { HomeCarousel } from "./DesktopCarousel.Styled";
 
-const DesktopHomeCarousel = (props) => {
+const DesktopCarousel = (props) => {
   const [indexArr, setIndexArr] = useState([0, 1, 2]);
   const length = props.imgArr.length - 1;
 
@@ -70,4 +70,4 @@ const DesktopHomeCarousel = (props) => {
   );
 };
 
-export default DesktopHomeCarousel;
+export default DesktopCarousel;

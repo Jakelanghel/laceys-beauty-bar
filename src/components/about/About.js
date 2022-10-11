@@ -1,7 +1,7 @@
 import React from "react";
-import { images } from "../constants/images";
-import { StyledAbout } from "./styled/About.Styled";
-import Profile from "./Profile";
+import { images } from "../../constants/images";
+import { StyledAbout } from "./About.Styled";
+import Profile from "../profile/Profile";
 import { motion } from "framer-motion";
 const About = () => {
   const laceysBio = [

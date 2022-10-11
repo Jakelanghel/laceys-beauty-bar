@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { StyledCarousel } from "../components/styled/Carousel.Styled";
-import { images } from "../constants/images";
+import { StyledCarousel } from "./MobileCarousle.Styled";
+import { images } from "../../constants/images";
 
 const Carousel = (props) => {
   const [index, setIndex] = useState(0);
@@ -24,7 +24,11 @@ const Carousel = (props) => {
   return (
     <StyledCarousel>
       <div className={props.carouselClassName}>
-        <img className="carousel-img" src={props.imgArr[index]} alt="shop" />
+        <img
+          className="carousel-img"
+          src={props.imgArr[index]}
+          alt="carousel"
+        />
       </div>
 
       <div className="carousel-actions">

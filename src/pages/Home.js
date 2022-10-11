@@ -1,9 +1,10 @@
 import React from "react";
 import { images } from "../constants/images";
-import { StyledHome } from "../components/styled/Home.Styled";
-import About from "../components/About";
-import DesktopCarousel from "../components/galleries/HomeCarousel";
+import { StyledHome } from "../components/pages/Home.Styled";
+import About from "../components/about/About";
+import DesktopCarousel from "../components/desktop-carousel/Desktop-Carousel";
 import { motion } from "framer-motion";
+import PageMotion from "../components/motion/PageMotion";
 
 const Home = () => {
   const beautyBarImgs = [
@@ -18,12 +19,8 @@ const Home = () => {
   ];
 
   return (
-    <StyledHome>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-      >
+    <PageMotion>
+      <StyledHome>
         <section className="hero">
           <div className="container-hero-img">
             <img src={images.logoWhite} alt="logo" />
@@ -60,12 +57,12 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </motion.div>
 
-      <DesktopCarousel imgArr={beautyBarImgs} />
+        <DesktopCarousel imgArr={beautyBarImgs} />
 
-      <About className="about" carouselClass="about-carousel" />
-    </StyledHome>
+        <About className="about" carouselClass="about-carousel" />
+      </StyledHome>
+    </PageMotion>
   );
 };
 

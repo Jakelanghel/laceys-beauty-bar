@@ -1,6 +1,6 @@
 import React from "react";
-import { images } from "../constants/images";
-import { StyledFooter } from "./styled/Footer.Styled";
+import { images } from "../../constants/images";
+import { StyledFooter } from "./Footer.Styled";
 
 export const Footer = () => {
   return (

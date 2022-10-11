@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledProfile } from "./styled/Profile.Styled";
+import { StyledProfile } from "./Profile.Styled";
 import { motion } from "framer-motion";
 
 const Profile = (props) => {

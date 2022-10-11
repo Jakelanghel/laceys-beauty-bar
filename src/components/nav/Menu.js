@@ -1,15 +1,15 @@
 import React from "react";
-import { StyledDesktopMenu } from "../styled/nav/DesktopMenu.Styled";
+import { StyledMenu } from "./Menu.Styled";
 import { NavLink } from "react-router-dom";
+import MenuMotion from "../motion/MenuMotion";
 
-const DesktopMenu = (props) => {
+const Menu = (props) => {
   return (
-    <StyledDesktopMenu>
-      <div className="container-nav-links">
+    <MenuMotion>
+      <StyledMenu>
         <div className="link">
           <NavLink
             to="/"
-            onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
@@ -21,7 +21,6 @@ const DesktopMenu = (props) => {
         <div className="link">
           <NavLink
             to="/lashes"
-            onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
@@ -33,7 +32,6 @@ const DesktopMenu = (props) => {
         <div className="link">
           <NavLink
             to="/Brows"
-            onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
@@ -45,7 +43,6 @@ const DesktopMenu = (props) => {
         <div className="link">
           <NavLink
             to="/Skin"
-            onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
@@ -57,7 +54,6 @@ const DesktopMenu = (props) => {
         <div className="link">
           <NavLink
             to="/waxing-tanning"
-            onClick={props.toggle}
             className={({ isActive }) =>
               isActive ? "active nav-link" : "nav-link"
             }
@@ -71,9 +67,9 @@ const DesktopMenu = (props) => {
             Clothing
           </a>
         </div>
-      </div>
-    </StyledDesktopMenu>
+      </StyledMenu>
+    </MenuMotion>
   );
 };
 
-export default DesktopMenu;
+export default Menu;

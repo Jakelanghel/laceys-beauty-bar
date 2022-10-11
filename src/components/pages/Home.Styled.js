@@ -46,17 +46,19 @@ export const StyledHome = styled.div`
 
   .container-hero-slogan {
     text-align: center;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     letter-spacing: 2px;
 
     p {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
       font-weight: 00;
       text-transform: capitalize;
       color: var(--txt-grey);
       line-height: 2.5rem;
 
       span {
+        font-size: 2rem;
+        font-family: "Dancing Script", cursive;
         color: var(--hot-pink);
         font-weight: 700;
       }
@@ -80,15 +82,14 @@ export const StyledHome = styled.div`
       display: block;
 
       font-size: 1.5rem;
-      font-weight: 700;
+      font-weight: 500;
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 2px;
       color: var(--off-white);
       background: var(--hot-pink);
-
       padding: 0.75rem 2rem;
-      margin: 0 auto;
+      margin: 1.5rem auto;
       border: none;
       border-radius: 25px;
     }
