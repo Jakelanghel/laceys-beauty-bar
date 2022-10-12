@@ -6,7 +6,6 @@ export const StyledHome = styled.div`
   z-index: 0;
   margin: 6rem 0;
   margin-bottom: 3rem;
-  background-color: var(--white);
 
   /* ================================================================= */
   /* HERO========================================================= */
@@ -29,7 +28,7 @@ export const StyledHome = styled.div`
   }
 
   .container-contact {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     letter-spacing: 2px;
     text-align: center;
 
@@ -46,11 +45,11 @@ export const StyledHome = styled.div`
 
   .container-hero-slogan {
     text-align: center;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     letter-spacing: 2px;
 
     p {
-      font-size: 1.35rem;
+      font-size: 1.25rem;
       font-weight: 00;
       text-transform: capitalize;
       color: var(--txt-grey);

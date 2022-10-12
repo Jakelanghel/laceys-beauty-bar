@@ -66,6 +66,8 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         align-items: center;
         position: relative;
+  background-image: url(${images.flowerBg});
+
     }
 
     

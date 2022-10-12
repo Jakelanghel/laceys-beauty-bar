@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledHome } from "../components/pages/Home.Styled";
 import About from "../components/about/About";
-import DesktopCarousel from "../components/desktop-carousel/Desktop-Carousel";
+import DesktopCarousel from "../components/carousels/desktop-carousel/Desktop-Carousel";
 import { motion } from "framer-motion";
 import PageMotion from "../components/motion/PageMotion";
 
@@ -23,7 +23,7 @@ const Home = () => {
       <StyledHome>
         <section className="hero">
           <div className="container-hero-img">
-            <img src={images.logoWhite} alt="logo" />
+            <img src={images.logo} alt="logo" />
           </div>
           <div className="container-hero-copy">
             <div className="container-contact">

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { images } from "../../constants/images";
 import { StyledNav } from "../nav/Nav.Styled";
-import Menu from "./Menu";
+import MobileMenu from "./mobile-menu/MobileMenu";
+import DesktopMenu from "./desktop-menu/DesktopMenu";
 import { AnimatePresence } from "framer-motion";
 
 export const Nav = (props) => {
+  const screenWidth = window.screen.width;
+  console.log(screenWidth);
   return (
     <>
       <StyledNav>
@@ -20,7 +23,8 @@ export const Nav = (props) => {
           onClick={props.toggleMenu}
         />
       </StyledNav>
-      <AnimatePresence>{props.menuIsOpen && <Menu />}</AnimatePresence>
+      <AnimatePresence>{props.menuIsOpen && <MobileMenu />}</AnimatePresence>
+      <DesktopMenu />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { images } from "../../constants/images";
+import { images } from "../../../constants/images";
 import { HomeCarousel } from "./DesktopCarousel.Styled";
 
 const DesktopCarousel = (props) => {

@@ -3,16 +3,29 @@ import { images } from "../../constants/images";
 
 export const StyledMultiServiceContainer = styled.div`
   text-align: center;
-  margin: 5.5rem 0;
+  margin: 8rem 0;
+  padding: 0 2rem;
+
+  .container-carousel {
+    width: 100%;
+  }
+
+  .container-1,
+  .container-2 {
+    background-color: var(--white);
+  }
 
   .container-1 {
-    .container-copy {
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      margin: 2rem 1rem;
-      padding: 3rem 1rem;
-      border-radius: 15px;
-      max-width: 450px;
-    }
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+      rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 0 auto;
 
     div {
       margin-top: 1rem;
@@ -25,6 +38,13 @@ export const StyledMultiServiceContainer = styled.div`
   }
 
   .container-2 {
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: 3rem auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+      rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
     img {
       display: none;
     }
@@ -54,6 +74,15 @@ export const StyledMultiServiceContainer = styled.div`
 
     p {
       font-size: 0.8rem;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .price {
+      font-size: 1.25rem;
+      color: var(--hot-pink);
+      font-weight: 700;
+      margin-top: 0.25rem;
     }
 
     span {
@@ -61,6 +90,7 @@ export const StyledMultiServiceContainer = styled.div`
     }
 
     ul {
+      max-width: 300px;
       color: var(--txt-grey);
       margin: 0 auto;
       margin-top: 0.5rem;
@@ -78,13 +108,6 @@ export const StyledMultiServiceContainer = styled.div`
     }
   }
 
-  .price {
-    font-size: 1rem;
-    color: var(--hot-pink);
-    font-weight: 700;
-    margin-top: 0.25rem;
-  }
-
   h3 {
     font-size: 0.75rem;
     font-weight: 500;
@@ -100,7 +123,6 @@ export const StyledMultiServiceContainer = styled.div`
     padding: 7rem 4rem;
     margin: 0;
     width: 100%;
-    background-image: url(${images.flowerBg});
 
     .container {
       width: 100%;
@@ -117,11 +139,6 @@ export const StyledMultiServiceContainer = styled.div`
     }
 
     .container-1 {
-      .container-copy {
-        padding: 3rem;
-        background-color: var(--white);
-      }
-
       .title {
         font-size: 2.5rem;
         display: block;
@@ -168,7 +185,6 @@ export const StyledMultiServiceContainer = styled.div`
     .container-2 {
       max-width: 300px;
       margin-bottom: 0;
-      background-color: var(--white);
       padding: 0 2rem;
       border-radius: 15px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,

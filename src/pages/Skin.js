@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import Carousel from "../components/mobile-carousel/MobileCarousle";
+import Carousel from "../components/carousels/mobile-carousel/MobileCarousel";
 import Gallery from "../components/gallery/Gallery";
 import PageMotion from "../components/motion/PageMotion";
 
@@ -19,9 +19,6 @@ const Skin = () => {
   return (
     <PageMotion>
       <StyledServiceContainer>
-        <div className="container-carousel">
-          <Carousel imgArr={skinImgs} carouselClassName="service-carousel" />
-        </div>
         <div className="container">
           <div className="container-1">
             <div className="container-copy">
@@ -84,6 +81,9 @@ const Skin = () => {
               <p className="price">$40</p>
             </div>
           </div>
+        </div>
+        <div className="container-carousel">
+          <Carousel imgArr={skinImgs} />
         </div>
         <Gallery class="skin-gallery" imgs={skinImgs} />
       </StyledServiceContainer>

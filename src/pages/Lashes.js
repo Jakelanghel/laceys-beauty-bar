@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import Carousel from "../components/mobile-carousel/MobileCarousle";
+import Carousel from "../components/carousels/mobile-carousel/MobileCarousel";
 import Gallery from "../components/gallery/Gallery";
 import PageMotion from "../components/motion/PageMotion";
 
@@ -101,10 +101,7 @@ const Lashes = () => {
         </div>
 
         <div className="container-carousel">
-          <Carousel
-            imgArr={mobileLashImgsArr}
-            carouselClassName="service-carousel"
-          />
+          <Carousel imgArr={mobileLashImgsArr} />
         </div>
 
         <Gallery class="lashes-gallery" imgs={desktopLashImgArr} />

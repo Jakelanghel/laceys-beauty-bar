@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledCarousel = styled.div`
+export const StyledMobileCarousel = styled.div`
   position: relative;
   max-width: 600px;
   padding: 0;
@@ -38,13 +38,15 @@ export const StyledCarousel = styled.div`
     }
   }
 
-  .service-carousel {
+  .img-container {
     width: 100%;
+    padding: 1rem;
     img {
       width: 100%;
       max-width: 500px;
       height: 450px;
       object-fit: cover;
+      border-radius: 15px;
     }
   }
 `;

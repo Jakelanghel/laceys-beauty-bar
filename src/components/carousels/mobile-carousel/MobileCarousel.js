@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { StyledCarousel } from "./MobileCarousle.Styled";
-import { images } from "../../constants/images";
+import { StyledMobileCarousel } from "./MobileCarousel.Styled";
+import { images } from "../../../constants/images";
 
-const Carousel = (props) => {
+const MobileCarousel = (props) => {
   const [index, setIndex] = useState(0);
 
   const nextImg = (e) => {
@@ -22,8 +22,8 @@ const Carousel = (props) => {
   };
 
   return (
-    <StyledCarousel>
-      <div className={props.carouselClassName}>
+    <StyledMobileCarousel>
+      <div className="img-container">
         <img
           className="carousel-img"
           src={props.imgArr[index]}
@@ -47,8 +47,8 @@ const Carousel = (props) => {
           />
         </button>
       </div>
-    </StyledCarousel>
+    </StyledMobileCarousel>
   );
 };
 
-export default Carousel;
+export default MobileCarousel;

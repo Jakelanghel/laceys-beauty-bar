@@ -3,23 +3,26 @@ import { images } from "../../constants/images";
 
 export const StyledServiceContainer = styled.main`
   text-align: center;
-  margin: 5.5rem 0;
+  margin: 8rem 0;
+  padding: 0 2rem;
 
   .container-carousel {
     width: 100%;
-    background-color: var(--black);
+  }
+
+  .container-1,
+  .container-2 {
+    background-color: var(--white);
   }
 
   .container-1 {
-    .container-copy {
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
-        rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
-        rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      margin: 3rem 1rem;
-      padding: 2rem 1rem;
-      border-radius: 15px;
-      max-width: 450px;
-    }
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+      rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 0 auto;
 
     div {
       margin-top: 1rem;
@@ -35,7 +38,7 @@ export const StyledServiceContainer = styled.main`
     padding: 2rem 1rem;
     border-radius: 15px;
     max-width: 450px;
-    margin: 3rem 1rem;
+    margin: 3rem auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
       rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -73,7 +76,7 @@ export const StyledServiceContainer = styled.main`
     }
 
     .price {
-      font-size: 1rem;
+      font-size: 1.25rem;
       color: var(--hot-pink);
       font-weight: 700;
       margin-top: 0.25rem;
@@ -124,7 +127,6 @@ export const StyledServiceContainer = styled.main`
     margin-bottom: 10rem;
     margin: 0;
     padding: 12rem 2rem;
-    background-image: url(${images.flowerBg});
 
     .gallery {
       z-index: 2;
@@ -158,19 +160,21 @@ export const StyledServiceContainer = styled.main`
       border: none;
     }
 
-    .container-copy {
+    .container-1 {
       width: 50%;
       min-width: 300px;
       padding: 2rem;
       margin: 0 2rem;
       position: relative;
       border-radius: 15px;
-      background-color: var(--white);
+      margin: 0;
 
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
 
+    .container-copy {
       .title {
         font-size: 2.5rem;
         display: block;

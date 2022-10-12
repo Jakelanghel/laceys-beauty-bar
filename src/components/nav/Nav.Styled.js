@@ -35,7 +35,11 @@ export const StyledNav = styled.nav`
     font-weight: 700;
   }
 
-  @media screen and (min-width: 900px) {
+  .container-desktop-menu {
+    display: none;
+  }
+
+  @media screen and (min-width: 950px) {
     padding: 2rem 3rem;
 
     .menu-icon {

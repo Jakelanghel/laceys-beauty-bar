@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import Carousel from "../components/mobile-carousel/MobileCarousle";
+import MobileCarousel from "../components/carousels/mobile-carousel/MobileCarousel";
 import Gallery from "../components/gallery/Gallery";
 import PageMotion from "../components/motion/PageMotion";
 
@@ -28,13 +28,6 @@ const Brows = () => {
   return (
     <PageMotion>
       <StyledServiceContainer>
-        <div className="container-carousel">
-          <Carousel
-            imgArr={mobileBrowsArr}
-            carouselClassName="service-carousel"
-          />
-        </div>
-
         <div className="container">
           <div className="container-1">
             <div className="container-copy">
@@ -77,6 +70,10 @@ const Brows = () => {
               <p className="price">$20</p>
             </div>
           </div>
+        </div>
+
+        <div className="container-carousel">
+          <MobileCarousel imgArr={mobileBrowsArr} />
         </div>
 
         <Gallery class="brows-gallery" imgs={desktopBrowsArr} />

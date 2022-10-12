@@ -18,7 +18,7 @@ import logo from "../assets/logo/logo-transparent.png";
 
 // PROFILE IMGS
 import imgLacey from "../assets/profile/lacey.jpg";
-import imgSyndi from "../assets/profile/sydni.jpeg";
+import imgSydni from "../assets/profile/sydni.jpeg";
 import imgCailyn from "../assets/profile/cailyn.jpeg";
 
 // SHOP IMGS
@@ -88,7 +88,7 @@ const images = {
 
   // PROFILE IMAGES
   imgLacey,
-  imgSyndi,
+  imgSydni,
   imgCailyn,
 
   // HOME IMAGES

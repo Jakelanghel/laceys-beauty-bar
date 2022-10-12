@@ -36,12 +36,6 @@ export const StyledProfile = styled.div`
       height: 400px;
     }
   }
-  @media screen and (min-width: 525px) {
-    .profile-img {
-      width: 450px;
-      height: 450px;
-    }
-  }
 
   .cailyn,
   .sydni {
@@ -56,6 +50,7 @@ export const StyledProfile = styled.div`
       padding: 2rem 1rem;
       border-radius: 15px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color: var(--white);
     }
 
     h2 {
