@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const StyledNav = styled.nav`
   width: 100%;
+  max-width: 100%;
   display: flex;
-  position: fixed;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
