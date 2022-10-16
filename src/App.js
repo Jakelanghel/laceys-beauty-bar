@@ -35,7 +35,7 @@ function App() {
             onExitComplete={() => setMenuIsOpen(false)} */}
         {/* > */}
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
+          <Route path="/laceys-beauty-bar" element={<Home />} />
           <Route path="/lashes" element={<Lashes />} />
           <Route path="/brows" element={<Brows />} />
           <Route path="/skin" element={<Skin />} />
