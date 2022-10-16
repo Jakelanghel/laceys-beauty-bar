@@ -26,23 +26,23 @@ function App() {
     <>
       <GlobalStyles />
       <main className="container-app">
-        {/* <Nav toggleMenu={toggleMenu} /> */}
-        {/* <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence> */}
+        <Nav toggleMenu={toggleMenu} />
+        <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence>
 
-        {/* <ScrollToTop> */}
-        {/* <AnimatePresence */}
-        {/* // exitBeforeEnter
-            onExitComplete={() => setMenuIsOpen(false)} */}
-        {/* > */}
-        <Routes location={location} key={location.pathname}>
-          <Route path="/laceys-beauty-bar" element={<Home />} />
-          <Route path="/lashes" element={<Lashes />} />
-          <Route path="/brows" element={<Brows />} />
-          <Route path="/skin" element={<Skin />} />
-          <Route path="/waxing-tanning" element={<WaxingTanning />} />
-        </Routes>
-        {/* </AnimatePresence> */}
-        {/* </ScrollToTop> */}
+        <ScrollToTop>
+          <AnimatePresence
+            exitBeforeEnter
+            onExitComplete={() => setMenuIsOpen(false)}
+          >
+            <Routes location={location} key={location.pathname}>
+              <Route path="/laceys-beauty-bar" element={<Home />} />
+              <Route path="/lashes" element={<Lashes />} />
+              <Route path="/brows" element={<Brows />} />
+              <Route path="/skin" element={<Skin />} />
+              <Route path="/waxing-tanning" element={<WaxingTanning />} />
+            </Routes>
+          </AnimatePresence>
+        </ScrollToTop>
 
         <Footer />
       </main>
