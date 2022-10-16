@@ -4,8 +4,6 @@ import { StyledNav } from "../nav/Nav.Styled";
 import DesktopMenu from "./desktop-menu/DesktopMenu";
 
 export const Nav = (props) => {
-  const screenWidth = window.screen.width;
-  console.log(screenWidth);
   return (
     <StyledNav>
       <div className="nav-left filter-pink">
