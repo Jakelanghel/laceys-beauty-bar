@@ -25,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
 
     html, body {
         height: 100%;
+        overflow-x: hidden;
     }
 
     body {
