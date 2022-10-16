@@ -29,20 +29,20 @@ function App() {
         {/* <Nav toggleMenu={toggleMenu} /> */}
         {/* <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence> */}
 
-        <ScrollToTop>
-          {/* <AnimatePresence */}
-          {/* // exitBeforeEnter
+        {/* <ScrollToTop> */}
+        {/* <AnimatePresence */}
+        {/* // exitBeforeEnter
             onExitComplete={() => setMenuIsOpen(false)} */}
-          {/* > */}
-          <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<Home />} />
-            <Route path="/lashes" element={<Lashes />} />
-            <Route path="/brows" element={<Brows />} />
-            <Route path="/skin" element={<Skin />} />
-            <Route path="/waxing-tanning" element={<WaxingTanning />} />
-          </Routes>
-          {/* </AnimatePresence> */}
-        </ScrollToTop>
+        {/* > */}
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home />} />
+          <Route path="/lashes" element={<Lashes />} />
+          <Route path="/brows" element={<Brows />} />
+          <Route path="/skin" element={<Skin />} />
+          <Route path="/waxing-tanning" element={<WaxingTanning />} />
+        </Routes>
+        {/* </AnimatePresence> */}
+        {/* </ScrollToTop> */}
 
         <Footer />
       </main>
