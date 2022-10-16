@@ -34,7 +34,11 @@ function App() {
             // exitBeforeEnter
             onExitComplete={() => setMenuIsOpen(false)}
           >
-            <Routes location={location} key={location.pathname}>
+            <Routes
+              location={location}
+              key={location.pathname}
+              basename="laceys_beauty_bar/"
+            >
               <Route path="/" element={<Home />} />
               <Route path="/lashes" element={<Lashes />} />
               <Route path="/brows" element={<Brows />} />
