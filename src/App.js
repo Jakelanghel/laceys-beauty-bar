@@ -26,8 +26,8 @@ function App() {
     <>
       <GlobalStyles />
       <main className="container-app">
-        <Nav toggleMenu={toggleMenu} />
-        <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence>
+        {/* <Nav toggleMenu={toggleMenu} /> */}
+        {/* <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence> */}
 
         <ScrollToTop>
           <AnimatePresence

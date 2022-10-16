@@ -7,7 +7,7 @@ export const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  z-index: 4;
+  z-index: 5;
   background-color: transparent;
 
   .desktop {
