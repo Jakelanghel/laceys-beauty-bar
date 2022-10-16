@@ -4,6 +4,42 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const MobileMenu = (props) => {
+  // const menuVariants = {
+  //   hidden: {
+  //     // opacity: 0,
+  //     y: "-100vh",
+  //     width: "100vw",
+  //     height: "100vh",
+  //     transition: {
+  //       type: "spring",
+  //       damping: 20,
+  //       ease: "easeInOut",
+  //     },
+  //   },
+  //   visible: {
+  //     position: "fixed",
+  //     zIndex: 1,
+  //     // opacity: 1,
+  //     y: 0,
+  //     width: "100vw",
+  //     height: "100vh",
+  //     transition: {
+  //       type: "spring",
+  //       damping: 20,
+  //       ease: "easeInOut",
+  //     },
+  //   },
+  //   exit: {
+  //     opacity: 0,
+  //     x: "-100vh",
+  //     transition: {
+  //       type: "spring",
+  //       damping: 20,
+  //       ease: "easeInOut",
+  //     },
+  //   },
+  // };
+
   const menuVariants = {
     hidden: {
       position: "fixed",

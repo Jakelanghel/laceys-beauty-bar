@@ -3,7 +3,7 @@ import { images } from "../../constants/images";
 
 export const StyledServiceContainer = styled.main`
   text-align: center;
-  margin: 8rem 0;
+  margin: 6rem 0;
   padding: 0 2rem;
 
   .container-carousel {
@@ -19,7 +19,7 @@ export const StyledServiceContainer = styled.main`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
       rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-radius: 15px;
     max-width: 450px;
     margin: 0 auto;

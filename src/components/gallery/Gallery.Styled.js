@@ -56,7 +56,7 @@ export const StyledGallery = styled.div`
     opacity: 1;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 950px) {
     display: none;
 
     .brows-gallery {

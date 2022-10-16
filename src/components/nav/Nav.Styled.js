@@ -15,6 +15,8 @@ export const StyledNav = styled.nav`
   }
 
   .nav-left {
+    z-index: 5;
+
     .eye-icon {
       width: 27px;
       margin: 0 auto;
@@ -28,6 +30,7 @@ export const StyledNav = styled.nav`
 
   .menu-icon {
     width: 25px;
+    z-index: 5;
   }
 
   .active {

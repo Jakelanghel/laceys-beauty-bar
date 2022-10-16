@@ -31,29 +31,26 @@ const Lashes = () => {
       <StyledServiceContainer>
         <div className="container">
           <div className="container-1">
-            <div className="container-copy">
-              <h1 className="title">Lashes</h1>
-              <div>
-                <p>
-                  At Lacey's Beauty Bar, we know our stuff! Your lash health is
-                  the most important aspect to us! We take pride in our ability
-                  to customize each set to your lashes!
-                </p>
+            <h1 className="title">Lashes</h1>
+            <div>
+              <p>
+                At Lacey's Beauty Bar, we know our stuff! Your lash health is
+                the most important aspect to us! We take pride in our ability to
+                customize each set to your lashes!
+              </p>
 
-                <p>
-                  We offer different styles of lashes depending on what you're
-                  looking to get! We offer classic, hybrid, volume and mega
-                  volume lash extensions. We offer a variety of lengths and
-                  curls. We use nothing but the best products that the Industry
-                  has to offer!
-                </p>
+              <p>
+                We offer different styles of lashes depending on what you're
+                looking to get! We offer classic, hybrid, volume and mega volume
+                lash extensions. We offer a variety of lengths and curls. We use
+                nothing but the best products that the Industry has to offer!
+              </p>
 
-                <p>
-                  We are patient, thorough and trained to properly apply
-                  extensions. Quality care, quality products and quality service
-                  are our main goals at LBB!
-                </p>
-              </div>
+              <p>
+                We are patient, thorough and trained to properly apply
+                extensions. Quality care, quality products and quality service
+                are our main goals at LBB!
+              </p>
             </div>
           </div>
 

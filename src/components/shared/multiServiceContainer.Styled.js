@@ -78,13 +78,6 @@ export const StyledMultiServiceContainer = styled.div`
       margin: 0 auto;
     }
 
-    .price {
-      font-size: 1.25rem;
-      color: var(--hot-pink);
-      font-weight: 700;
-      margin-top: 0.25rem;
-    }
-
     span {
       display: block;
     }
@@ -106,6 +99,13 @@ export const StyledMultiServiceContainer = styled.div`
         margin-right: 1rem;
       }
     }
+  }
+
+  .price {
+    font-size: 1.25rem;
+    color: var(--hot-pink);
+    font-weight: 700;
+    margin-top: 0.25rem;
   }
 
   h3 {
@@ -171,15 +171,15 @@ export const StyledMultiServiceContainer = styled.div`
         line-height: 1.5rem;
       }
 
-      .price {
-        color: var(--hot-pink);
-        font-weight: 700;
-        margin: 0;
-      }
-
       .mgn-tp {
         margin-top: 0.5rem;
       }
+    }
+
+    .price {
+      color: var(--hot-pink);
+      font-weight: 700;
+      margin: 0;
     }
 
     .container-2 {

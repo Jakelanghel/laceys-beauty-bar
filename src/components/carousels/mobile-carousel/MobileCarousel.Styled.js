@@ -40,7 +40,6 @@ export const StyledMobileCarousel = styled.div`
 
   .img-container {
     width: 100%;
-    padding: 1rem;
     img {
       width: 100%;
       max-width: 500px;

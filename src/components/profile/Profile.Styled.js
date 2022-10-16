@@ -67,8 +67,8 @@ export const StyledProfile = styled.div`
     }
   }
 
-  @media screen and (min-width: 900px) {
-    padding: 0 4rem;
+  @media screen and (min-width: 950px) {
+    padding: 0 2rem;
     max-width: 1500px;
     .box-shadow-1 {
       border-radius: 15px;
@@ -80,7 +80,7 @@ export const StyledProfile = styled.div`
 
     .img-container {
       max-width: 550px;
-
+      margin: 0;
       padding: 3rem;
       width: 47%;
       display: flex;
@@ -91,8 +91,8 @@ export const StyledProfile = styled.div`
 
     .row {
       width: 100%;
-      /* max-width: 1200px; */
-      margin: 0 auto;
+      margin: 0;
+      padding: 0 3rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -124,7 +124,7 @@ export const StyledProfile = styled.div`
       justify-content: center;
 
       padding: 0;
-      margin: 0 auto;
+      margin: 0;
       padding: 3rem 2rem;
       border-radius: 15px;
     }

@@ -67,15 +67,14 @@ export const HomeCarousel = styled.div`
     border-radius: 5px;
   }
 
-  img:hover {
-    opacity: 1;
-  }
-
   button:hover {
     background-color: rgba(219, 90, 186, 0.4);
+    img {
+      opacity: 1;
+    }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 950px) {
     display: none;
   }
 `;

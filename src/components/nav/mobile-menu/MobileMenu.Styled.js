@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMobileMenu = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -12,7 +12,7 @@ export const StyledMobileMenu = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 1;
 
   .link {
     text-align: center;

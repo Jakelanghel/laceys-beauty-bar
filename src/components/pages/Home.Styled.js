@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const StyledHome = styled.div`
   width: 100%;
-  margin: 0 auto;
   z-index: 0;
-  margin: 6rem 0;
+  margin: 6rem auto;
   margin-bottom: 3rem;
 
   /* ================================================================= */
@@ -17,7 +16,12 @@ export const StyledHome = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 1rem;
+    background-color: var(--white);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
+      rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
   }
 
   .container-hero-img {
@@ -106,9 +110,16 @@ export const StyledHome = styled.div`
       align-items: center;
       margin: 0 auto;
       padding: 4rem 2rem;
+      background-color: transparent;
+      box-shadow: none;
 
       .container-hero-img {
-        width: 45%;
+        width: 450px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        background-color: var(--white);
+        border-radius: 15px;
 
         img {
           margin: 0 auto;
@@ -124,7 +135,7 @@ export const StyledHome = styled.div`
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
           rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
           rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
+        background-color: var(--white);
         border-radius: 15px;
       }
     }
@@ -163,6 +174,8 @@ export const StyledHome = styled.div`
   @media screen and (min-width: 1200px) {
     .hero {
       .container-hero-img {
+        width: 550px;
+
         img {
           width: 550px;
         }
@@ -172,6 +185,8 @@ export const StyledHome = styled.div`
   @media screen and (min-width: 1300px) {
     .hero {
       .container-hero-img {
+        width: 600px;
+
         img {
           width: 600px;
         }
@@ -181,8 +196,10 @@ export const StyledHome = styled.div`
   @media screen and (min-width: 1400px) {
     .hero {
       max-width: 1400px;
-      padding: 4rem 6rem;
+      padding: 4rem 2rem;
       .container-hero-img {
+        width: 650px;
+
         img {
           width: 650px;
         }

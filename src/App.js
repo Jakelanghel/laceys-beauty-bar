@@ -4,6 +4,7 @@ import ScrollToTop from "./utils/ScrollToTop";
 import GlobalStyles from "./components/shared/Global";
 
 import Nav from "./components/nav/Nav";
+import MobileMenu from "./components/nav/mobile-menu/MobileMenu";
 import Home from "./pages/Home";
 import Footer from "./components/footer/Footer";
 import Lashes from "./pages/Lashes";
@@ -25,7 +26,9 @@ function App() {
     <>
       <GlobalStyles />
       <main className="container-app">
-        <Nav toggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
+        <Nav toggleMenu={toggleMenu} />
+        <AnimatePresence>{menuIsOpen && <MobileMenu />}</AnimatePresence>
+
         <ScrollToTop>
           <AnimatePresence
             // exitBeforeEnter
