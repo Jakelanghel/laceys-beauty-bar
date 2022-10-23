@@ -2,9 +2,11 @@ import styled from "styled-components";
 import { images } from "../../constants/images";
 
 export const StyledServiceContainer = styled.main`
+  max-width: 550px;
+
   text-align: center;
-  margin: 6rem 0;
-  padding: 0 2rem;
+  margin: 6rem auto;
+  padding: 0 1rem;
 
   .container-carousel {
     width: 100%;
@@ -21,7 +23,6 @@ export const StyledServiceContainer = styled.main`
       rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding: 2rem 1rem;
     border-radius: 15px;
-    max-width: 450px;
     margin: 0 auto;
 
     div {
@@ -37,7 +38,6 @@ export const StyledServiceContainer = styled.main`
   .container-2 {
     padding: 2rem 1rem;
     border-radius: 15px;
-    max-width: 450px;
     margin: 3rem auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
@@ -111,10 +111,9 @@ export const StyledServiceContainer = styled.main`
     color: var(--hot-pink);
   }
 
-  /* =========================================================== */
-  /* =========================================================== */
-  /* =========================================================== */
-  /* =========================================================== */
+  @media screen and (min-width: 400px) {
+    padding: 0 2rem;
+  }
 
   @media screen and (max-width: 950px) {
     .container-gallery {
@@ -124,24 +123,25 @@ export const StyledServiceContainer = styled.main`
 
   @media screen and (min-width: 950px) {
     width: 100%;
+    max-width: none;
     margin-bottom: 10rem;
-    margin: 0;
-    padding: 12rem 2rem;
+    margin: 15rem 0;
+    padding: 0 2rem;
 
     .gallery {
       z-index: 2;
     }
 
     .lashes-gallery {
-      margin-top: 3rem;
+      margin-top: 11rem;
     }
 
     .brows-gallery {
-      margin-top: 7rem;
+      margin-top: 15rem;
     }
 
     .skin-gallery {
-      margin-top: 9rem;
+      margin-top: 15rem;
     }
 
     .container-carousel {
@@ -151,7 +151,7 @@ export const StyledServiceContainer = styled.main`
     .container {
       margin: 0 auto;
       position: relative;
-      max-width: 1000px;
+      max-width: 1100px;
       padding: 0 2rem;
     }
 
@@ -163,6 +163,7 @@ export const StyledServiceContainer = styled.main`
     .container-1 {
       width: 50%;
       min-width: 300px;
+      max-width: 450px;
       padding: 2rem;
       margin: 0 2rem;
       position: relative;

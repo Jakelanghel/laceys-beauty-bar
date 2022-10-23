@@ -55,8 +55,8 @@ import browsImg_4 from "../assets/brows/brows_4.jpg";
 import browsImg_5 from "../assets/brows/brows_5.jpg";
 import browsImg_6 from "../assets/brows/brows_6.jpg";
 import browsImg_7 from "../assets/brows/brows_7.jpg";
-import mobileBrowsImg_1 from "../assets/brows/mobile_brows_1.jpg";
-import mobileBrowsImg_6 from "../assets/brows/mobile_brows_6.jpg";
+import mobileBrowsImg_1 from "../assets/brows/mobile_brows_1.png";
+import mobileBrowsImg_6 from "../assets/brows/mobile_brows_6.png";
 
 // SKIN IMGS
 import skinImg_1 from "../assets/skin/skin_1.jpg";

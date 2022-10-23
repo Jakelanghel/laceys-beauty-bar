@@ -17,10 +17,16 @@ export const StyledDesktopMenu = styled.div`
 
   .nav-link,
   .store-link {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: capitalize;
+  }
+
+  @media screen and (min-width: 1100px) {
+    .nav-link {
+      font-size: 1rem;
+    }
   }
 
   .nav-link {
@@ -30,16 +36,14 @@ export const StyledDesktopMenu = styled.div`
   }
 
   .nav-link:hover {
-    color: var(--hot-pink);
+    font-weight: 700;
+    cursor: pointer;
   }
 
-  @media screen and (min-width: 1200px) {
-    .nav-link,
-    .store-link {
-      font-size: 1.15rem;
-      font-weight: 500;
-      letter-spacing: 4px;
-      text-transform: capitalize;
-    }
+  .active {
+    color: var(--hot-pink);
+    font-weight: 700;
+    border-bottom: solid 1px var(--hot-pink);
+    border-top: solid 1px var(--hot-pink);
   }
 `;

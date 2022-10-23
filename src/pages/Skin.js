@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import Carousel from "../components/carousels/mobile-carousel/MobileCarousel";
+import SwiperCarousel from "../components/carousels/mobile-swiper/SwiperCarousel";
 import Gallery from "../components/gallery/Gallery";
 import PageMotion from "../components/motion/PageMotion";
 
@@ -21,21 +21,18 @@ const Skin = () => {
       <StyledServiceContainer>
         <div className="container">
           <div className="container-1">
-            <div className="container-copy">
-              <h1 className="title">Skin</h1>
+            <h1 className="title">Skin</h1>
 
-              <div>
-                <p>
-                  At Lacey's Beauty Bar, we offer top tier services using some
-                  of the Industry's leading brands and products. We offer a
-                  variety of facials using Farmhouse Fresh Products and Esthemax
-                  hydro jelly masks. We have facials formulated for all skin
-                  types. Our facial services include a mini massage focusing on
-                  your neck, décolleté, arms and hands. We look forward to
-                  enhancing your natural beauty and helping to perfect your
-                  skin!
-                </p>
-              </div>
+            <div>
+              <p>
+                At Lacey's Beauty Bar, we offer top tier services using some of
+                the Industry's leading brands and products. We offer a variety
+                of facials using Farmhouse Fresh Products and Esthemax hydro
+                jelly masks. We have facials formulated for all skin types. Our
+                facial services include a mini massage focusing on your neck,
+                décolleté, arms and hands. We look forward to enhancing your
+                natural beauty and helping to perfect your skin!
+              </p>
             </div>
           </div>
 
@@ -82,8 +79,9 @@ const Skin = () => {
             </div>
           </div>
         </div>
+
         <div className="container-carousel">
-          <Carousel imgArr={skinImgs} />
+          <SwiperCarousel imgArr={skinImgs} />
         </div>
         <Gallery class="skin-gallery" imgs={skinImgs} />
       </StyledServiceContainer>

@@ -9,17 +9,14 @@ const WaxingAndTanning = () => {
       <StyledMultiServiceContainer>
         <div className="container ">
           <div className="container-1 spacer">
-            <div className="container-copy">
-              <h1 className="title">Waxing</h1>
-
-              <div>
-                <p>
-                  We are waxing queens at the beauty bar! We offer a variety of
-                  waxes, from full face to full Brazilian. Whether you're
-                  looking to have smooth legs or smooth underarms, we have you
-                  covered! Book your wax today for smooth skin year round!
-                </p>
-              </div>
+            <h1 className="title">Waxing</h1>
+            <div>
+              <p>
+                We are waxing queens at the beauty bar! We offer a variety of
+                waxes, from full face to full Brazilian. Whether you're looking
+                to have smooth legs or smooth underarms, we have you covered!
+                Book your wax today for smooth skin year round!
+              </p>
             </div>
           </div>
 

@@ -54,9 +54,6 @@ export const StyledMobileMenu = styled.div`
     border-top: solid 1px var(--hot-pink);
   }
 
-  .nav-link .active:hover {
-    font-weight: 700;
-  }
   @media screen and (min-width: 950px) {
     display: none;
   }

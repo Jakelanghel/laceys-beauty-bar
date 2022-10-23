@@ -24,28 +24,15 @@ export const StyledProfile = styled.div`
     object-fit: cover;
   }
 
-  @media screen and (min-width: 400px) {
-    .profile-img {
-      width: 350px;
-      height: 350px;
-    }
-  }
-  @media screen and (min-width: 450px) {
-    .profile-img {
-      width: 400px;
-      height: 400px;
-    }
-  }
-
   .cailyn,
   .sydni {
     object-position: center top;
   }
 
   .container-card {
-    max-width: 500px;
-    padding: 2rem 1rem;
-    margin: 0 auto;
+    width: 95%;
+    max-width: 550px;
+    margin: 2rem auto;
     .card {
       padding: 2rem 1rem;
       border-radius: 15px;
@@ -67,9 +54,32 @@ export const StyledProfile = styled.div`
     }
   }
 
+  @media screen and (min-width: 400px) {
+    .profile-img {
+      width: 350px;
+      height: 350px;
+    }
+
+    .img-container {
+      width: 90%;
+    }
+
+    .container-card {
+      width: 90%;
+    }
+  }
+  @media screen and (min-width: 450px) {
+    .profile-img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
   @media screen and (min-width: 950px) {
-    padding: 0 2rem;
     max-width: 1500px;
+    padding: 0 2rem;
+    margin: 8rem auto;
+
     .box-shadow-1 {
       border-radius: 15px;
 
@@ -81,7 +91,6 @@ export const StyledProfile = styled.div`
     .img-container {
       max-width: 550px;
       margin: 0;
-      padding: 3rem;
       width: 47%;
       display: flex;
       justify-content: center;
@@ -92,7 +101,6 @@ export const StyledProfile = styled.div`
     .row {
       width: 100%;
       margin: 0;
-      padding: 0 3rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -125,12 +133,12 @@ export const StyledProfile = styled.div`
 
       padding: 0;
       margin: 0;
-      padding: 3rem 2rem;
+      padding: 3rem 0;
       border-radius: 15px;
     }
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1200px) {
     .container-card {
       max-width: 550px;
 
@@ -144,29 +152,6 @@ export const StyledProfile = styled.div`
           font-size: 1.14rem;
         }
       }
-    }
-
-    .img-container {
-      max-width: 550px;
-      padding: 3rem 4rem;
-      width: 47%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 15px;
-    }
-
-    .profile-img {
-      width: 100%;
-      max-width: none;
-    }
-
-    .cailyn {
-      object-position: top center;
-    }
-
-    .sydni {
-      object-position: center -35px;
     }
   }
 `;

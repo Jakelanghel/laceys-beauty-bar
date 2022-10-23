@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledGallery = styled.div`
   width: 100%;
-  max-width: 2000px;
+  max-width: 1700px;
   margin: 0 auto;
 
   .gallery {

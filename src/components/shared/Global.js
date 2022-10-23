@@ -62,6 +62,7 @@ const GlobalStyles = createGlobalStyle`
 
 
     .container-app {
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -79,6 +80,11 @@ const GlobalStyles = createGlobalStyle`
     .filter-white {
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(102%);
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+    color: var(--off-white) !important;
+  }
 
     
 

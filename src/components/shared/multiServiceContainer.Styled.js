@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { images } from "../../constants/images";
 
 export const StyledMultiServiceContainer = styled.div`
+  max-width: 550px;
   text-align: center;
-  margin: 8rem 0;
-  padding: 0 2rem;
+  margin: 8rem auto;
+  padding: 0 1rem;
 
   .container-carousel {
     width: 100%;
@@ -24,7 +25,6 @@ export const StyledMultiServiceContainer = styled.div`
       rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding: 2rem;
     border-radius: 15px;
-    max-width: 450px;
     margin: 0 auto;
 
     div {
@@ -114,23 +114,21 @@ export const StyledMultiServiceContainer = styled.div`
     color: var(--hot-pink);
   }
 
-  /* =========================================================== */
-  /* =========================================================== */
-  /* =========================================================== */
-  /* =========================================================== */
+  @media screen and (min-width: 400px) {
+    padding: 0 2rem;
+  }
 
   @media screen and (min-width: 950px) {
-    padding: 7rem 4rem;
-    margin: 0;
+    max-width: 1500px;
+    padding: 0 4rem;
+    margin: 10rem auto;
     width: 100%;
 
     .container {
       width: 100%;
-      max-width: 900px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 0 auto;
     }
 
     .container-1,

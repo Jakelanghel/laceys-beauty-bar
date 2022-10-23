@@ -5,9 +5,8 @@ export const StyledAbout = styled.section`
   max-width: 1500px;
   text-align: left;
   margin: 5rem auto;
-  margin-bottom: 0;
 
-  @media screen and (min-width: 400px) {
-    padding: 1rem 0;
+  @media screen and (min-width: 950px) {
+    margin-bottom: 12rem;
   }
 `;

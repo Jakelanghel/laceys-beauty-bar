@@ -1,9 +1,9 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import Carousel from "../components/carousels/mobile-carousel/MobileCarousel";
 import Gallery from "../components/gallery/Gallery";
 import PageMotion from "../components/motion/PageMotion";
+import SwiperCarousel from "../components/carousels/mobile-swiper/SwiperCarousel";
 
 const Lashes = () => {
   const mobileLashImgsArr = [
@@ -98,10 +98,13 @@ const Lashes = () => {
         </div>
 
         <div className="container-carousel">
-          <Carousel imgArr={mobileLashImgsArr} />
+          <SwiperCarousel imgArr={mobileLashImgsArr} />
         </div>
 
-        <Gallery class="lashes-gallery" imgs={desktopLashImgArr} />
+        <Gallery
+          class="lashes-gallery lashes-gallery"
+          imgs={desktopLashImgArr}
+        />
       </StyledServiceContainer>
     </PageMotion>
   );

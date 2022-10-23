@@ -11,12 +11,13 @@ export const StyledHome = styled.div`
   /* ================================================================= */
 
   .hero {
+    width: 95%;
     max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 auto;
     background-color: var(--white);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
@@ -53,14 +54,14 @@ export const StyledHome = styled.div`
     letter-spacing: 2px;
 
     p {
-      font-size: 1.25rem;
+      font-size: 1rem;
       font-weight: 00;
       text-transform: capitalize;
       color: var(--txt-grey);
       line-height: 2.5rem;
 
       span {
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-family: "Dancing Script", cursive;
         color: var(--hot-pink);
         font-weight: 700;
@@ -95,6 +96,12 @@ export const StyledHome = styled.div`
       margin: 1.5rem auto;
       border: none;
       border-radius: 25px;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    .hero {
+      width: 90%;
     }
   }
 
@@ -152,7 +159,11 @@ export const StyledHome = styled.div`
       text-align: left;
 
       p {
-        font-size: 1.15rem;
+        font-size: 1rem;
+
+        span {
+          font-size: 1.75rem;
+        }
       }
     }
 

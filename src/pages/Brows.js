@@ -1,8 +1,8 @@
 import React from "react";
 import { images } from "../constants/images";
 import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
-import MobileCarousel from "../components/carousels/mobile-carousel/MobileCarousel";
 import Gallery from "../components/gallery/Gallery";
+import SwiperCarousel from "../components/carousels/mobile-swiper/SwiperCarousel";
 import PageMotion from "../components/motion/PageMotion";
 
 const Brows = () => {
@@ -30,16 +30,14 @@ const Brows = () => {
       <StyledServiceContainer>
         <div className="container">
           <div className="container-1">
-            <div className="container-copy">
-              <h1 className="title">Eyebrows</h1>
-              <div>
-                <p>
-                  At Lacey's Beauty Bar, we specialize in eyebrow shaping. We're
-                  very precise and detail oriented when deciding on a shape that
-                  best suits your face. We offer a number of services for your
-                  brows.
-                </p>
-              </div>
+            <h1 className="title">Eyebrows</h1>
+            <div>
+              <p>
+                At Lacey's Beauty Bar, we specialize in eyebrow shaping. We're
+                very precise and detail oriented when deciding on a shape that
+                best suits your face. We offer a number of services for your
+                brows.
+              </p>
             </div>
           </div>
 
@@ -73,7 +71,7 @@ const Brows = () => {
         </div>
 
         <div className="container-carousel">
-          <MobileCarousel imgArr={mobileBrowsArr} />
+          <SwiperCarousel imgArr={mobileBrowsArr} />
         </div>
 
         <Gallery class="brows-gallery" imgs={desktopBrowsArr} />

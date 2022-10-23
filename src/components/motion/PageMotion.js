@@ -23,6 +23,7 @@ const PageMotion = ({ children }) => {
       initial="hidden"
       animate="visible"
       exit="exit"
+      style={{ width: "100%" }}
     >
       {children}
     </motion.div>
