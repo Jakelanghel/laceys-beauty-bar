@@ -3,7 +3,6 @@ import { images } from "../constants/images";
 import { StyledHome } from "../components/pages/Home.Styled";
 import About from "../components/about/About";
 import DesktopCarousel from "../components/carousels/desktop-carousel/Desktop-Carousel";
-import { motion } from "framer-motion";
 import PageMotion from "../components/motion/PageMotion";
 
 const Home = () => {

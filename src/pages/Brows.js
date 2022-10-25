@@ -18,7 +18,7 @@ const Brows = () => {
   const mobileBrowsArr = [
     images.mobileBrowsImg_1,
     images.browsImg_2,
-    images.browsImg_3,
+    images.mobileBrowsImg_3,
     images.browsImg_4,
     images.browsImg_5,
     images.mobileBrowsImg_6,

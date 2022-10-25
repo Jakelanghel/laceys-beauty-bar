@@ -15,7 +15,7 @@ export const HomeCarousel = styled.div`
       "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4"
       "img1 img1 img1 img1 img2 img2 img2 img2 img4 img4 img4 img4";
 
-    margin: 8rem auto;
+    margin: 12rem auto;
     margin-bottom: 11rem;
   }
 
@@ -63,8 +63,12 @@ export const HomeCarousel = styled.div`
     width: 100%;
     object-fit: cover;
     height: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
     border-radius: 5px;
+  }
+
+  img:hover {
+    opacity: 1;
   }
 
   button:hover {

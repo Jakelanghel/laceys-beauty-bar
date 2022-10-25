@@ -14,6 +14,11 @@ export const StyledGallery = styled.div`
       "img1 img1 img2 img2 img2 img4 img4 img5 img5 img5 img7 img7"
       "img1 img1 img3 img3 img3 img4 img4 img6 img6 img6 img6 img6";
   }
+  @media screen and (min-width: 1800px) {
+    .gallery {
+      grid-template-rows: 300px 350px;
+    }
+  }
 
   .img-1 {
     grid-area: img1;

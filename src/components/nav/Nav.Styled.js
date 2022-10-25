@@ -2,45 +2,46 @@ import styled from "styled-components";
 
 export const StyledNav = styled.nav`
   width: 100%;
-  max-width: 100%;
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  z-index: 5;
   background-color: transparent;
+  padding: 1rem;
+  z-index: 5;
 
   .desktop {
     display: none;
   }
 
-  .nav-left {
-    z-index: 5;
+  .nav-icon {
+    padding: 1rem;
+    text-decoration: none;
+  }
 
-    .eye-icon {
-      width: 27px;
-      margin: 0 auto;
-    }
+  .eye-icon {
+    width: 27px;
+    margin: 0 auto;
+  }
 
-    p {
-      font-size: 1rem;
-      letter-spacing: 2px;
-    }
+  p {
+    font-size: 1rem;
+    letter-spacing: 2px;
   }
 
   .menu-icon {
-    width: 25px;
+    width: 60px;
     z-index: 5;
+  }
+
+  .menu-icon:hover,
+  .eye-icon {
+    cursor: pointer;
   }
 
   .active {
     color: var(--hot-pink);
     font-weight: 700;
-  }
-
-  .container-desktop-menu {
-    display: none;
   }
 
   @media screen and (min-width: 950px) {
@@ -60,6 +61,26 @@ export const StyledNav = styled.nav`
         font-size: 1.25rem;
         letter-spacing: 2px;
       }
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .eye-icon {
+      width: 30px;
+    }
+
+    p {
+      font-size: 1.15rem;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .eye-icon {
+      width: 35px;
+    }
+
+    p {
+      font-size: 1.25rem;
     }
   }
 `;

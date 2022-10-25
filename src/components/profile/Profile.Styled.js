@@ -12,7 +12,7 @@ export const StyledProfile = styled.div`
     justify-content: center;
     background-image: url(${images.pinkBg});
     background-size: 50%;
-    padding: 2rem 1rem;
+    padding: 2rem;
     border-radius: 25px;
   }
 
@@ -68,16 +68,9 @@ export const StyledProfile = styled.div`
       width: 90%;
     }
   }
-  @media screen and (min-width: 450px) {
-    .profile-img {
-      width: 400px;
-      height: 400px;
-    }
-  }
 
   @media screen and (min-width: 950px) {
     max-width: 1500px;
-    padding: 0 2rem;
     margin: 8rem auto;
 
     .box-shadow-1 {
@@ -89,7 +82,7 @@ export const StyledProfile = styled.div`
     }
 
     .img-container {
-      max-width: 550px;
+      max-width: 450px;
       margin: 0;
       width: 47%;
       display: flex;
@@ -102,7 +95,8 @@ export const StyledProfile = styled.div`
       width: 100%;
       margin: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 3rem;
       align-items: center;
     }
 
@@ -116,41 +110,62 @@ export const StyledProfile = styled.div`
       }
     }
 
-    .profile-img {
-      width: 100%;
-      max-height: 400px;
-      min-height: 400px;
-      max-width: 350px;
-      object-fit: cover;
-    }
-
     .container-card {
       width: 47%;
-      max-width: 450px;
+      max-width: 400px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-
-      padding: 0;
       margin: 0;
       padding: 3rem 0;
       border-radius: 15px;
     }
   }
 
+  @media screen and (min-width: 1100px) {
+    .row {
+      gap: 8rem;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
-    .container-card {
+    .img-container {
+      padding: 2rem;
+      width: 47%;
+      border-radius: 15px;
+    }
+
+    .profile-img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
+  @media screen and (min-width: 1500px) {
+    .row {
+      gap: 12rem;
+    }
+
+    .img-container {
       max-width: 550px;
+      padding: 3rem;
+      width: 47%;
+      border-radius: 15px;
+    }
+
+    .profile-img {
+      width: 450px;
+      height: 450px;
+    }
+
+    .container-card {
+      max-width: 500px;
+
+      padding: 3rem 0;
 
       .card {
-        padding: 3rem 2rem;
-        h2 {
-          font-size: 2.5rem;
-        }
-
-        p {
-          font-size: 1.14rem;
-        }
+        max-width: 550px;
+        padding: 2rem 1.5rem;
       }
     }
   }

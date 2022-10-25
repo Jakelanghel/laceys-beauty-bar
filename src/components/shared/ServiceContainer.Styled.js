@@ -5,7 +5,7 @@ export const StyledServiceContainer = styled.main`
   max-width: 550px;
 
   text-align: center;
-  margin: 6rem auto;
+  margin: 7.5rem auto;
   padding: 0 1rem;
 
   .container-carousel {

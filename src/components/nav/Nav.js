@@ -1,20 +1,21 @@
 import React from "react";
 import { images } from "../../constants/images";
+import { NavLink } from "react-router-dom";
 import { StyledNav } from "../nav/Nav.Styled";
 import DesktopMenu from "./desktop-menu/DesktopMenu";
 
 export const Nav = (props) => {
   return (
     <StyledNav>
-      <div className="nav-left filter-pink">
-        <img src={images.eyeIcon} alt="" className="eye-icon " />
+      <NavLink to="/" className="nav-icon filter-pink">
+        <img src={images.eyeIcon} alt="" className="eye-icon" />
         <p>LBB</p>
-      </div>
+      </NavLink>
 
       <img
         src={images.menuIcon}
         alt=""
-        className="menu-icon filter-pink"
+        className=" nav-icon menu-icon filter-pink"
         onClick={props.toggleMenu}
       />
 

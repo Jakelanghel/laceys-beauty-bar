@@ -5,6 +5,7 @@ export const StyledHome = styled.div`
   z-index: 0;
   margin: 6rem auto;
   margin-bottom: 3rem;
+  max-width: 475px;
 
   /* ================================================================= */
   /* HERO========================================================= */
@@ -12,7 +13,7 @@ export const StyledHome = styled.div`
 
   .hero {
     width: 95%;
-    max-width: 500px;
+    max-width: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,17 +107,18 @@ export const StyledHome = styled.div`
   }
 
   @media screen and (min-width: 950px) {
-    margin: 8rem 0;
-    padding: 0 1rem;
+    max-width: none;
+    margin: 12rem auto;
+    max-width: 1300px;
 
     .hero {
       width: 100%;
       max-width: none;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 3rem;
       align-items: center;
       margin: 0 auto;
-      padding: 4rem 2rem;
       background-color: transparent;
       box-shadow: none;
 
@@ -137,7 +139,6 @@ export const StyledHome = styled.div`
       .container-hero-copy {
         width: 42%;
         max-width: 400px;
-        margin-left: 3rem;
         padding: 2rem;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
           rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -175,15 +176,16 @@ export const StyledHome = styled.div`
       }
     }
   }
-
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1000px) {
     .hero {
-      padding: 4rem 4rem;
+      gap: 5rem;
     }
   }
 
   @media screen and (min-width: 1200px) {
     .hero {
+      margin: 12rem auto;
+      gap: 5rem;
       .container-hero-img {
         width: 550px;
 
@@ -206,11 +208,9 @@ export const StyledHome = styled.div`
   }
   @media screen and (min-width: 1400px) {
     .hero {
-      max-width: 1400px;
-      padding: 4rem 2rem;
+      gap: 10rem;
       .container-hero-img {
         width: 650px;
-
         img {
           width: 650px;
         }

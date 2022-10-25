@@ -86,6 +86,17 @@ const GlobalStyles = createGlobalStyle`
     color: var(--off-white) !important;
   }
 
+
+
+  @media screen and (min-width: 1500px){
+    h2 {
+        font-size: 2.25rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+  }
     
 
     
