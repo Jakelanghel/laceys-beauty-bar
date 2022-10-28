@@ -69,6 +69,7 @@ const GlobalStyles = createGlobalStyle`
         align-items: center;
         position: relative;
         background-image: url(${images.flowerBg});
+        overflow: hidden;
 
     }
 

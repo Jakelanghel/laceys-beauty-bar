@@ -56,6 +56,7 @@ export const StyledServiceContainer = styled.main`
 
   .container-service {
     margin: 1.5rem 0;
+    padding: 0 1rem;
 
     h2 {
       font-size: 1.25rem;
@@ -70,13 +71,13 @@ export const StyledServiceContainer = styled.main`
     }
 
     p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       max-width: 300px;
       margin: 0 auto;
     }
 
     .price {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
       color: var(--hot-pink);
       font-weight: 700;
       margin-top: 0.25rem;
@@ -125,7 +126,8 @@ export const StyledServiceContainer = styled.main`
     width: 100%;
     max-width: none;
     margin-bottom: 10rem;
-    margin: 15rem 0;
+    margin: 17rem 0;
+    margin-bottom: 10rem;
     padding: 0 2rem;
 
     .gallery {
@@ -133,11 +135,11 @@ export const StyledServiceContainer = styled.main`
     }
 
     .lashes-gallery {
-      margin-top: 11rem;
+      margin-top: 8rem;
     }
 
     .brows-gallery {
-      margin-top: 15rem;
+      margin-top: 14rem;
     }
 
     .skin-gallery {
@@ -164,7 +166,7 @@ export const StyledServiceContainer = styled.main`
       width: 50%;
       min-width: 300px;
       max-width: 450px;
-      padding: 2rem;
+      padding: 3rem;
       margin: 0 2rem;
       position: relative;
       border-radius: 15px;
@@ -211,8 +213,8 @@ export const StyledServiceContainer = styled.main`
       }
 
       .price {
-        color: var(--hot-pink);
         font-weight: 700;
+        color: var(--hot-pink);
         margin: 0;
         margin-top: 0.5rem;
       }

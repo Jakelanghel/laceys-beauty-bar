@@ -1,6 +1,5 @@
 import React from "react";
 import { StyledProfile } from "./Profile.Styled";
-import { motion } from "framer-motion";
 
 const Profile = (props) => {
   const bioElements = props.bio.map((p, i) => {
@@ -17,7 +16,7 @@ const Profile = (props) => {
         <div className="img-container box-shadow-1">
           <img
             src={props.img}
-            alt="lacey dean"
+            alt="profile"
             className={`profile-img ${props.name}`}
           />
         </div>

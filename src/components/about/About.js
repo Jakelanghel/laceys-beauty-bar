@@ -1,50 +1,37 @@
 import React from "react";
-import { images } from "../../constants/images";
 import { StyledAbout } from "./About.Styled";
 import Profile from "../profile/Profile";
-import { motion } from "framer-motion";
 import profileData from "./profileData";
+import ProfileMotionLeft from "../motion/ProfileMotionLeft";
+import ProfileMotionRight from "../motion/ProfileMotionRight";
+
 const About = () => {
   return (
     <StyledAbout>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
-        <Profile
-          img={profileData.lacey.img}
-          name="lacey"
-          bio={profileData.lacey.bio}
-          inverted={false}
-        />
-      </motion.div>
+      <Profile
+        img={profileData.lacey.img}
+        name="lacey"
+        bio={profileData.lacey.bio}
+        inverted={false}
+      />
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
+      <ProfileMotionLeft>
         <Profile
           img={profileData.cailyn.img}
           name="cailyn"
           bio={profileData.cailyn.bio}
           inverted={true}
         />
-      </motion.div>
+      </ProfileMotionLeft>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
+      <ProfileMotionRight>
         <Profile
           img={profileData.sydni.img}
           name="sydni"
           bio={profileData.sydni.bio}
           inverted={false}
         />
-      </motion.div>
+      </ProfileMotionRight>
     </StyledAbout>
   );
 };

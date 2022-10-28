@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { images } from "../../constants/images";
 
 export const StyledMultiServiceContainer = styled.div`
   max-width: 550px;
+
   text-align: center;
-  margin: 8rem auto;
+  margin: 7.5rem auto;
   padding: 0 1rem;
 
   .container-carousel {
@@ -17,13 +17,10 @@ export const StyledMultiServiceContainer = styled.div`
   }
 
   .container-1 {
-    border-radius: 15px;
-    max-width: 450px;
-    margin: 0 auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
       rgba(15, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-radius: 15px;
     margin: 0 auto;
 
@@ -40,7 +37,6 @@ export const StyledMultiServiceContainer = styled.div`
   .container-2 {
     padding: 2rem 1rem;
     border-radius: 15px;
-    max-width: 350px;
     margin: 3rem auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -70px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -50px,
@@ -59,6 +55,7 @@ export const StyledMultiServiceContainer = styled.div`
 
   .container-service {
     margin: 1.5rem 0;
+    padding: 0 1rem;
 
     h2 {
       font-size: 1.25rem;
@@ -73,9 +70,16 @@ export const StyledMultiServiceContainer = styled.div`
     }
 
     p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       max-width: 300px;
       margin: 0 auto;
+    }
+
+    .price {
+      font-size: 1.35rem;
+      color: var(--hot-pink);
+      font-weight: 700;
+      margin-top: 0.25rem;
     }
 
     span {
@@ -99,13 +103,6 @@ export const StyledMultiServiceContainer = styled.div`
         margin-right: 1rem;
       }
     }
-  }
-
-  .price {
-    font-size: 1.25rem;
-    color: var(--hot-pink);
-    font-weight: 700;
-    margin-top: 0.25rem;
   }
 
   h3 {
@@ -137,6 +134,10 @@ export const StyledMultiServiceContainer = styled.div`
     }
 
     .container-1 {
+      max-width: 450px;
+      padding: 3rem;
+      border-radius: 15px;
+
       .title {
         font-size: 2.5rem;
         display: block;
