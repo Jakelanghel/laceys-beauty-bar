@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const StyledHome = styled.div`
   width: 100%;
   z-index: 0;
-  margin: 6rem auto;
-  margin-bottom: 3rem;
+  margin: 7rem auto;
   max-width: 475px;
 
   /* ================================================================= */
@@ -28,6 +27,8 @@ export const StyledHome = styled.div`
 
   .container-hero-img {
     width: 100%;
+    padding: 1rem;
+
     img {
       width: 100%;
     }
@@ -129,6 +130,7 @@ export const StyledHome = styled.div`
           rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         background-color: var(--white);
         border-radius: 15px;
+        padding: 0;
 
         img {
           margin: 0 auto;
