@@ -74,31 +74,6 @@ export const StyledHome = styled.div`
   .cta {
     text-align: center;
     margin-top: 2.5rem;
-
-    p {
-      font-size: 1rem;
-      text-transform: capitalize;
-      max-width: 350px;
-      padding: 0.5rem 0;
-      padding-bottom: 1rem;
-    }
-
-    a {
-      width: 225px;
-      display: block;
-
-      font-size: 1.5rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      text-decoration: none;
-      letter-spacing: 2px;
-      color: var(--off-white);
-      background: var(--hot-pink);
-      padding: 0.75rem 2rem;
-      margin: 1.5rem auto;
-      border: none;
-      border-radius: 25px;
-    }
   }
 
   @media screen and (min-width: 400px) {
@@ -113,7 +88,6 @@ export const StyledHome = styled.div`
     max-width: 1300px;
 
     .hero {
-      width: 100%;
       max-width: none;
       flex-direction: row;
       justify-content: center;
@@ -172,9 +146,13 @@ export const StyledHome = styled.div`
 
     .cta {
       margin-top: 1.5rem;
-      a {
-        margin: 0;
-        border-radius: 10px;
+
+      p {
+        font-size: 1rem;
+        text-transform: capitalize;
+        max-width: 350px;
+        padding: 0.5rem 0;
+        padding-bottom: 1rem;
       }
     }
   }

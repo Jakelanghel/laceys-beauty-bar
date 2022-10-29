@@ -3,7 +3,8 @@ import { images } from "../constants/images";
 import { StyledHome } from "../components/pages/Home.Styled";
 import About from "../components/about/About";
 import DesktopCarousel from "../components/carousels/desktop-carousel/Desktop-Carousel";
-import PageMotion from "../components/motion/PageMotion";
+import PageMotion from "../components/shared/motion/PageMotion";
+import ButtonMotion from "../components/shared/motion/ButtonMotion";
 
 const Home = () => {
   const beautyBarImgs = [
@@ -50,9 +51,7 @@ const Home = () => {
             </div>
 
             <div className="cta">
-              <a href="https://booksy.com/en-us/593905_laceys-beauty-bar-llc_eyebrows-lashes_33092_beaver-falls">
-                book now
-              </a>
+              <ButtonMotion />
             </div>
           </div>
         </section>

@@ -1,9 +1,9 @@
 import React from "react";
 import { images } from "../constants/images";
-import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
+import { StyledServiceContainer } from "../components/shared/service-containers/ServiceContainer.Styled";
 import SwiperCarousel from "../components/carousels/mobile-swiper/SwiperCarousel";
 import Gallery from "../components/gallery/Gallery";
-import PageMotion from "../components/motion/PageMotion";
+import PageMotion from "../components/shared/motion/PageMotion";
 
 const Skin = () => {
   const skinImgs = [

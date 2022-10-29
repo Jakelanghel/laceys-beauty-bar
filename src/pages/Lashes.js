@@ -1,9 +1,10 @@
 import React from "react";
 import { images } from "../constants/images";
-import { StyledServiceContainer } from "../components/shared/ServiceContainer.Styled";
+import { StyledServiceContainer } from "../components/shared/service-containers/ServiceContainer.Styled";
 import Gallery from "../components/gallery/Gallery";
-import PageMotion from "../components/motion/PageMotion";
+import PageMotion from "../components/shared/motion/PageMotion";
 import SwiperCarousel from "../components/carousels/mobile-swiper/SwiperCarousel";
+import ButtonMotion from "../components/shared/motion/ButtonMotion";
 
 const Lashes = () => {
   const mobileLashImgsArr = [
@@ -94,6 +95,8 @@ const Lashes = () => {
               </p>
               <p className="price">$50</p>
             </div>
+
+            <ButtonMotion class="service-btn" />
           </div>
         </div>
 

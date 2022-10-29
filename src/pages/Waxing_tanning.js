@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../constants/images";
-import { StyledMultiServiceContainer } from "../components/shared/multiServiceContainer.Styled";
-import PageMotion from "../components/motion/PageMotion";
+import { StyledMultiServiceContainer } from "../components/shared/service-containers/multiServiceContainer.Styled";
+import PageMotion from "../components/shared/motion/PageMotion";
 
 const WaxingAndTanning = () => {
   return (
