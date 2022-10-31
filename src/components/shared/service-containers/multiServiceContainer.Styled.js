@@ -142,7 +142,6 @@ export const StyledMultiServiceContainer = styled.div`
         font-size: 2.5rem;
         display: block;
         max-width: 600px;
-        border: none;
         margin-bottom: 0.5rem;
       }
 
