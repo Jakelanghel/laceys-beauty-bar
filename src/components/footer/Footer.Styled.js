@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  width: 100%;
+  width: 95%;
   max-width: 700px;
   position: absolute;
   bottom: 0;
-  padding: 0 1rem;
-  padding-top: 1rem;
+  padding: 1rem 1rem;
+  margin: 0 auto;
   background-color: var(--white);
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -20,6 +20,7 @@ export const StyledFooter = styled.footer`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .soc-link {
     width: 50px;
