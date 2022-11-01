@@ -47,7 +47,7 @@ export const StyledMultiServiceContainer = styled.div`
   }
 
   .title {
-    max-width: 170px;
+    max-width: 200px;
     font-weight: 700;
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
@@ -141,7 +141,6 @@ export const StyledMultiServiceContainer = styled.div`
       .title {
         font-size: 2.5rem;
         display: block;
-        max-width: 600px;
         margin-bottom: 0.5rem;
       }
 

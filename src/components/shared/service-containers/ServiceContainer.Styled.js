@@ -47,7 +47,7 @@ export const StyledServiceContainer = styled.main`
   }
 
   .title {
-    max-width: 170px;
+    max-width: 200px;
     font-weight: 700;
     margin: 0 auto;
     border-bottom: solid 2px var(--hot-pink);
