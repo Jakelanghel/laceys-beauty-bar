@@ -5,7 +5,7 @@ export const StyledMobileMenu = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 
   position: fixed;
@@ -58,7 +58,6 @@ export const StyledMobileMenu = styled.div`
     font-weight: 700;
     color: var(--hot-pink);
     border-bottom: solid 1px var(--hot-pink);
-    border-top: solid 1px var(--hot-pink);
   }
 
   @media screen and (min-width: 950px) {
