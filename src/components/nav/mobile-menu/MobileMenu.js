@@ -3,7 +3,7 @@ import { StyledMobileMenu } from "./MobileMenu.Styled";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const MobileMenu = (props) => {
+const MobileMenu = () => {
   const menuVariants = {
     hidden: {
       position: "fixed",
